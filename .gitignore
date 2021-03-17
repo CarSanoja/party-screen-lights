@@ -1,52 +1,32 @@
-# Prerequisites
+# Created by https://www.toptal.com/developers/gitignore/api/mplabx
+# Edit at https://www.toptal.com/developers/gitignore?templates=mplabx
+
+### MPLabX ###
+#Ignore List for Microchips MPLabX IDE
+#Form of netbeans with vendor specific changes
+#Taken from zeha on GIST https://gist.github.com/zeha/5999375
+
 *.d
-
-# Object files
-*.o
-*.ko
+*.pre
+*.p1
+*.lst
+*.sym
 *.obj
-*.elf
-
-# Linker output
-*.ilk
+*.o
+*.sdb
+*.obj.dmp
+partylightning.X/html/
+partylightning.X/nbproject/private/
+partylightning.X/nbproject/Package-*.bash
+partylightning.X/build/
+partylightning.X/nbbuild/
+partylightning.X/dist/
+partylightning.X/nbdist/
+partylightning.X/nbactions.xml
+partylightning.X/nb-configuration.xml
+partylightning.X/funclist
+partylightning.X/nbproject/Makefile-*
+partylightning.X/disassembly/
 *.map
-*.exp
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# End of https://www.toptal.com/developers/gitignore/api/mplabx
