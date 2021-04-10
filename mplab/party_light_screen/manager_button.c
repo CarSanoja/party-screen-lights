@@ -31,10 +31,12 @@ bool buts_get(void){
     }
     
     if(flag_on_off){
+        LED_AUDIO_Toggle();
         but_on_off++;
         but_on_off %= 1; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
     }
     if(flag_mode){
+        LED_AUDIO_Toggle();
         but_mode++;
         but_mode %= MODE_MAX; //con la operación modulo el estado del boton solo puede ir de 0 a MODE_MAX, de forma ciclica
     }
