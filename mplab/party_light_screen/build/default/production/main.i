@@ -7,7 +7,7 @@
 # 1 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\\pic\\include\\language_support.h" 1 3
 # 2 "<built-in>" 2
 # 1 "main.c" 2
-# 44 "main.c"
+# 40 "main.c"
 # 1 "./mcc_generated_files/mcc.h" 1
 # 49 "./mcc_generated_files/mcc.h"
 # 1 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\\pic\\include\\xc.h" 1 3
@@ -9951,7 +9951,7 @@ void SYSTEM_Initialize(void);
 void OSCILLATOR_Initialize(void);
 # 100 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
-# 44 "main.c" 2
+# 40 "main.c" 2
 
 # 1 "./manager_button.h" 1
 # 38 "./manager_button.h"
@@ -9983,14 +9983,14 @@ void buts_init(void);
 
 
 _Bool buts_get(void);
-# 45 "main.c" 2
+# 41 "main.c" 2
 
 # 1 "./manager_audio.h" 1
 # 47 "./manager_audio.h"
 void audio_init(void);
 
 uint8_t audio_get(void);
-# 46 "main.c" 2
+# 42 "main.c" 2
 
 # 1 "./manager_memory.h" 1
 # 40 "./manager_memory.h"
@@ -9999,7 +9999,7 @@ void memory_init(void);
 void memory_set(uint8_t on_off, uint8_t mode, uint8_t audio);
 
 void memory_get(uint8_t * on_off, uint8_t * mode, uint8_t * audio);
-# 47 "main.c" 2
+# 43 "main.c" 2
 
 # 1 "./manager_temperature.h" 1
 # 46 "./manager_temperature.h"
@@ -10008,7 +10008,7 @@ _Bool temperature_enable_flag;
 int temperature_init(void);
 
 _Bool temperature_get(void);
-# 48 "main.c" 2
+# 44 "main.c" 2
 
 # 1 "./manager_pixel.h" 1
 # 40 "./manager_pixel.h"
@@ -10017,14 +10017,16 @@ void write_pixel(uint8_t r,uint8_t g,uint8_t b);
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
-# 49 "main.c" 2
+# 45 "main.c" 2
 
 # 1 "./manager_debug.h" 1
 # 43 "./manager_debug.h"
 void debug_init();
 
 void debug_get(uint8_t status_on_off,uint8_t status_mode,uint8_t status_audio);
-# 50 "main.c" 2
+# 46 "main.c" 2
+
+
 
 
 
@@ -10035,10 +10037,7 @@ void main(void)
 {
 
     SYSTEM_Initialize();
-# 77 "main.c"
-    SPI_Open(SPI_DEFAULT);
-
-
+# 76 "main.c"
     memory_init();
     _Bool flag_save_status;
 
@@ -10071,29 +10070,6 @@ void main(void)
     while (1)
     {
 
-        for(int i = 0; i < 8; i++) {
-            write_pixel(255, 0, 0);
-            write_pixel(0, 255, 0);
-            write_pixel(0, 0, 255);
-            write_pixel(255, 255, 0);
-            write_pixel(0, 255, 255);
-            write_pixel(255, 0, 255);
-            write_pixel(100, 255, 180);
-            write_pixel(255, 255, 255);
-
-            write_pixel(255, 0, 0);
-            write_pixel(0, 255, 0);
-            write_pixel(0, 0, 255);
-            write_pixel(255, 255, 0);
-            write_pixel(0, 255, 255);
-            write_pixel(255, 0, 255);
-            write_pixel(100, 255, 180);
-            write_pixel(255, 255, 255);
-        }
-
-
-
-
 
         if(program_counter % (10000 )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -10120,7 +10096,7 @@ void main(void)
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
                 but_debouncer = program_counter + 2;
-                do { LATBbits.LATB3 = ~LATBbits.LATB3; } while(0);
+
             }
 
 
@@ -10130,9 +10106,6 @@ void main(void)
 
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
-                    do { LATBbits.LATB4 = 1; } while(0);
-                }else{
-                    do { LATBbits.LATB4 = 0; } while(0);
                 }
 
 

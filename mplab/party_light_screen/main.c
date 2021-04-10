@@ -1,15 +1,11 @@
 /**
   Generated Main Source File
-
   Company:
     Microchip Technology Inc.
-
   File Name:
     main.c
-
   Summary:
     This is the main file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs
-
   Description:
     This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
@@ -50,6 +46,8 @@
 #include "manager_debug.h"
 
 
+
+
 /*
                          Main application
  */
@@ -72,10 +70,8 @@ void main(void)
 
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
-    
     // Config SPI
     SPI_Open(SPI_DEFAULT);
-    
     //Inializa la memoria para guardar el estado del programa
     memory_init();
     bool flag_save_status;
@@ -108,30 +104,7 @@ void main(void)
     
     while (1)
     {
-        // Show the color red in the 8 pixels
-        for(int i = 0; i < 8; i++) {
-            write_pixel(255, 0, 0);      // Red   
-            write_pixel(0, 255, 0);      // Green 
-            write_pixel(0, 0, 255);      // Blue 
-            write_pixel(255, 255, 0);    // Yellow
-            write_pixel(0, 255, 255);    // Cyan 
-            write_pixel(255, 0, 255);    // Magenta  
-            write_pixel(100, 255, 180);  // Light Green
-            write_pixel(255, 255, 255);  // White  
-            
-            write_pixel(255, 0, 0);      // Red   
-            write_pixel(0, 255, 0);      // Green 
-            write_pixel(0, 0, 255);      // Blue 
-            write_pixel(255, 255, 0);    // Yellow
-            write_pixel(0, 255, 255);    // Cyan 
-            write_pixel(255, 0, 255);    // Magenta  
-            write_pixel(100, 255, 180);  // Light Green
-            write_pixel(255, 255, 255);  // White  
-        }
         
-        //__delay_us(8);              // Reset
-        
-        //LOG("hola aqui");
         //cada cierto tiempo manda el estado de los botones por el UART
         if(program_counter % (BUG_PROGRAM_COUNTER )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -158,7 +131,7 @@ void main(void)
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
                 but_debouncer = program_counter + BUT_DELAY;
-                LED_TEMPETURE_Toggle();
+                
             }
             
             // Si el estado de boton on_off es 1 (encendido) entonces permite la operacion normal, si no manda a apagar las luces
@@ -168,9 +141,6 @@ void main(void)
                 // para leer el adc del microfono
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
-                    LED_AUDIO_SetHigh(); // enciende el led de audio_mode
-                }else{
-                    LED_AUDIO_SetLow(); // apaga el led de audio_mode
                 }
 
                 //Selecciona el modo de los pixeles dependiendo del estado del boton de modo (but_mode)
