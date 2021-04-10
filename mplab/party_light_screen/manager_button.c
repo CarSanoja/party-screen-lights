@@ -26,23 +26,29 @@ bool buts_get(void){
     flag_audio  = BUT_AUDIO_GetValue();
     
     //si alguno de los botones es precionado, se entra en el if y se modifica flag_change
-    if(flag_on_off + flag_mode + flag_audio){
+    if(flag_on_off + flag_mode + flag_audio >= 1){
         flag_change++;
     }
     
     if(flag_on_off){
-       
         but_on_off++;
         but_on_off %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
     }
+    
     if(flag_mode){
         
         but_mode++;
         but_mode %= MODE_MAX; //con la operación modulo el estado del boton solo puede ir de 0 a MODE_MAX, de forma ciclica
     }
     if(flag_audio){
+        
         but_audio++; 
-        but_audio %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendid
+        but_audio %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
+        if(but_audio){
+            LED_AUDIO_SetHigh(); // enciende el led de audio_mode 
+        }else{
+            LED_AUDIO_SetLow(); // apaga el led de audio_mode
+        }
     }
     return flag_change;
 }

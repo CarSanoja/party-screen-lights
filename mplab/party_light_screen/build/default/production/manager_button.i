@@ -9704,23 +9704,29 @@ _Bool buts_get(void){
     flag_audio = PORTBbits.RB2;
 
 
-    if(flag_on_off + flag_mode + flag_audio){
+    if(flag_on_off + flag_mode + flag_audio >= 1){
         flag_change++;
     }
 
     if(flag_on_off){
-
         but_on_off++;
         but_on_off %= 2;
     }
+
     if(flag_mode){
 
         but_mode++;
         but_mode %= MODE_MAX;
     }
     if(flag_audio){
+
         but_audio++;
         but_audio %= 2;
+        if(but_audio){
+            do { LATBbits.LATB4 = 1; } while(0);
+        }else{
+            do { LATBbits.LATB4 = 0; } while(0);
+        }
     }
     return flag_change;
 }

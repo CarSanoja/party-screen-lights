@@ -38,7 +38,7 @@
 #include "manager_pixel_mode.h"
 
 
-#define BUT_DELAY 2
+#define BUT_DELAY 100
         
 uint32_t  but_debouncer;
 

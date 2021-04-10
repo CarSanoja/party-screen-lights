@@ -108,7 +108,7 @@ void main(void)
     
     while (1)
     {
-        LOG("hola aqui");
+        
         //cada cierto tiempo manda el estado de los botones por el UART
         if(program_counter % (BUG_PROGRAM_COUNTER )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -135,7 +135,7 @@ void main(void)
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
                 but_debouncer = program_counter + BUT_DELAY;
-                LED_TEMPETURE_Toggle();
+                
             }
             
             // Si el estado de boton on_off es 1 (encendido) entonces permite la operacion normal, si no manda a apagar las luces
@@ -145,9 +145,6 @@ void main(void)
                 // para leer el adc del microfono
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
-                    LED_AUDIO_SetHigh(); // enciende el led de audio_mode
-                }else{
-                    LED_AUDIO_SetLow(); // apaga el led de audio_mode
                 }
 
                 //Selecciona el modo de los pixeles dependiendo del estado del boton de modo (but_mode)

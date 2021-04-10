@@ -10021,7 +10021,7 @@ void main(void)
 
     while (1)
     {
-        printf("hola");
+
 
         if(program_counter % (10000 )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -10047,8 +10047,8 @@ void main(void)
             if(flag_save_status){
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
-                but_debouncer = program_counter + 2;
-                do { LATBbits.LATB3 = ~LATBbits.LATB3; } while(0);
+                but_debouncer = program_counter + 100;
+
             }
 
 
@@ -10058,9 +10058,6 @@ void main(void)
 
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
-                    do { LATBbits.LATB4 = 1; } while(0);
-                }else{
-                    do { LATBbits.LATB4 = 0; } while(0);
                 }
 
 

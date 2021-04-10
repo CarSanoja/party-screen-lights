@@ -28,24 +28,24 @@ bool temperature_get(void){
        // Si la temperatura pasa de TEMPERATURE_MAX entonces manda deshabilitar las operaciones
        if(sample >= TEMPERATURE_MAX){ 
            result = 0;
-           //LED_TEMPETURE_SetHigh();
+           LED_TEMPETURE_SetHigh();
            
        }
        else{ 
            result = 1;
-           //LED_TEMPETURE_SetLow();
+           LED_TEMPETURE_SetLow();
        }
    }else{ // si temperature_enable_flag es cero, quiere decir que esta sobrecalentado
        // Entonces antes de restaurar las operaciones hay que esperar que la 
        // temperatura baje a un rango especifico antes de habilitar las operaciones
        if(sample > (TEMPERATURE_MIN + 10) || sample < (TEMPERATURE_MIN) ){ 
            result = 1;
-           //LED_TEMPETURE_SetLow();
+           LED_TEMPETURE_SetLow();
             
        }
        else{ 
            result = 0;
-           //LED_TEMPETURE_SetHigh();   
+           LED_TEMPETURE_SetHigh();   
        }
    
    }

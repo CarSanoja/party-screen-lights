@@ -9798,24 +9798,24 @@ _Bool temperature_get(void){
 
        if(sample >= 512){
            result = 0;
-
+           do { LATBbits.LATB3 = 1; } while(0);
 
        }
        else{
            result = 1;
-
+           do { LATBbits.LATB3 = 0; } while(0);
        }
    }else{
 
 
        if(sample > (255 + 10) || sample < (255) ){
            result = 1;
-
+           do { LATBbits.LATB3 = 0; } while(0);
 
        }
        else{
            result = 0;
-
+           do { LATBbits.LATB3 = 1; } while(0);
        }
 
    }
