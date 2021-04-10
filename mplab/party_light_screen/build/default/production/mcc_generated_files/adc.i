@@ -9749,7 +9749,7 @@ adc_result_t ADC_GetConversion(adc_channel_t channel)
     ADCON0bits.ADON = 1;
 
 
-    _delay((unsigned long)((5)*(500000/4000000.0)));
+    _delay((unsigned long)((5)*(32000000/4000000.0)));
 
 
     ADCON0bits.GO_nDONE = 1;
@@ -9765,5 +9765,5 @@ adc_result_t ADC_GetConversion(adc_channel_t channel)
 
 void ADC_TemperatureAcquisitionDelay(void)
 {
-    _delay((unsigned long)((200)*(500000/4000000.0)));
+    _delay((unsigned long)((200)*(32000000/4000000.0)));
 }

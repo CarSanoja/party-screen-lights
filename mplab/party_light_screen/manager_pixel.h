@@ -37,6 +37,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+void write_pixel(uint8_t r,uint8_t g,uint8_t b);
+
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);

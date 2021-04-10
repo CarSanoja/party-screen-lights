@@ -9801,13 +9801,28 @@ typedef uint32_t uint_fast32_t;
 # 38 "./manager_pixel.h" 2
 
 
+void write_pixel(uint8_t r,uint8_t g,uint8_t b);
+
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
 # 10 "manager_pixel.c" 2
 
 
+void write_pixel(uint8_t r,uint8_t g,uint8_t b){
+    SSP1BUF = g; while(!SSP1STATbits.BF); SSP1BUF = r; while(!SSP1STATbits.BF); SSP1BUF = b; while(!SSP1STATbits.BF);}
+
+
+
+
+
+
+
 void pixel_init(void) {
+
+    for(int i = 0; i < 8; i++) {
+        write_pixel(0,0,0);
+    }
 
 }
 

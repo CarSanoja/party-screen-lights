@@ -50,8 +50,6 @@
 #include "manager_debug.h"
 
 
-
-
 /*
                          Main application
  */
@@ -75,7 +73,9 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
     
-   
+    // Config SPI
+    SPI_Open(SPI_DEFAULT);
+    
     //Inializa la memoria para guardar el estado del programa
     memory_init();
     bool flag_save_status;
@@ -108,7 +108,21 @@ void main(void)
     
     while (1)
     {
-        LOG("hola aqui");
+        // Show the color red in the 8 pixels
+        for(int i = 0; i < 8; i++) {
+            write_pixel(255, 0, 0);      // Red   
+            write_pixel(0, 255, 0);      // Green 
+            write_pixel(0, 0, 255);      // Blue 
+            write_pixel(255, 255, 0);    // Yellow
+            write_pixel(0, 255, 255);    // Cyan 
+            write_pixel(255, 0, 255);    // Magenta  
+            write_pixel(100, 255, 180);  // Light Green
+            write_pixel(255, 255, 255);  // White  
+        }
+        
+        //__delay_us(8);              // Reset
+        
+        //LOG("hola aqui");
         //cada cierto tiempo manda el estado de los botones por el UART
         if(program_counter % (BUG_PROGRAM_COUNTER )== 0){
             debug_get(but_on_off,but_mode,but_audio);
