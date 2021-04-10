@@ -185,6 +185,26 @@
 #define LED_AUDIO_SetAnalogMode()      do { ANSELBbits.ANSB4 = 1; } while(0)
 #define LED_AUDIO_SetDigitalMode()     do { ANSELBbits.ANSB4 = 0; } while(0)
 
+// get/set LED_ON_OFF aliases
+#define LED_ON_OFF_TRIS                 TRISBbits.TRISB5
+#define LED_ON_OFF_LAT                  LATBbits.LATB5
+#define LED_ON_OFF_PORT                 PORTBbits.RB5
+#define LED_ON_OFF_WPU                  WPUBbits.WPUB5
+#define LED_ON_OFF_OD                   ODCONBbits.ODB5
+#define LED_ON_OFF_ANS                  ANSELBbits.ANSB5
+#define LED_ON_OFF_SetHigh()            do { LATBbits.LATB5 = 1; } while(0)
+#define LED_ON_OFF_SetLow()             do { LATBbits.LATB5 = 0; } while(0)
+#define LED_ON_OFF_Toggle()             do { LATBbits.LATB5 = ~LATBbits.LATB5; } while(0)
+#define LED_ON_OFF_GetValue()           PORTBbits.RB5
+#define LED_ON_OFF_SetDigitalInput()    do { TRISBbits.TRISB5 = 1; } while(0)
+#define LED_ON_OFF_SetDigitalOutput()   do { TRISBbits.TRISB5 = 0; } while(0)
+#define LED_ON_OFF_SetPullup()          do { WPUBbits.WPUB5 = 1; } while(0)
+#define LED_ON_OFF_ResetPullup()        do { WPUBbits.WPUB5 = 0; } while(0)
+#define LED_ON_OFF_SetPushPull()        do { ODCONBbits.ODB5 = 0; } while(0)
+#define LED_ON_OFF_SetOpenDrain()       do { ODCONBbits.ODB5 = 1; } while(0)
+#define LED_ON_OFF_SetAnalogMode()      do { ANSELBbits.ANSB5 = 1; } while(0)
+#define LED_ON_OFF_SetDigitalMode()     do { ANSELBbits.ANSB5 = 0; } while(0)
+
 // get/set RC6 procedures
 #define RC6_SetHigh()            do { LATCbits.LATC6 = 1; } while(0)
 #define RC6_SetLow()             do { LATCbits.LATC6 = 0; } while(0)

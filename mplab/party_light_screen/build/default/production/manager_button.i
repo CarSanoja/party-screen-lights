@@ -9558,9 +9558,9 @@ extern __bank0 __bit __timeout;
 # 34 "./manager_button.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 210 "./mcc_generated_files/pin_manager.h"
+# 230 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 222 "./mcc_generated_files/pin_manager.h"
+# 242 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 35 "./manager_button.h" 2
 
@@ -9711,6 +9711,12 @@ _Bool buts_get(void){
     if(flag_on_off){
         but_on_off++;
         but_on_off %= 2;
+
+        if(but_on_off){
+            do { LATBbits.LATB5 = 1; } while(0);
+        }else{
+            do { LATBbits.LATB5 = 0; } while(0);
+        }
     }
 
     if(flag_mode){

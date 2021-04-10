@@ -13,38 +13,38 @@
 %PSECTS
 $dist/default/production\party_light_screen.production.o
 cinit CODE 0 7F6 7F6 A 2
-text1 CODE 0 526 526 7 2
-text2 CODE 0 5A9 5A9 3C 2
-text3 CODE 0 56C 56C 1C 2
-text4 CODE 0 4FC 4FC 1 2
-text5 CODE 0 4FB 4FB 1 2
-text6 CODE 0 4FA 4FA 1 2
-text7 CODE 0 4F9 4F9 1 2
-text8 CODE 0 509 509 4 2
-text9 CODE 0 4F8 4F8 1 2
-text10 CODE 0 505 505 4 2
-text11 CODE 0 673 673 7C 2
-text12 CODE 0 501 501 4 2
-text13 CODE 0 536 536 F 2
-text14 CODE 0 555 555 17 2
-text15 CODE 0 629 629 4A 2
-text16 CODE 0 545 545 10 2
-text17 CODE 0 4FD 4FD 4 2
-text18 CODE 0 5E5 5E5 44 2
-text19 CODE 0 51F 51F 7 2
-text20 CODE 0 588 588 21 2
-text21 CODE 0 519 519 6 2
-text22 CODE 0 513 513 6 2
-text23 CODE 0 50D 50D 6 2
-text24 CODE 0 52D 52D 9 2
+text1 CODE 0 50F 50F 7 2
+text2 CODE 0 592 592 3C 2
+text3 CODE 0 555 555 1C 2
+text4 CODE 0 4E5 4E5 1 2
+text5 CODE 0 4E4 4E4 1 2
+text6 CODE 0 4E3 4E3 1 2
+text7 CODE 0 4E2 4E2 1 2
+text8 CODE 0 4F2 4F2 4 2
+text9 CODE 0 4E1 4E1 1 2
+text10 CODE 0 4EE 4EE 4 2
+text11 CODE 0 65C 65C 87 2
+text12 CODE 0 4EA 4EA 4 2
+text13 CODE 0 51F 51F F 2
+text14 CODE 0 53E 53E 17 2
+text15 CODE 0 612 612 4A 2
+text16 CODE 0 52E 52E 10 2
+text17 CODE 0 4E6 4E6 4 2
+text18 CODE 0 5CE 5CE 44 2
+text19 CODE 0 508 508 7 2
+text20 CODE 0 571 571 21 2
+text21 CODE 0 502 502 6 2
+text22 CODE 0 4FC 4FC 6 2
+text23 CODE 0 4F6 4F6 6 2
+text24 CODE 0 516 516 9 2
 nvBANK0 BANK0 1 30 30 B 1
-maintext CODE 0 6EF 6EF 107 2
+maintext CODE 0 6E3 6E3 113 2
 cstackCOMMON COMMON 1 70 70 D 1
 cstackBANK0 BANK0 1 20 20 10 1
 bssBANK0 BANK0 1 3B 3B 5 1
 bssCOMMON COMMON 1 7D 7D 1 1
 config CONFIG 4 8007 8007 2 2
-$C:\Users\mauro\AppData\Local\Temp\spv0.o
+$C:\Users\mauro\AppData\Local\Temp\stqo.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -77,9 +77,9 @@ BANK6 320-36F 1
 BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
-CONST 4-4F7 2
+CONST 4-4E0 2
 CONST 800-1FFF 2
-ENTRY 4-4F7 2
+ENTRY 4-4E0 2
 ENTRY 800-1FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
@@ -105,7 +105,7 @@ SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
 STACK 2020-23EF 1
-CODE 4-4F7 2
+CODE 4-4E0 2
 CODE 800-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -121,9 +121,9 @@ BANK10 520-56F 1
 BANK11 5A0-5EF 1
 BANK12 620-64F 1
 BIGRAM 2000-23EF 1
-STRCODE 4-4F7 2
+STRCODE 4-4E0 2
 STRCODE 800-1FFF 2
-STRING 4-4F7 2
+STRING 4-4E0 2
 STRING 800-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -139,222 +139,227 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-7F6 cinit CODE >7125:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7F6 cinit CODE >7128:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7F6 cinit CODE >7155:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7F7 cinit CODE >7159:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7F8 cinit CODE >7160:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7F9 cinit CODE >7161:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FA cinit CODE >7162:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FB cinit CODE >7163:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FC cinit CODE >7164:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FD cinit CODE >7170:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FD cinit CODE >7172:C:\Users\mauro\AppData\Local\Temp\spv0.s
-7FE cinit CODE >7173:C:\Users\mauro\AppData\Local\Temp\spv0.s
-52D text24 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-52D text24 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-530 text24 CODE >75:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-531 text24 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-532 text24 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-533 text24 CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-535 text24 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-50D text23 CODE >165:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-50D text23 CODE >166:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-512 text23 CODE >167:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-513 text22 CODE >157:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-513 text22 CODE >158:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-518 text22 CODE >159:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-519 text21 CODE >161:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-519 text21 CODE >162:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-51E text21 CODE >163:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-588 text20 CODE >66:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-588 text20 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-58B text20 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-58D text20 CODE >77:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-58F text20 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-591 text20 CODE >83:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-592 text20 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-599 text20 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5A0 text20 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5A7 text20 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5A8 text20 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-51F text19 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-51F text19 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-522 text19 CODE >65:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-523 text19 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-525 text19 CODE >68:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-5E5 text18 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5E5 text18 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5E7 text18 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5E8 text18 CODE >62:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5E9 text18 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5EA text18 CODE >64:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5EB text18 CODE >69:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5EE text18 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5F0 text18 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5F2 text18 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5F4 text18 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5F6 text18 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5F9 text18 CODE >79:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5FB text18 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5FD text18 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-5FF text18 CODE >82:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-601 text18 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-603 text18 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-604 text18 CODE >89:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-605 text18 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-606 text18 CODE >91:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-607 text18 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-609 text18 CODE >97:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-60B text18 CODE >98:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-60C text18 CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-60D text18 CODE >100:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-60E text18 CODE >101:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-60F text18 CODE >106:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-612 text18 CODE >107:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-614 text18 CODE >108:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-616 text18 CODE >109:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-618 text18 CODE >110:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61A text18 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61D text18 CODE >116:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61F text18 CODE >117:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-621 text18 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-623 text18 CODE >119:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-625 text18 CODE >128:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-628 text18 CODE >129:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-4FD text17 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-4FD text17 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-500 text17 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-545 text16 CODE >50:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-545 text16 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-548 text16 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-54B text16 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-54E text16 CODE >56:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-551 text16 CODE >57:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-554 text16 CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-629 text15 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-629 text15 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-631 text15 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-633 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-634 text15 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-63B text15 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-63F text15 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-643 text15 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-655 text15 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-65D text15 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-664 text15 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-66A text15 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-672 text15 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-555 text14 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-556 text14 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-560 text14 CODE >121:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-561 text14 CODE >124:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-561 text14 CODE >127:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-563 text14 CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-563 text14 CODE >132:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-567 text14 CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-56B text14 CODE >136:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-536 text13 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-536 text13 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-53E text13 CODE >23:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-543 text13 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-544 text13 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-501 text12 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-501 text12 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-504 text12 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-673 text11 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-673 text11 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-675 text11 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-680 text11 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-68B text11 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-697 text11 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6B3 text11 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6B5 text11 CODE >33:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6BC text11 CODE >34:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6C0 text11 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6C4 text11 CODE >38:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6CB text11 CODE >40:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6CF text11 CODE >41:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6D3 text11 CODE >43:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6DA text11 CODE >45:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6DE text11 CODE >46:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6E2 text11 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6E7 text11 CODE >48:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6EA text11 CODE >50:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6EC text11 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6EE text11 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-505 text10 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-505 text10 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-508 text10 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-4F8 text9 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-4F8 text9 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-509 text8 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-509 text8 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-50C text8 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-4F9 text7 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4F9 text7 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4FA text6 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4FA text6 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4FB text5 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4FB text5 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-4FC text4 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-4FC text4 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-56C text3 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-56C text3 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-56D text3 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-56E text3 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-587 text3 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-5A9 text2 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5A9 text2 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5B1 text2 CODE >27:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5B7 text2 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C0 text2 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C1 text2 CODE >31:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C4 text2 CODE >34:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C4 text2 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C6 text2 CODE >36:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5C9 text2 CODE >41:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5DB text2 CODE >42:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5DD text2 CODE >43:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5E0 text2 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5E1 text2 CODE >48:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5E3 text2 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5E4 text2 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-526 text1 CODE >11:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-526 text1 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-529 text1 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-52C text1 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-6EF maintext CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-6EF maintext CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-6F2 maintext CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-6F5 maintext CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-701 maintext CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-704 maintext CODE >93:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-707 maintext CODE >96:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-70A maintext CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-70D maintext CODE >102:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-710 maintext CODE >105:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-719 maintext CODE >107:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-721 maintext CODE >109:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-721 maintext CODE >113:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-73C maintext CODE >114:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-749 maintext CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-749 maintext CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-765 maintext CODE >119:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-76C maintext CODE >125:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-772 maintext CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-784 maintext CODE >131:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-78B maintext CODE >134:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-790 maintext CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-791 maintext CODE >136:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-79D maintext CODE >137:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7AA maintext CODE >142:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7AF maintext CODE >146:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7B4 maintext CODE >147:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7BB maintext CODE >151:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7D2 maintext CODE >154:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7D3 maintext CODE >156:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7EA maintext CODE >165:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7F6 cinit CODE >7125:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F6 cinit CODE >7128:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F6 cinit CODE >7155:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F7 cinit CODE >7159:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F8 cinit CODE >7160:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F9 cinit CODE >7161:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FA cinit CODE >7162:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FB cinit CODE >7163:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FC cinit CODE >7164:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FD cinit CODE >7170:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FD cinit CODE >7172:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7FE cinit CODE >7173:C:\Users\mauro\AppData\Local\Temp\stqo.s
+516 text24 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+516 text24 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+519 text24 CODE >75:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+51A text24 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+51B text24 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+51C text24 CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+51E text24 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+4F6 text23 CODE >165:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+4F6 text23 CODE >166:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+4FB text23 CODE >167:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+4FC text22 CODE >157:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+4FC text22 CODE >158:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+501 text22 CODE >159:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+502 text21 CODE >161:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+502 text21 CODE >162:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+507 text21 CODE >163:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+571 text20 CODE >66:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+571 text20 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+574 text20 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+576 text20 CODE >77:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+578 text20 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+57A text20 CODE >83:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+57B text20 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+582 text20 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+589 text20 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+590 text20 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+591 text20 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
+508 text19 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+508 text19 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+50B text19 CODE >65:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+50C text19 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+50E text19 CODE >68:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+5CE text18 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5CE text18 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D0 text18 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D1 text18 CODE >62:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D2 text18 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D3 text18 CODE >64:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D4 text18 CODE >69:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D7 text18 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5D9 text18 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5DB text18 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5DD text18 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5DF text18 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5E2 text18 CODE >79:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5E4 text18 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5E6 text18 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5E8 text18 CODE >82:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5EA text18 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5EC text18 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5ED text18 CODE >89:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5EE text18 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5EF text18 CODE >91:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F0 text18 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F2 text18 CODE >97:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F4 text18 CODE >98:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F5 text18 CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F6 text18 CODE >100:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F7 text18 CODE >101:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5F8 text18 CODE >106:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5FB text18 CODE >107:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5FD text18 CODE >108:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+5FF text18 CODE >109:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+601 text18 CODE >110:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+603 text18 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+606 text18 CODE >116:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+608 text18 CODE >117:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+60A text18 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+60C text18 CODE >119:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+60E text18 CODE >128:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+611 text18 CODE >129:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+4E6 text17 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+4E6 text17 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+4E9 text17 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+52E text16 CODE >50:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+52E text16 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+531 text16 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+534 text16 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+537 text16 CODE >56:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+53A text16 CODE >57:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+53D text16 CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+612 text15 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+612 text15 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+61A text15 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+61C text15 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+61D text15 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+624 text15 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+628 text15 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+62C text15 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+63E text15 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+646 text15 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+64D text15 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+653 text15 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+65B text15 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+53E text14 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+53F text14 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+549 text14 CODE >121:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+54A text14 CODE >124:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+54A text14 CODE >127:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+54C text14 CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+54C text14 CODE >132:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+550 text14 CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+554 text14 CODE >136:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
+51F text13 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+51F text13 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+527 text13 CODE >23:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+52C text13 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+52D text13 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+4EA text12 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+4EA text12 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+4ED text12 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
+65C text11 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+65C text11 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+65E text11 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+669 text11 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+674 text11 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+680 text11 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+69C text11 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+69E text11 CODE >33:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6A5 text11 CODE >34:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6A9 text11 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6AD text11 CODE >37:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6B2 text11 CODE >38:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6B5 text11 CODE >40:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6B7 text11 CODE >44:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6BF text11 CODE >46:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6C3 text11 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6C7 text11 CODE >49:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6CE text11 CODE >51:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6D2 text11 CODE >52:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6D6 text11 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6DB text11 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6DE text11 CODE >56:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6E0 text11 CODE >59:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+6E2 text11 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+4EE text10 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+4EE text10 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+4F1 text10 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
+4E1 text9 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
+4E1 text9 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
+4F2 text8 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
+4F2 text8 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
+4F5 text8 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
+4E2 text7 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E2 text7 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E3 text6 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E3 text6 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E4 text5 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E4 text5 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
+4E5 text4 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+4E5 text4 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+555 text3 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+555 text3 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+556 text3 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+557 text3 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+570 text3 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
+592 text2 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+592 text2 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+59A text2 CODE >27:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5A0 text2 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5A9 text2 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5AA text2 CODE >31:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5AD text2 CODE >34:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5AD text2 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5AF text2 CODE >36:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5B2 text2 CODE >41:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5C4 text2 CODE >42:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5C6 text2 CODE >43:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5C9 text2 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5CA text2 CODE >48:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5CC text2 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+5CD text2 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+50F text1 CODE >11:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+50F text1 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+512 text1 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+515 text1 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
+6E3 maintext CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6E3 maintext CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6E6 maintext CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6E9 maintext CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6F5 maintext CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6F8 maintext CODE >93:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6FB maintext CODE >96:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+6FE maintext CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+701 maintext CODE >102:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+704 maintext CODE >105:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+70D maintext CODE >107:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+715 maintext CODE >109:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+715 maintext CODE >113:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+730 maintext CODE >114:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+73D maintext CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+73D maintext CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+759 maintext CODE >119:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+760 maintext CODE >125:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+766 maintext CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+778 maintext CODE >131:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+77F maintext CODE >134:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+784 maintext CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+785 maintext CODE >136:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+791 maintext CODE >137:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+79E maintext CODE >142:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7A3 maintext CODE >146:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7A8 maintext CODE >147:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7AF maintext CODE >149:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7B8 maintext CODE >150:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7BA maintext CODE >154:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7D2 maintext CODE >157:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7D3 maintext CODE >159:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+7EA maintext CODE >168:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -375,7 +380,7 @@ __Hspace_2 0 0 ABS 0 - -
 __Hspace_3 0 0 ABS 0 - -
 __Hspace_4 10010 0 ABS 0 - -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_WDT_Initialize A02 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
+__end_of_WDT_Initialize 9D4 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
 _but_audio 3D 0 BANK0 1 bssBANK0 dist/default/production\party_light_screen.production.o
 ADC_GetConversion@channel 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Hstrings 0 0 ABS 0 strings -
@@ -389,32 +394,32 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\spv0.o
-_main DDE 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
+___sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\stqo.o
+_main DC6 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_ADC_GetConversion AD8 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\mauro\AppData\Local\Temp\spv0.o
+__end_of_ADC_GetConversion AAA 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+start 4 0 CODE 0 init C:\Users\mauro\AppData\Local\Temp\stqo.o
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
-_audio_init A02 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+_audio_init 9D4 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
 main@flag_save_status 2A 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_pixel_init 9F8 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-__end_of_EUSART_SetFramingErrorHandler A32 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
-_temperature_init A4C 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
-__end_of_EUSART_SetOverrunErrorHandler A3E 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
+_pixel_init 9CA 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetFramingErrorHandler A04 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+_temperature_init A1E 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetOverrunErrorHandler A10 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_EUSART_Initialize B52 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_Initialize B24 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
 __Hpowerup 0 0 CODE 0 powerup -
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_memory_get 9F2 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-_memory_set 9F6 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\spv0.o
+_memory_get 9C4 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+_memory_set 9C8 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -426,7 +431,7 @@ _EUSART_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\party_lig
 _EUSART_DefaultOverrunErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 debug_get@status_mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Hclrtext 0 0 ABS 0 clrtext -
-__end_of_buts_init A12 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__end_of_buts_init 9E4 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
 __size_of_buts_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ADCON0 9D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ADCON1 9E 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -439,26 +444,26 @@ _ANSELC 18E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ANSELD 18F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ANSELE 190 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _BORCON 116 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_audio_init A0A 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
-__end_of_pixel_init 9FA 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-_buts_init A0A 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__end_of_audio_init 9DC 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+__end_of_pixel_init 9CC 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+_buts_init 9DC 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
 __Lmaintext 0 0 ABS 0 maintext -
-_ADC_GetConversion AAA 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+_ADC_GetConversion A7C 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
 __LnvBANK0 0 0 ABS 0 nvBANK0 -
-__end_of___llmod CE6 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
-__end_of_temperature_init A5A 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
-__end_of_memory_get 9F4 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-__end_of_memory_set 9F8 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+__end_of___llmod CB8 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+__end_of_temperature_init A2C 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+__end_of_memory_get 9C6 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+__end_of_memory_set 9CA 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
 _INLVLA 38C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___stackhi 23EF 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\spv0.o
-___stacklo 2020 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\spv0.o
+___stackhi 23EF 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\stqo.o
+___stacklo 2020 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\stqo.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_EUSART_Initialize B10 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
-_PIN_MANAGER_Initialize BCA 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+_EUSART_Initialize AE2 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
+_PIN_MANAGER_Initialize B9C 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
 start_initialization FEC 0 CODE 0 cinit dist/default/production\party_light_screen.production.o
 _ODCONA 28C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ODCONB 28D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -466,16 +471,16 @@ _ODCONC 28E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ODCOND 28F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ODCONE 290 0 ABS 0 - dist/default/production\party_light_screen.production.o
 main@program_counter 2C 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_EUSART_SetErrorHandler A1A 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+_EUSART_SetErrorHandler 9EC 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_memory_init 9F4 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
+_memory_init 9C6 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
 EUSART_SetOverrunErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _RC1REG 199 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC1STA 19D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC6PPS EA6 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_SYSTEM_Initialize AAA 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+__end_of_SYSTEM_Initialize A7C 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 audio_get@sample 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 memory_set@audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -484,7 +489,7 @@ _TX1STA 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\spv0.o
+___int_sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\stqo.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -620,42 +625,42 @@ __S1 7E 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
 __size_of_audio_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_pixel_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_debug_init A12 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
-_SYSTEM_Initialize A8A 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+_debug_init 9E4 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+_SYSTEM_Initialize A5C 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
 memory_get@mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_pixel_set B10 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
+__end_of_pixel_set AE2 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
 debug_get@status_audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\mauro\AppData\Local\Temp\spv0.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\mauro\AppData\Local\Temp\stqo.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_memory_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
-__end_of_temperature_get BCA 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
-_ADC_Initialize A5A 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+__end_of_temperature_get B9C 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
+_ADC_Initialize A2C 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
 pixel_set@mode 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 ?_ADC_GetConversion 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 EUSART_SetFramingErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_pixel_set AD8 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
-__ptext10 A0A 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
-__ptext11 CE6 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
-__ptext12 A02 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
-__ptext13 A6C 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
-__ptext14 AAA 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
-__ptext15 C52 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
-__ptext16 A8A 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
-__ptext17 9FA 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
-__ptext18 BCA 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
-__ptext19 A3E 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
-__ptext20 B10 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
-__ptext21 A32 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
-__ptext22 A26 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
-__ptext23 A1A 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
-__ptext24 A5A 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
-__end_of_PIN_MANAGER_Initialize C52 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+_pixel_set AAA 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
+__ptext10 9DC 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__ptext11 CB8 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+__ptext12 9D4 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+__ptext13 A3E 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
+__ptext14 A7C 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+__ptext15 C24 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+__ptext16 A5C 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+__ptext17 9CC 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
+__ptext18 B9C 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+__ptext19 A10 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+__ptext20 AE2 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
+__ptext21 A04 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
+__ptext22 9F8 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+__ptext23 9EC 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+__ptext24 A2C 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+__end_of_PIN_MANAGER_Initialize C24 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
 memory_set@mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-___llmod C52 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+___llmod C24 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
 __Lbank12 0 0 ABS 0 bank12 -
@@ -678,38 +683,38 @@ __Lbank28 0 0 BANK28 1 bank28 -
 __Lbank29 0 0 BANK29 1 bank29 -
 __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
-__pmaintext DDE 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
+__pmaintext DC6 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 __Lbigram 0 0 ABS 0 bigram -
-__end_of_EUSART_SetErrorHandler A26 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetErrorHandler 9F8 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 _LATBbits 10D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 temperature_get@result 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 pixel_set@audio_signal 76 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 temperature_get@sample 75 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_debug_init A1A 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+__end_of_debug_init 9EC 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
 _EUSART_FramingErrorHandler 38 0 BANK0 1 nvBANK0 dist/default/production\party_light_screen.production.o
 _EUSART_OverrunErrorHandler 36 0 BANK0 1 nvBANK0 dist/default/production\party_light_screen.production.o
 _OSCTUNE 98 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ADCON0bits 9D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_ErrorHandler 34 0 BANK0 1 nvBANK0 dist/default/production\party_light_screen.production.o
-_temperature_get B52 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
+_temperature_get B24 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
 __Lspace_0 0 0 ABS 0 - -
 __Lspace_1 0 0 ABS 0 - -
 __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
 __pbssCOMMON 7D 0 COMMON 1 bssCOMMON dist/default/production\party_light_screen.production.o
-__end_of_ADC_Initialize A6C 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+__end_of_ADC_Initialize A3E 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 _PIR1bits 11 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Lend_init 4 0 CODE 0 end_init -
 _EUSART_DefaultErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_EUSART_SetFramingErrorHandler A26 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
-_EUSART_SetOverrunErrorHandler A32 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
+_EUSART_SetFramingErrorHandler 9F8 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+_EUSART_SetOverrunErrorHandler A04 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
 end_of_initialization FFA 0 CODE 0 cinit dist/default/production\party_light_screen.production.o
-__end_of_memory_init 9F6 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
+__end_of_memory_init 9C8 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
 __Hintentry 4 0 CODE 0 intentry -
 _TX1STAbits 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _temperature_enable_flag 3A 0 BANK0 1 nvBANK0 dist/default/production\party_light_screen.production.o
@@ -718,20 +723,20 @@ __Lstrings 0 0 ABS 0 strings -
 __Hreset_vec 4 0 CODE 0 reset_vec -
 __HbssBANK0 0 0 ABS 0 bssBANK0 -
 __size_of_buts_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__ptext1 A4C 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
-__ptext2 B52 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
-__ptext3 AD8 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
-__ptext4 9F8 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-__ptext5 9F6 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-__ptext6 9F4 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
-__ptext7 9F2 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-__ptext8 A12 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
-__ptext9 9F0 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+__ptext1 A1E 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+__ptext2 B24 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
+__ptext3 AAA 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
+__ptext4 9CA 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+__ptext5 9C8 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+__ptext6 9C6 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
+__ptext7 9C4 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+__ptext8 9E4 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+__ptext9 9C2 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
 buts_get@flag_change 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
-__end_of_audio_get A8A 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
+__end_of_audio_get A5C 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
 main@audio_signal 2B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _SLRCONA 30C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _SLRCONB 30D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -748,16 +753,16 @@ _SP1BRGL 19B 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
 __size_of_EUSART_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _but_mode 3E 0 BANK0 1 bssBANK0 dist/default/production\party_light_screen.production.o
-_audio_get A6C 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
+_audio_get A3E 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_buts_get CE6 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+_buts_get CB8 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
 __size_of_temperature_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Hend_init 8 0 CODE 0 end_init -
 ___llmod@dividend 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 ___llmod@counter 79 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 memory_get@audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __end_of_main FEC 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
-__end_of_buts_get DDE 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+__end_of_buts_get DC6 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
 memory_get@on_off 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _TRISA 8C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _TRISB 8D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -767,20 +772,20 @@ _TRISE 90 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 buts_get@flag_on_off 21 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-__end_of_debug_get 9F2 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+__end_of_debug_get 9C4 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _eusartRxLastError 7D 0 COMMON 1 bssCOMMON dist/default/production\party_light_screen.production.o
-_WDT_Initialize 9FA 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
+_WDT_Initialize 9CC 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
 pixel_set@program_count 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_debug_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_OSCILLATOR_Initialize A4C 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+__end_of_OSCILLATOR_Initialize A1E 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 _but_debouncer 30 0 BANK0 1 nvBANK0 dist/default/production\party_light_screen.production.o
 __initialization FEC 0 CODE 0 cinit dist/default/production\party_light_screen.production.o
 __pbssBANK0 3B 0 BANK0 1 bssBANK0 dist/default/production\party_light_screen.production.o
 __size_of_debug_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_debug_get 9F0 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
-_OSCILLATOR_Initialize A3E 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+_debug_get 9C2 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+_OSCILLATOR_Initialize A10 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -807,31 +812,31 @@ _OSCILLATOR_Initialize A3E 0 CODE 0 text19 dist/default/production\party_light_s
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 7F6 FEC A 2
-text1 0 526 A4C 7 2
-text2 0 5A9 B52 3C 2
-text3 0 56C AD8 1C 2
-text4 0 4FC 9F8 1 2
-text5 0 4FB 9F6 1 2
-text6 0 4FA 9F4 1 2
-text7 0 4F9 9F2 1 2
-text8 0 509 A12 4 2
-text9 0 4F8 9F0 1 2
-text10 0 505 A0A 4 2
-text11 0 673 CE6 7C 2
-text12 0 501 A02 4 2
-text13 0 536 A6C F 2
-text14 0 555 AAA 17 2
-text15 0 629 C52 4A 2
-text16 0 545 A8A 10 2
-text17 0 4FD 9FA 4 2
-text18 0 5E5 BCA 44 2
-text19 0 51F A3E 7 2
-text20 0 588 B10 21 2
-text21 0 519 A32 6 2
-text22 0 513 A26 6 2
-text23 0 50D A1A 6 2
-text24 0 52D A5A 9 2
-maintext 0 6EF DDE 107 2
+text1 0 50F A1E 7 2
+text2 0 592 B24 3C 2
+text3 0 555 AAA 1C 2
+text4 0 4E5 9CA 1 2
+text5 0 4E4 9C8 1 2
+text6 0 4E3 9C6 1 2
+text7 0 4E2 9C4 1 2
+text8 0 4F2 9E4 4 2
+text9 0 4E1 9C2 1 2
+text10 0 4EE 9DC 4 2
+text11 0 65C CB8 87 2
+text12 0 4EA 9D4 4 2
+text13 0 51F A3E F 2
+text14 0 53E A7C 17 2
+text15 0 612 C24 4A 2
+text16 0 52E A5C 10 2
+text17 0 4E6 9CC 4 2
+text18 0 5CE B9C 44 2
+text19 0 508 A10 7 2
+text20 0 571 AE2 21 2
+text21 0 502 A04 6 2
+text22 0 4FC 9F8 6 2
+text23 0 4F6 9EC 6 2
+text24 0 516 A2C 9 2
+maintext 0 6E3 DC6 113 2
 cstackCOMMON 1 70 70 E 1
 cstackBANK0 1 20 20 20 1
 reset_vec 0 0 0 4 2

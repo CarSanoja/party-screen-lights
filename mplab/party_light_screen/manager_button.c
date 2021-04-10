@@ -33,6 +33,12 @@ bool buts_get(void){
     if(flag_on_off){
         but_on_off++;
         but_on_off %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
+        
+        if(but_on_off){
+            LED_ON_OFF_SetHigh(); // enciende el led de on_off
+        }else{
+            LED_ON_OFF_SetLow(); // apaga el led de on_off
+        }
     }
     
     if(flag_mode){
