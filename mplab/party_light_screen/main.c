@@ -118,6 +118,15 @@ void main(void)
             write_pixel(255, 0, 255);    // Magenta  
             write_pixel(100, 255, 180);  // Light Green
             write_pixel(255, 255, 255);  // White  
+            
+            write_pixel(255, 0, 0);      // Red   
+            write_pixel(0, 255, 0);      // Green 
+            write_pixel(0, 0, 255);      // Blue 
+            write_pixel(255, 255, 0);    // Yellow
+            write_pixel(0, 255, 255);    // Cyan 
+            write_pixel(255, 0, 255);    // Magenta  
+            write_pixel(100, 255, 180);  // Light Green
+            write_pixel(255, 255, 255);  // White  
         }
         
         //__delay_us(8);              // Reset

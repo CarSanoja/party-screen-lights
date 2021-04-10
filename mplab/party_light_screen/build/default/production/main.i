@@ -10080,6 +10080,15 @@ void main(void)
             write_pixel(255, 0, 255);
             write_pixel(100, 255, 180);
             write_pixel(255, 255, 255);
+
+            write_pixel(255, 0, 0);
+            write_pixel(0, 255, 0);
+            write_pixel(0, 0, 255);
+            write_pixel(255, 255, 0);
+            write_pixel(0, 255, 255);
+            write_pixel(255, 0, 255);
+            write_pixel(100, 255, 180);
+            write_pixel(255, 255, 255);
         }
 
 
