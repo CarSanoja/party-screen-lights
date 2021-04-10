@@ -108,7 +108,7 @@ void main(void)
     
     while (1)
     {
-        LOG("hola");
+        LOG("hola aqui");
         //cada cierto tiempo manda el estado de los botones por el UART
         if(program_counter % (BUG_PROGRAM_COUNTER )== 0){
             debug_get(but_on_off,but_mode,but_audio);
