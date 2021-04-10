@@ -9704,18 +9704,18 @@ _Bool buts_get(void){
     }
 
     if(flag_on_off){
-        do { LATBbits.LATB4 = ~LATBbits.LATB4; } while(0);
+
         but_on_off++;
-        but_on_off %= 1;
+        but_on_off %= 2;
     }
     if(flag_mode){
-        do { LATBbits.LATB4 = ~LATBbits.LATB4; } while(0);
+
         but_mode++;
         but_mode %= MODE_MAX;
     }
     if(flag_audio){
         but_audio++;
-        but_audio %= 1;
+        but_audio %= 2;
     }
     return flag_change;
 }
