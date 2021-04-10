@@ -44,7 +44,7 @@ cstackBANK0 BANK0 1 20 20 10 1
 bssBANK0 BANK0 1 3B 3B 5 1
 bssCOMMON COMMON 1 7D 7D 1 1
 config CONFIG 4 8007 8007 2 2
-$C:\Users\mauro\AppData\Local\Temp\stqo.o
+$C:\Users\mauro\AppData\Local\Temp\ss74.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -139,18 +139,18 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-7F6 cinit CODE >7125:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7F6 cinit CODE >7128:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7F6 cinit CODE >7155:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7F7 cinit CODE >7159:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7F8 cinit CODE >7160:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7F9 cinit CODE >7161:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FA cinit CODE >7162:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FB cinit CODE >7163:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FC cinit CODE >7164:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FD cinit CODE >7170:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FD cinit CODE >7172:C:\Users\mauro\AppData\Local\Temp\stqo.s
-7FE cinit CODE >7173:C:\Users\mauro\AppData\Local\Temp\stqo.s
+7F6 cinit CODE >7125:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7F6 cinit CODE >7128:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7F6 cinit CODE >7155:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7F7 cinit CODE >7159:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7F8 cinit CODE >7160:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7F9 cinit CODE >7161:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FA cinit CODE >7162:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FB cinit CODE >7163:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FC cinit CODE >7164:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FD cinit CODE >7170:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FD cinit CODE >7172:C:\Users\mauro\AppData\Local\Temp\ss74.s
+7FE cinit CODE >7173:C:\Users\mauro\AppData\Local\Temp\ss74.s
 516 text24 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
 516 text24 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
 519 text24 CODE >75:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
@@ -394,11 +394,11 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\stqo.o
+___sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\ss74.o
 _main DC6 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __end_of_ADC_GetConversion AAA 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\mauro\AppData\Local\Temp\stqo.o
+start 4 0 CODE 0 init C:\Users\mauro\AppData\Local\Temp\ss74.o
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
@@ -414,12 +414,12 @@ __Hpowerup 0 0 CODE 0 powerup -
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_get 9C4 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
 _memory_set 9C8 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\stqo.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\ss74.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -459,8 +459,8 @@ _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___stackhi 23EF 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\stqo.o
-___stacklo 2020 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\stqo.o
+___stackhi 23EF 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\ss74.o
+___stacklo 2020 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\ss74.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_Initialize AE2 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
 _PIN_MANAGER_Initialize B9C 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
@@ -489,7 +489,7 @@ _TX1STA 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\stqo.o
+___int_sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\ss74.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -633,7 +633,7 @@ debug_get@status_audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\mauro\AppData\Local\Temp\stqo.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\mauro\AppData\Local\Temp\ss74.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_memory_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -

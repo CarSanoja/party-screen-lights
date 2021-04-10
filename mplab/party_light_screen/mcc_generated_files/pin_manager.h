@@ -205,6 +205,23 @@
 #define LED_ON_OFF_SetAnalogMode()      do { ANSELBbits.ANSB5 = 1; } while(0)
 #define LED_ON_OFF_SetDigitalMode()     do { ANSELBbits.ANSB5 = 0; } while(0)
 
+// get/set LED_ACTIVITY aliases
+#define LED_ACTIVITY_TRIS                 TRISBbits.TRISB6
+#define LED_ACTIVITY_LAT                  LATBbits.LATB6
+#define LED_ACTIVITY_PORT                 PORTBbits.RB6
+#define LED_ACTIVITY_WPU                  WPUBbits.WPUB6
+#define LED_ACTIVITY_OD                   ODCONBbits.ODB6
+#define LED_ACTIVITY_SetHigh()            do { LATBbits.LATB6 = 1; } while(0)
+#define LED_ACTIVITY_SetLow()             do { LATBbits.LATB6 = 0; } while(0)
+#define LED_ACTIVITY_Toggle()             do { LATBbits.LATB6 = ~LATBbits.LATB6; } while(0)
+#define LED_ACTIVITY_GetValue()           PORTBbits.RB6
+#define LED_ACTIVITY_SetDigitalInput()    do { TRISBbits.TRISB6 = 1; } while(0)
+#define LED_ACTIVITY_SetDigitalOutput()   do { TRISBbits.TRISB6 = 0; } while(0)
+#define LED_ACTIVITY_SetPullup()          do { WPUBbits.WPUB6 = 1; } while(0)
+#define LED_ACTIVITY_ResetPullup()        do { WPUBbits.WPUB6 = 0; } while(0)
+#define LED_ACTIVITY_SetPushPull()        do { ODCONBbits.ODB6 = 0; } while(0)
+#define LED_ACTIVITY_SetOpenDrain()       do { ODCONBbits.ODB6 = 1; } while(0)
+
 // get/set RC6 procedures
 #define RC6_SetHigh()            do { LATCbits.LATC6 = 1; } while(0)
 #define RC6_SetLow()             do { LATCbits.LATC6 = 0; } while(0)

@@ -9555,9 +9555,9 @@ extern __bank0 __bit __timeout;
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 230 "./mcc_generated_files/pin_manager.h"
+# 247 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 242 "./mcc_generated_files/pin_manager.h"
+# 259 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -10059,8 +10059,8 @@ void main(void)
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
 
-                    if(audio_signal > 127) do { LATBbits.LATB3 = 1; } while(0);
-                    else do { LATBbits.LATB3 = 0; } while(0);
+                    if(audio_signal > 127) do { LATBbits.LATB6 = 1; } while(0);
+                    else do { LATBbits.LATB6 = 0; } while(0);
                 }
 
 

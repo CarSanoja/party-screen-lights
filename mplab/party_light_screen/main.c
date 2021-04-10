@@ -146,8 +146,8 @@ void main(void)
                 if(but_audio){
                     audio_signal = (uint8_t) audio_get();
                     
-                    if(audio_signal > 127) LED_TEMPETURE_SetHigh(); // linea para debugear
-                    else LED_TEMPETURE_SetLow();
+                    if(audio_signal > 127) LED_ACTIVITY_SetHigh(); // linea para debugear
+                    else LED_ACTIVITY_SetLow();
                 }
 
                 //Selecciona el modo de los pixeles dependiendo del estado del boton de modo (but_mode)
