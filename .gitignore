@@ -1,32 +1,4 @@
-# Created by https://www.toptal.com/developers/gitignore/api/mplabx
-# Edit at https://www.toptal.com/developers/gitignore?templates=mplabx
 
-### MPLabX ###
-#Ignore List for Microchips MPLabX IDE
-#Form of netbeans with vendor specific changes
-#Taken from zeha on GIST https://gist.github.com/zeha/5999375
+mplab/party_light_screen/dist/
 
-*.d
-*.pre
-*.p1
-*.lst
-*.sym
-*.obj
-*.o
-*.sdb
-*.obj.dmp
-partylightning.X/html/
-partylightning.X/nbproject/private/
-partylightning.X/nbproject/Package-*.bash
-partylightning.X/build/
-partylightning.X/nbbuild/
-partylightning.X/dist/
-partylightning.X/nbdist/
-partylightning.X/nbactions.xml
-partylightning.X/nb-configuration.xml
-partylightning.X/funclist
-partylightning.X/nbproject/Makefile-*
-partylightning.X/disassembly/
-*.map
-
-# End of https://www.toptal.com/developers/gitignore/api/mplabx
+mplab/party_light_screen/build/
