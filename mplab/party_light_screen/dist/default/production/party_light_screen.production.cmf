@@ -11,6 +11,10 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$C:/temp\sgo8.o
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 2 2 2 2
+config CONFIG 4 8007 8007 2 2
 $dist/default/production\party_light_screen.production.o
 cinit CODE 0 7F6 7F6 A 2
 text1 CODE 0 551 551 7 2
@@ -43,10 +47,6 @@ cstackCOMMON COMMON 1 70 70 D 1
 cstackBANK0 BANK0 1 20 20 10 1
 bssBANK0 BANK0 1 37 37 5 1
 bssCOMMON COMMON 1 7D 7D 1 1
-config CONFIG 4 8007 8007 2 2
-$C:\Users\mauro\AppData\Local\Temp\se3o.o
-reset_vec CODE 0 0 0 2 2
-end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
@@ -139,99 +139,99 @@ STRING 800-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-7F6 cinit CODE >7121:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7F6 cinit CODE >7124:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7F6 cinit CODE >7151:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7F7 cinit CODE >7155:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7F8 cinit CODE >7156:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7F9 cinit CODE >7157:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FA cinit CODE >7158:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FB cinit CODE >7159:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FC cinit CODE >7160:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FD cinit CODE >7166:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FD cinit CODE >7168:C:\Users\mauro\AppData\Local\Temp\se3o.s
-7FE cinit CODE >7169:C:\Users\mauro\AppData\Local\Temp\se3o.s
-558 text24 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-558 text24 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-55B text24 CODE >75:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-55C text24 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-55D text24 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-55E text24 CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-560 text24 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-538 text23 CODE >165:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-538 text23 CODE >166:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-53D text23 CODE >167:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-53E text22 CODE >157:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-53E text22 CODE >158:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-543 text22 CODE >159:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-544 text21 CODE >161:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-544 text21 CODE >162:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-549 text21 CODE >163:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5B3 text20 CODE >66:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5B3 text20 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5B6 text20 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5B8 text20 CODE >77:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5BA text20 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5BC text20 CODE >83:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5BD text20 CODE >86:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5C4 text20 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5CB text20 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5D2 text20 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-5D3 text20 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/eusart.c
-54A text19 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-54A text19 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-54D text19 CODE >65:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-54E text19 CODE >67:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-550 text19 CODE >68:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-610 text18 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-610 text18 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-612 text18 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-613 text18 CODE >62:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-614 text18 CODE >63:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-615 text18 CODE >64:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-616 text18 CODE >69:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-619 text18 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61B text18 CODE >71:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61D text18 CODE >72:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-61F text18 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-621 text18 CODE >78:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-624 text18 CODE >79:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-626 text18 CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-628 text18 CODE >81:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-62A text18 CODE >82:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-62C text18 CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-62E text18 CODE >88:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-62F text18 CODE >89:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-630 text18 CODE >90:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-631 text18 CODE >91:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-632 text18 CODE >92:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-634 text18 CODE >97:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-636 text18 CODE >98:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-637 text18 CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-638 text18 CODE >100:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-639 text18 CODE >101:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-63A text18 CODE >106:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-63D text18 CODE >107:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-63F text18 CODE >108:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-641 text18 CODE >109:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-643 text18 CODE >110:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-645 text18 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-648 text18 CODE >116:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-64A text18 CODE >117:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-64C text18 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-64E text18 CODE >119:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-650 text18 CODE >128:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-653 text18 CODE >129:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-528 text17 CODE >70:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-528 text17 CODE >73:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-52B text17 CODE >74:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-570 text16 CODE >50:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-570 text16 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-573 text16 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-576 text16 CODE >55:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-579 text16 CODE >56:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-57C text16 CODE >57:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
-57F text16 CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/mcc.c
+7F6 cinit CODE >7121:C:/temp\sgo8.s
+7F6 cinit CODE >7124:C:/temp\sgo8.s
+7F6 cinit CODE >7151:C:/temp\sgo8.s
+7F7 cinit CODE >7155:C:/temp\sgo8.s
+7F8 cinit CODE >7156:C:/temp\sgo8.s
+7F9 cinit CODE >7157:C:/temp\sgo8.s
+7FA cinit CODE >7158:C:/temp\sgo8.s
+7FB cinit CODE >7159:C:/temp\sgo8.s
+7FC cinit CODE >7160:C:/temp\sgo8.s
+7FD cinit CODE >7166:C:/temp\sgo8.s
+7FD cinit CODE >7168:C:/temp\sgo8.s
+7FE cinit CODE >7169:C:/temp\sgo8.s
+558 text24 CODE >67:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+558 text24 CODE >72:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+55B text24 CODE >75:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+55C text24 CODE >78:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+55D text24 CODE >81:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+55E text24 CODE >84:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+560 text24 CODE >86:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+538 text23 CODE >165:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+538 text23 CODE >166:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+53D text23 CODE >167:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+53E text22 CODE >157:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+53E text22 CODE >158:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+543 text22 CODE >159:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+544 text21 CODE >161:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+544 text21 CODE >162:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+549 text21 CODE >163:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5B3 text20 CODE >66:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5B3 text20 CODE >71:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5B6 text20 CODE >74:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5B8 text20 CODE >77:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5BA text20 CODE >80:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5BC text20 CODE >83:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5BD text20 CODE >86:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5C4 text20 CODE >87:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5CB text20 CODE >88:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5D2 text20 CODE >90:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+5D3 text20 CODE >92:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+54A text19 CODE >60:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+54A text19 CODE >63:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+54D text19 CODE >65:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+54E text19 CODE >67:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+550 text19 CODE >68:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+610 text18 CODE >55:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+610 text18 CODE >60:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+612 text18 CODE >61:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+613 text18 CODE >62:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+614 text18 CODE >63:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+615 text18 CODE >64:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+616 text18 CODE >69:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+619 text18 CODE >70:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+61B text18 CODE >71:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+61D text18 CODE >72:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+61F text18 CODE >73:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+621 text18 CODE >78:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+624 text18 CODE >79:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+626 text18 CODE >80:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+628 text18 CODE >81:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+62A text18 CODE >82:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+62C text18 CODE >87:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+62E text18 CODE >88:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+62F text18 CODE >89:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+630 text18 CODE >90:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+631 text18 CODE >91:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+632 text18 CODE >92:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+634 text18 CODE >97:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+636 text18 CODE >98:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+637 text18 CODE >99:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+638 text18 CODE >100:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+639 text18 CODE >101:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+63A text18 CODE >106:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+63D text18 CODE >107:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+63F text18 CODE >108:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+641 text18 CODE >109:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+643 text18 CODE >110:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+645 text18 CODE >115:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+648 text18 CODE >116:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+64A text18 CODE >117:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+64C text18 CODE >118:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+64E text18 CODE >119:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+650 text18 CODE >128:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+653 text18 CODE >129:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+528 text17 CODE >70:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+528 text17 CODE >73:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+52B text17 CODE >74:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+570 text16 CODE >50:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+570 text16 CODE >53:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+573 text16 CODE >54:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+576 text16 CODE >55:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+579 text16 CODE >56:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+57C text16 CODE >57:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+57F text16 CODE >58:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
 654 text15 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
 654 text15 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
 65C text15 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
@@ -245,110 +245,110 @@ $dist/default/production\party_light_screen.production.o
 68F text15 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
 695 text15 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
 69D text15 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-580 text14 CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-581 text14 CODE >118:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-58B text14 CODE >121:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-58C text14 CODE >124:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-58C text14 CODE >127:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-58E text14 CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-58E text14 CODE >132:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-592 text14 CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-596 text14 CODE >136:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\mcc_generated_files/adc.c
-561 text13 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-561 text13 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-569 text13 CODE >23:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-56E text13 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-56F text13 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-52C text12 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-52C text12 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-52F text12 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_audio.c
-69E text11 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-69E text11 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6A0 text11 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6AB text11 CODE >25:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6B6 text11 CODE >26:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6C2 text11 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6DE text11 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6E0 text11 CODE >33:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6E7 text11 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6EB text11 CODE >36:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6EF text11 CODE >38:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6F6 text11 CODE >40:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6FA text11 CODE >41:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-6FE text11 CODE >43:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-705 text11 CODE >44:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-709 text11 CODE >45:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-70D text11 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-70E text11 CODE >48:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-530 text10 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-530 text10 CODE >13:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-533 text10 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_button.c
-523 text9 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-523 text9 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-534 text8 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-534 text8 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-537 text8 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_debug.c
-524 text7 CODE >21:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-524 text7 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-525 text6 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-525 text6 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-526 text5 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-526 text5 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_memory.c
-527 text4 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-527 text4 CODE >14:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-597 text3 CODE >16:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-597 text3 CODE >20:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-598 text3 CODE >22:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-599 text3 CODE >60:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-5B2 text3 CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_pixel.c
-5D4 text2 CODE >19:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5D4 text2 CODE >24:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5DC text2 CODE >27:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5E2 text2 CODE >29:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5EB text2 CODE >30:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5EC text2 CODE >31:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5EF text2 CODE >34:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5EF text2 CODE >35:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5F1 text2 CODE >36:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-5F4 text2 CODE >41:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-606 text2 CODE >42:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-608 text2 CODE >43:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-60B text2 CODE >47:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-60C text2 CODE >48:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-60E text2 CODE >53:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-60F text2 CODE >54:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-551 text1 CODE >11:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-551 text1 CODE >12:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-554 text1 CODE >15:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-557 text1 CODE >17:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\manager_temperature.c
-70F maintext CODE >58:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-70F maintext CODE >61:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-712 maintext CODE >80:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-715 maintext CODE >84:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-721 maintext CODE >87:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-724 maintext CODE >93:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-727 maintext CODE >96:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-72A maintext CODE >99:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-72D maintext CODE >102:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-730 maintext CODE >105:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-739 maintext CODE >110:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-755 maintext CODE >111:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-762 maintext CODE >112:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-762 maintext CODE >115:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-77E maintext CODE >116:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-785 maintext CODE >122:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-78B maintext CODE >127:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-792 maintext CODE >130:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-797 maintext CODE >131:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7A3 maintext CODE >135:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7A9 maintext CODE >139:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7AE maintext CODE >140:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7B5 maintext CODE >141:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7B8 maintext CODE >143:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7BA maintext CODE >147:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7D2 maintext CODE >150:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7DB maintext CODE >152:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
-7DC maintext CODE >154:C:\Users\mauro\Downloads\pic16f1717\mplab\party_light_screen\main.c
+580 text14 CODE >115:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+581 text14 CODE >118:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+58B text14 CODE >121:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+58C text14 CODE >124:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+58C text14 CODE >127:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+58E text14 CODE >130:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+58E text14 CODE >132:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+592 text14 CODE >135:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+596 text14 CODE >136:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+561 text13 CODE >17:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+561 text13 CODE >21:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+569 text13 CODE >23:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+56E text13 CODE >25:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+56F text13 CODE >26:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+52C text12 CODE >13:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+52C text12 CODE >14:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+52F text12 CODE >15:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_audio.c
+69E text11 CODE >16:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+69E text11 CODE >22:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6A0 text11 CODE >24:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6AB text11 CODE >25:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6B6 text11 CODE >26:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6C2 text11 CODE >29:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6DE text11 CODE >30:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6E0 text11 CODE >33:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6E7 text11 CODE >35:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6EB text11 CODE >36:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6EF text11 CODE >38:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6F6 text11 CODE >40:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6FA text11 CODE >41:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+6FE text11 CODE >43:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+705 text11 CODE >44:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+709 text11 CODE >45:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+70D text11 CODE >47:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+70E text11 CODE >48:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+530 text10 CODE >12:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+530 text10 CODE >13:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+533 text10 CODE >14:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_button.c
+523 text9 CODE >17:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_debug.c
+523 text9 CODE >20:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_debug.c
+534 text8 CODE >12:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_debug.c
+534 text8 CODE >14:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_debug.c
+537 text8 CODE >15:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_debug.c
+524 text7 CODE >21:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+524 text7 CODE >24:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+525 text6 CODE >12:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+525 text6 CODE >14:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+526 text5 CODE >16:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+526 text5 CODE >19:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_memory.c
+527 text4 CODE >12:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+527 text4 CODE >14:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+597 text3 CODE >16:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+597 text3 CODE >20:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+598 text3 CODE >22:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+599 text3 CODE >60:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+5B2 text3 CODE >61:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+5D4 text2 CODE >19:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5D4 text2 CODE >24:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5DC text2 CODE >27:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5E2 text2 CODE >29:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5EB text2 CODE >30:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5EC text2 CODE >31:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5EF text2 CODE >34:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5EF text2 CODE >35:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5F1 text2 CODE >36:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+5F4 text2 CODE >41:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+606 text2 CODE >42:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+608 text2 CODE >43:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+60B text2 CODE >47:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+60C text2 CODE >48:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+60E text2 CODE >53:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+60F text2 CODE >54:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+551 text1 CODE >11:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+551 text1 CODE >12:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+554 text1 CODE >15:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+557 text1 CODE >17:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+70F maintext CODE >58:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+70F maintext CODE >61:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+712 maintext CODE >80:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+715 maintext CODE >84:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+721 maintext CODE >87:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+724 maintext CODE >93:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+727 maintext CODE >96:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+72A maintext CODE >99:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+72D maintext CODE >102:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+730 maintext CODE >105:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+739 maintext CODE >110:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+755 maintext CODE >111:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+762 maintext CODE >112:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+762 maintext CODE >115:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+77E maintext CODE >116:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+785 maintext CODE >122:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+78B maintext CODE >127:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+792 maintext CODE >130:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+797 maintext CODE >131:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7A3 maintext CODE >135:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7A9 maintext CODE >139:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7AE maintext CODE >140:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7B5 maintext CODE >141:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7B8 maintext CODE >143:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7BA maintext CODE >147:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7D2 maintext CODE >150:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7DB maintext CODE >152:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
+7DC maintext CODE >154:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -383,11 +383,11 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\se3o.o
+___sp 0 0 STACK 2 stack C:/temp\sgo8.o
 _main E1E 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __end_of_ADC_GetConversion B2E 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\mauro\AppData\Local\Temp\se3o.o
+start 4 0 CODE 0 init C:/temp\sgo8.o
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __HbssCOMMON 0 0 ABS 0 bssCOMMON -
@@ -403,12 +403,12 @@ __Hpowerup 0 0 CODE 0 powerup -
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_get A48 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
 _memory_set A4C 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\mauro\AppData\Local\Temp\se3o.o
+intlevel0 0 0 ENTRY 0 functab C:/temp\sgo8.o
+intlevel1 0 0 ENTRY 0 functab C:/temp\sgo8.o
+intlevel2 0 0 ENTRY 0 functab C:/temp\sgo8.o
+intlevel3 0 0 ENTRY 0 functab C:/temp\sgo8.o
+intlevel4 0 0 ENTRY 0 functab C:/temp\sgo8.o
+intlevel5 0 0 ENTRY 0 functab C:/temp\sgo8.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -448,8 +448,8 @@ _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___stackhi 23EF 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\se3o.o
-___stacklo 201C 0 ABS 0 - C:\Users\mauro\AppData\Local\Temp\se3o.o
+___stackhi 23EF 0 ABS 0 - C:/temp\sgo8.o
+___stacklo 201C 0 ABS 0 - C:/temp\sgo8.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_Initialize B66 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
 _PIN_MANAGER_Initialize C20 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
@@ -478,7 +478,7 @@ _TX1STA 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _WDTCON 97 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\mauro\AppData\Local\Temp\se3o.o
+___int_sp 0 0 STACK 2 stack C:/temp\sgo8.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -622,7 +622,7 @@ debug_get@status_audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_
 __HnvBANK0 0 0 ABS 0 nvBANK0 -
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\mauro\AppData\Local\Temp\se3o.o
+reset_vec 0 0 CODE 0 reset_vec C:/temp\sgo8.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_memory_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
