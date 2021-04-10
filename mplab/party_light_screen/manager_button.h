@@ -38,6 +38,11 @@
 #include "manager_pixel_mode.h"
 
 
+#define BUT_DELAY 2
+        
+uint32_t  but_debouncer;
+
+
 
 //Variables globales donde se guardan el estado de los botones
 uint8_t but_on_off, but_mode, but_audio;

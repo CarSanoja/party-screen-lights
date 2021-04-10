@@ -104,8 +104,11 @@ void main(void)
     //Contador de ciclos de programa para refrescar el programa
     uint32_t program_counter = 0;
     
+    but_debouncer = program_counter;
+    
     while (1)
     {
+        LOG("hola");
         //cada cierto tiempo manda el estado de los botones por el UART
         if(program_counter % (BUG_PROGRAM_COUNTER )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -124,11 +127,15 @@ void main(void)
             //Lee el estado de los botones y si hay algun cambio  
             //modifica las variables globales: but_on_off, but_mode, but_audio.
             //Si hubo algun cambio en el estado de los botones, manda un 1, si no hubo manda un 0
-            flag_save_status = buts_get();
-
+            if(but_debouncer < program_counter){
+                flag_save_status = buts_get();
+            }
             //Si hubo alguna modificación en los botones se activa la rutina de guardado de estado.
             if(flag_save_status){
+                flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
+                but_debouncer = program_counter + BUT_DELAY;
+                LED_TEMPETURE_Toggle();
             }
             
             // Si el estado de boton on_off es 1 (encendido) entonces permite la operacion normal, si no manda a apagar las luces
@@ -146,8 +153,6 @@ void main(void)
                 //Selecciona el modo de los pixeles dependiendo del estado del boton de modo (but_mode)
                  pixel_set(program_counter, but_mode, but_audio,audio_signal);
 
-                //Despues de un ciclo se le suma uno al counter
-                program_counter++;
             
             }else{
                 // Se setea los led en modo apagado
@@ -158,6 +163,9 @@ void main(void)
             // Se setea los led en modo apagado
             pixel_set(program_counter, MODE_OFF, but_audio,audio_signal);
         }
+        
+        //Despues de un ciclo se le suma uno al counter
+        program_counter++;
     }
 }
 /**

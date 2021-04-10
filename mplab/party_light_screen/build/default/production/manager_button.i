@@ -9670,6 +9670,11 @@ enum mode_quantity_t{
 
 
 
+uint32_t but_debouncer;
+
+
+
+
 uint8_t but_on_off, but_mode, but_audio;
 
 

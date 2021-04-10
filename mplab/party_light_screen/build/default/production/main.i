@@ -9779,6 +9779,11 @@ enum mode_quantity_t{
 
 
 
+uint32_t but_debouncer;
+
+
+
+
 uint8_t but_on_off, but_mode, but_audio;
 
 
@@ -10012,8 +10017,11 @@ void main(void)
 
     uint32_t program_counter = 0;
 
+    but_debouncer = program_counter;
+
     while (1)
     {
+        printf("hola");
 
         if(program_counter % (10000 )== 0){
             debug_get(but_on_off,but_mode,but_audio);
@@ -10032,11 +10040,15 @@ void main(void)
 
 
 
-            flag_save_status = buts_get();
-
+            if(but_debouncer < program_counter){
+                flag_save_status = buts_get();
+            }
 
             if(flag_save_status){
+                flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
+                but_debouncer = program_counter + 2;
+                do { LATBbits.LATB3 = ~LATBbits.LATB3; } while(0);
             }
 
 
@@ -10055,8 +10067,6 @@ void main(void)
                  pixel_set(program_counter, but_mode, but_audio,audio_signal);
 
 
-                program_counter++;
-
             }else{
 
                 pixel_set(program_counter, MODE_OFF, but_audio,audio_signal);
@@ -10066,5 +10076,8 @@ void main(void)
 
             pixel_set(program_counter, MODE_OFF, but_audio,audio_signal);
         }
+
+
+        program_counter++;
     }
 }
