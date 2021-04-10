@@ -1,0 +1,502 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1717 ]
+[d frameptr 6 ]
+"154 C:\Users\mauro\Downloads\pic16f1717\main.c
+[e E5641 mode_quantity_t `uc
+MODE_0 0
+MODE_1 1
+MODE_2 2
+MODE_3 3
+MODE_MAX 4
+MODE_OFF 5
+]
+"21 C:\Users\mauro\Downloads\pic16f1717\manager_audio.c
+[e E5578 . `uc
+ADC_AUDIO 0
+channel_DAC2_Output 28
+channel_Temp 29
+channel_DAC1_Output 30
+channel_FVRBuffer1 31
+]
+"39 C:\Users\mauro\Downloads\pic16f1717\manager_button.c
+[e E5575 mode_quantity_t `uc
+MODE_0 0
+MODE_1 1
+MODE_2 2
+MODE_3 3
+MODE_MAX 4
+MODE_OFF 5
+]
+"60 C:\Users\mauro\Downloads\pic16f1717\manager_pixel.c
+[e E5541 mode_quantity_t `uc
+MODE_0 0
+MODE_1 1
+MODE_2 2
+MODE_3 3
+MODE_MAX 4
+MODE_OFF 5
+]
+"24 C:\Users\mauro\Downloads\pic16f1717\manager_temperature.c
+[e E5593 . `uc
+ADC_AUDIO 0
+channel_DAC2_Output 28
+channel_Temp 29
+channel_DAC1_Output 30
+channel_FVRBuffer1 31
+]
+"88 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/adc.c
+[e E5578 . `uc
+ADC_AUDIO 0
+channel_DAC2_Output 28
+channel_Temp 29
+channel_DAC1_Output 30
+channel_FVRBuffer1 31
+]
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"58 C:\Users\mauro\Downloads\pic16f1717\main.c
+[v _main main `(v  1 e 1 0 ]
+"13 C:\Users\mauro\Downloads\pic16f1717\manager_audio.c
+[v _audio_init audio_init `(v  1 e 1 0 ]
+"17
+[v _audio_get audio_get `(uc  1 e 1 0 ]
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_button.c
+[v _buts_init buts_init `(v  1 e 1 0 ]
+"16
+[v _buts_get buts_get `(a  1 e 1 0 ]
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_debug.c
+[v _debug_init debug_init `(v  1 e 1 0 ]
+"17
+[v _debug_get debug_get `(v  1 e 1 0 ]
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_memory.c
+[v _memory_init memory_init `(v  1 e 1 0 ]
+"16
+[v _memory_set memory_set `(v  1 e 1 0 ]
+"21
+[v _memory_get memory_get `(v  1 e 1 0 ]
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_pixel.c
+[v _pixel_init pixel_init `(v  1 e 1 0 ]
+"16
+[v _pixel_set pixel_set `(v  1 e 1 0 ]
+"11 C:\Users\mauro\Downloads\pic16f1717\manager_temperature.c
+[v _temperature_init temperature_init `(i  1 e 2 0 ]
+"19
+[v _temperature_get temperature_get `(a  1 e 1 0 ]
+"67 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"115
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"66 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+"144
+[v _EUSART_DefaultFramingErrorHandler EUSART_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"146
+[v _EUSART_DefaultOverrunErrorHandler EUSART_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"154
+[v _EUSART_DefaultErrorHandler EUSART_DefaultErrorHandler `(v  1 e 1 0 ]
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+"50 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"43 C:\Users\mauro\Downloads\pic16f1717/manager_button.h
+[v _but_on_off but_on_off `uc  1 e 1 0 ]
+[v _but_mode but_mode `uc  1 e 1 0 ]
+[v _but_audio but_audio `uc  1 e 1 0 ]
+"46 C:\Users\mauro\Downloads\pic16f1717/manager_temperature.h
+[v _temperature_enable_flag temperature_enable_flag `a  1 e 1 0 ]
+[s S161 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508 C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1717.h
+[u S170 . 1 `S161 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES170  1 e 1 @13 ]
+[s S468 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"732
+[u S477 . 1 `S468 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES477  1 e 1 @17 ]
+"1210
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1272
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1334
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1396
+[v _TRISD TRISD `VEuc  1 e 1 @143 ]
+"1458
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S282 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1694
+[s S289 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S296 . 1 `S282 1 . 1 0 `S289 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES296  1 e 1 @149 ]
+"1811
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1870
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1928
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2069
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"2089
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"2109
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S368 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"2134
+[s S372 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S380 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S383 . 1 `S368 1 . 1 0 `S372 1 . 1 0 `S380 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES383  1 e 1 @157 ]
+"2189
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2242
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+"2290
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2352
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+[s S83 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2369
+[u S92 . 1 `S83 1 . 1 0 ]
+[v _LATBbits LATBbits `VES92  1 e 1 @269 ]
+"2414
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+"2476
+[v _LATD LATD `VEuc  1 e 1 @271 ]
+"2538
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2862
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3804
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3854
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3904
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3955
+[v _ANSELD ANSELD `VEuc  1 e 1 @399 ]
+"4017
+[v _ANSELE ANSELE `VEuc  1 e 1 @400 ]
+"4240
+[v _RC1REG RC1REG `VEuc  1 e 1 @409 ]
+"4294
+[v _TX1REG TX1REG `VEuc  1 e 1 @410 ]
+"4355
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"4425
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"4479
+[v _RC1STA RC1STA `VEuc  1 e 1 @413 ]
+[s S510 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4505
+[u S519 . 1 `S510 1 . 1 0 ]
+[v _RC1STAbits RC1STAbits `VES519  1 e 1 @413 ]
+"4659
+[v _TX1STA TX1STA `VEuc  1 e 1 @414 ]
+[s S489 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"4685
+[u S498 . 1 `S489 1 . 1 0 ]
+[v _TX1STAbits TX1STAbits `VES498  1 e 1 @414 ]
+"4839
+[v _BAUD1CON BAUD1CON `VEuc  1 e 1 @415 ]
+"5085
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"5147
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"5209
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"5271
+[v _WPUD WPUD `VEuc  1 e 1 @527 ]
+"5333
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"6769
+[v _ODCONA ODCONA `VEuc  1 e 1 @652 ]
+"6831
+[v _ODCONB ODCONB `VEuc  1 e 1 @653 ]
+"6893
+[v _ODCONC ODCONC `VEuc  1 e 1 @654 ]
+"6955
+[v _ODCOND ODCOND `VEuc  1 e 1 @655 ]
+"7017
+[v _ODCONE ODCONE `VEuc  1 e 1 @656 ]
+"7543
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @780 ]
+"7605
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @781 ]
+"7667
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @782 ]
+"7729
+[v _SLRCOND SLRCOND `VEuc  1 e 1 @783 ]
+"7791
+[v _SLRCONE SLRCONE `VEuc  1 e 1 @784 ]
+"7823
+[v _INLVLA INLVLA `VEuc  1 e 1 @908 ]
+"7885
+[v _INLVLB INLVLB `VEuc  1 e 1 @909 ]
+"7947
+[v _INLVLC INLVLC `VEuc  1 e 1 @910 ]
+"8009
+[v _INLVLD INLVLD `VEuc  1 e 1 @911 ]
+"8071
+[v _INLVLE INLVLE `VEuc  1 e 1 @912 ]
+"11558
+[v _RC6PPS RC6PPS `VEuc  1 e 1 @3750 ]
+[s S422 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/eusart.c
+[u S427 . 1 `S422 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusartRxLastError eusartRxLastError `VES427  1 e 1 0 ]
+"58
+[v _EUSART_FramingErrorHandler EUSART_FramingErrorHandler `*.37(v  1 e 2 0 ]
+"59
+[v _EUSART_OverrunErrorHandler EUSART_OverrunErrorHandler `*.37(v  1 e 2 0 ]
+"60
+[v _EUSART_ErrorHandler EUSART_ErrorHandler `*.37(v  1 e 2 0 ]
+"58 C:\Users\mauro\Downloads\pic16f1717\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"105
+[v main@program_counter program_counter `ul  1 a 4 12 ]
+"90
+[v main@audio_signal audio_signal `uc  1 a 1 11 ]
+"81
+[v main@flag_save_status flag_save_status `a  1 a 1 10 ]
+"162
+} 0
+"11 C:\Users\mauro\Downloads\pic16f1717\manager_temperature.c
+[v _temperature_init temperature_init `(i  1 e 2 0 ]
+{
+"17
+} 0
+"19
+[v _temperature_get temperature_get `(a  1 e 1 0 ]
+{
+"21
+[v temperature_get@sample sample `us  1 a 2 5 ]
+"22
+[v temperature_get@result result `a  1 a 1 4 ]
+"54
+} 0
+"16 C:\Users\mauro\Downloads\pic16f1717\manager_pixel.c
+[v _pixel_set pixel_set `(v  1 e 1 0 ]
+{
+[v pixel_set@program_count program_count `ul  1 p 4 0 ]
+[v pixel_set@mode mode `uc  1 p 1 4 ]
+[v pixel_set@flag_audio flag_audio `uc  1 p 1 5 ]
+[v pixel_set@audio_signal audio_signal `uc  1 p 1 6 ]
+"61
+} 0
+"12
+[v _pixel_init pixel_init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"16 C:\Users\mauro\Downloads\pic16f1717\manager_memory.c
+[v _memory_set memory_set `(v  1 e 1 0 ]
+{
+[v memory_set@mode mode `uc  1 p 1 0 ]
+[v memory_set@audio audio `uc  1 p 1 1 ]
+"19
+} 0
+"12
+[v _memory_init memory_init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"21
+[v _memory_get memory_get `(v  1 e 1 0 ]
+{
+[v memory_get@on_off on_off `*.4uc  1 a 1 wreg ]
+[v memory_get@on_off on_off `*.4uc  1 a 1 wreg ]
+[v memory_get@mode mode `*.4uc  1 p 1 0 ]
+[v memory_get@audio audio `*.4uc  1 p 1 1 ]
+"24
+} 0
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_debug.c
+[v _debug_init debug_init `(v  1 e 1 0 ]
+{
+"15
+} 0
+"17
+[v _debug_get debug_get `(v  1 e 1 0 ]
+{
+[v debug_get@status_mode status_mode `uc  1 p 1 0 ]
+[v debug_get@status_audio status_audio `uc  1 p 1 1 ]
+"20
+} 0
+"12 C:\Users\mauro\Downloads\pic16f1717\manager_button.c
+[v _buts_init buts_init `(v  1 e 1 0 ]
+{
+"14
+} 0
+"16
+[v _buts_get buts_get `(a  1 e 1 0 ]
+{
+"18
+[v buts_get@flag_audio flag_audio `um  1 a 3 7 ]
+[v buts_get@flag_mode flag_mode `um  1 a 3 4 ]
+[v buts_get@flag_on_off flag_on_off `um  1 a 3 1 ]
+"22
+[v buts_get@flag_change flag_change `a  1 a 1 0 ]
+"46
+} 0
+"13 C:\Users\mauro\Downloads\pic16f1717\manager_audio.c
+[v _audio_init audio_init `(v  1 e 1 0 ]
+{
+"15
+} 0
+"17
+[v _audio_get audio_get `(uc  1 e 1 0 ]
+{
+"19
+[v audio_get@sample sample `us  1 a 2 4 ]
+"26
+} 0
+"115 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/adc.c
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E5578  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E5578  1 a 1 wreg ]
+"118
+[v ADC_GetConversion@channel channel `E5578  1 a 1 3 ]
+"136
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 9 ]
+"5
+[v ___llmod@divisor divisor `ul  1 p 4 0 ]
+[v ___llmod@dividend dividend `ul  1 p 4 4 ]
+"25
+} 0
+"50 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"70
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"74
+} 0
+"55 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"129
+} 0
+"60 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"66 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/eusart.c
+[v _EUSART_Initialize EUSART_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"161
+[v _EUSART_SetOverrunErrorHandler EUSART_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetOverrunErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"163
+} 0
+"157
+[v _EUSART_SetFramingErrorHandler EUSART_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetFramingErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"159
+} 0
+"165
+[v _EUSART_SetErrorHandler EUSART_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART_SetErrorHandler@interruptHandler interruptHandler `*.37(v  1 p 2 0 ]
+"167
+} 0
+"67 C:\Users\mauro\Downloads\pic16f1717\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
