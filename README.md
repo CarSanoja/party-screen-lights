@@ -61,7 +61,7 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 * **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta:
 
 ```
-"proteus\Pedazo_Omen.wav"
+proteus\Pedazo_Omen.wav
 ```
 
 
