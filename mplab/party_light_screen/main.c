@@ -75,6 +75,8 @@ void main(void)
     // Disable the Peripheral Interrupts
     //INTERRUPT_PeripheralInterruptDisable();
     
+    // Config SPI
+    SPI_Open(SPI_DEFAULT);
    
     //Inializa la memoria para guardar el estado del programa
     memory_init();

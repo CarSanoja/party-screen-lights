@@ -12,6 +12,10 @@
         <itemPath>mcc_generated_files/pin_manager.h</itemPath>
         <itemPath>mcc_generated_files/mcc.h</itemPath>
         <itemPath>mcc_generated_files/eusart.h</itemPath>
+        <itemPath>mcc_generated_files/clc3.h</itemPath>
+        <itemPath>mcc_generated_files/pwm4.h</itemPath>
+        <itemPath>mcc_generated_files/spi.h</itemPath>
+        <itemPath>mcc_generated_files/tmr2.h</itemPath>
       </logicalFolder>
       <itemPath>manager_audio.h</itemPath>
       <itemPath>manager_button.h</itemPath>
@@ -36,6 +40,10 @@
         <itemPath>mcc_generated_files/adc.c</itemPath>
         <itemPath>mcc_generated_files/device_config.c</itemPath>
         <itemPath>mcc_generated_files/eusart.c</itemPath>
+        <itemPath>mcc_generated_files/pwm4.c</itemPath>
+        <itemPath>mcc_generated_files/clc3.c</itemPath>
+        <itemPath>mcc_generated_files/spi.c</itemPath>
+        <itemPath>mcc_generated_files/tmr2.c</itemPath>
       </logicalFolder>
       <itemPath>main.c</itemPath>
       <itemPath>manager_audio.c</itemPath>

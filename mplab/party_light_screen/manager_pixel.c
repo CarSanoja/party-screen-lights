@@ -9,8 +9,30 @@
 #include <xc.h>
 #include "manager_pixel.h"
 
+#define NUM_PIXELS 64
+
+void write_pixel(uint8_t r,uint8_t g,uint8_t b){
+    SSP1BUF = g;
+    while(!SSP1STATbits.BF);
+    SSP1BUF = r;
+    while(!SSP1STATbits.BF);
+    SSP1BUF = b;
+    while(!SSP1STATbits.BF);
+}
+
+void clear(){
+    for(int i = 0; i < NUM_PIXELS; i++) {
+        write_pixel(0,0,0);  // Black  
+    }
+}
+
 void pixel_init(void) {
     //Funcion para inicializar los pixeles
+    // Clear all the pixels
+    //clear();
+    for(int i = 0; i < NUM_PIXELS; i++) {
+        write_pixel(0,255,0);  // Black  
+    }
 }
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal) {
