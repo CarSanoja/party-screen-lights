@@ -10308,7 +10308,11 @@ void pixel_init(void) {
 
 
 
-    ShowColor(0, 0, 100);
+    ShowColor(100, 0, 0);
+
+
+    _delay((unsigned long)((1000)*(32000000/4000.0)));
+    PrintText("PARTY");
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10368,15 +10372,59 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     }
 }
 
-void ShowRainbowScan( void )
+void PrintText( unsigned char *Text )
 {
-    unsigned int i;
-
-    i = 0;
-    while(i < 2*64)
+    unsigned int cnt = 0;
+    while (Text[cnt] != 0)
     {
-        SPI_WriteBlock(Wheel[i], 2*64 * 3);
-        i = i + 3;
-        _delay((unsigned long)((50)*(32000000/4000.0)));
+        PrintCharStringBuffer(Text[cnt], cnt * 6);
+        cnt++;
     }
+}
+
+void PrintCharStringBuffer( unsigned char ch, unsigned char pos )
+{
+    unsigned char i = 0;
+
+ if (ch == ' ')
+ {
+  for (i = 0; i < 6; i++)
+  {
+   StringBuffer[pos + i] = 0x00;
+  }
+ }
+    else if ((ch > 0x40) && (ch < 0x5B))
+ {
+        ch = ch - 0x41;
+
+  for (i = 0; i < 5; i++)
+  {
+   StringBuffer[pos + i] = Letters[(ch * 5) + i];
+  }
+  StringBuffer[pos + 6] = 0x00;
+ }
+}
+
+void PrintCharFrameBuffer( unsigned char ch )
+{
+    unsigned char i = 0;
+
+ if (ch == ' ')
+ {
+  for (i = 0; i < 6; i++)
+  {
+   FrameBuffer[i] = 0x00;
+  }
+ }
+    else if ((ch > 0x40) && (ch < 0x5B))
+ {
+        ch = ch - 0x41;
+
+  for (i = 0; i < 5; i++)
+  {
+   FrameBuffer[i] = Letters[(ch * 5) + i];
+  }
+
+  FrameBuffer[i] = 0x00;
+ }
 }

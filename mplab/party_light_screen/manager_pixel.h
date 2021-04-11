@@ -49,7 +49,7 @@
 #define FRAMEBUFFERSIZE         8 * PANELCOUNT
 #define NUM_PIXELS              PANELCOUNT*64
 //#define LEDCOUNT                PANELCOUNT * 64
-#define PACKETCOUNT             8*NUM_PIXELS * 3
+#define PACKETCOUNT             NUM_PIXELS * 3
 #define STRINGBUFFERSIZE        30
 #define STRINGARRAYSIZE         STRINGBUFFERSIZE * 6
 
