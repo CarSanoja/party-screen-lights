@@ -36,7 +36,8 @@ void pixel_init(void) {
     //ShowRainbowScan();
     //ShowColor(COLOR_BLACK);
     __delay_ms(1000);
-    PrintText("PARTY");
+    //PrintText("PARTY");
+    ShowRainbowScan();
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -151,4 +152,17 @@ void PrintCharFrameBuffer( unsigned char ch )
 
 		FrameBuffer[i] = 0x00;
 	}
+}
+
+void ShowRainbowScan( void )
+{
+    unsigned int i;
+    
+    i = 0;
+    while(i < Wheel[i])
+    {
+        write_pixel(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
+        i = i + 3;
+        __delay_ms(50);
+    }
 }
