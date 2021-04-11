@@ -42,8 +42,8 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 
 
 * [Proteus v8] - Se necesita el software Proteus en su version 8.
-* [.hex] - Cada vez que se inicia la simulación, Proteus pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
-* [Archivo de audio] - Cada vez que se inicia la simulación, Proteus pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
+* [.hex] - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
+* [Archivo de audio] - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
 
 ```
 Give examples
