@@ -135,9 +135,9 @@ void PIN_MANAGER_Initialize(void)
     SSPCLKPPS = 0x13;   //RC3->MSSP:SCK;    
 }
   
-void PIN_MANAGER_IOC(void)
+/*void PIN_MANAGER_IOC(void)
 {   
-}
+}*/
 
 /**
  End of File

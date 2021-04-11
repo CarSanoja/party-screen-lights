@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:/temp\scoo.o
+$C:/temp\sgro.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -161,41 +161,41 @@ STRING 10DC-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-700 cinit CODE >10736:C:/temp\scoo.s
-700 cinit CODE >10739:C:/temp\scoo.s
-700 cinit CODE >10824:C:/temp\scoo.s
-701 cinit CODE >10825:C:/temp\scoo.s
-702 cinit CODE >10826:C:/temp\scoo.s
-703 cinit CODE >10827:C:/temp\scoo.s
-704 cinit CODE >10828:C:/temp\scoo.s
-705 cinit CODE >10829:C:/temp\scoo.s
-706 cinit CODE >10830:C:/temp\scoo.s
-707 cinit CODE >10831:C:/temp\scoo.s
-708 cinit CODE >10832:C:/temp\scoo.s
-70B cinit CODE >10836:C:/temp\scoo.s
-70C cinit CODE >10837:C:/temp\scoo.s
-70D cinit CODE >10838:C:/temp\scoo.s
-70E cinit CODE >10842:C:/temp\scoo.s
-70F cinit CODE >10843:C:/temp\scoo.s
-710 cinit CODE >10844:C:/temp\scoo.s
-711 cinit CODE >10845:C:/temp\scoo.s
-712 cinit CODE >10846:C:/temp\scoo.s
-713 cinit CODE >10847:C:/temp\scoo.s
-714 cinit CODE >10848:C:/temp\scoo.s
-715 cinit CODE >10849:C:/temp\scoo.s
-716 cinit CODE >10850:C:/temp\scoo.s
-719 cinit CODE >10854:C:/temp\scoo.s
-71A cinit CODE >10855:C:/temp\scoo.s
-71B cinit CODE >10856:C:/temp\scoo.s
-71C cinit CODE >10857:C:/temp\scoo.s
-71D cinit CODE >10858:C:/temp\scoo.s
-71E cinit CODE >10859:C:/temp\scoo.s
-71F cinit CODE >10860:C:/temp\scoo.s
-720 cinit CODE >10861:C:/temp\scoo.s
-721 cinit CODE >10862:C:/temp\scoo.s
-724 cinit CODE >10868:C:/temp\scoo.s
-724 cinit CODE >10870:C:/temp\scoo.s
-725 cinit CODE >10871:C:/temp\scoo.s
+700 cinit CODE >10726:C:/temp\sgro.s
+700 cinit CODE >10729:C:/temp\sgro.s
+700 cinit CODE >10814:C:/temp\sgro.s
+701 cinit CODE >10815:C:/temp\sgro.s
+702 cinit CODE >10816:C:/temp\sgro.s
+703 cinit CODE >10817:C:/temp\sgro.s
+704 cinit CODE >10818:C:/temp\sgro.s
+705 cinit CODE >10819:C:/temp\sgro.s
+706 cinit CODE >10820:C:/temp\sgro.s
+707 cinit CODE >10821:C:/temp\sgro.s
+708 cinit CODE >10822:C:/temp\sgro.s
+70B cinit CODE >10826:C:/temp\sgro.s
+70C cinit CODE >10827:C:/temp\sgro.s
+70D cinit CODE >10828:C:/temp\sgro.s
+70E cinit CODE >10832:C:/temp\sgro.s
+70F cinit CODE >10833:C:/temp\sgro.s
+710 cinit CODE >10834:C:/temp\sgro.s
+711 cinit CODE >10835:C:/temp\sgro.s
+712 cinit CODE >10836:C:/temp\sgro.s
+713 cinit CODE >10837:C:/temp\sgro.s
+714 cinit CODE >10838:C:/temp\sgro.s
+715 cinit CODE >10839:C:/temp\sgro.s
+716 cinit CODE >10840:C:/temp\sgro.s
+719 cinit CODE >10844:C:/temp\sgro.s
+71A cinit CODE >10845:C:/temp\sgro.s
+71B cinit CODE >10846:C:/temp\sgro.s
+71C cinit CODE >10847:C:/temp\sgro.s
+71D cinit CODE >10848:C:/temp\sgro.s
+71E cinit CODE >10849:C:/temp\sgro.s
+71F cinit CODE >10850:C:/temp\sgro.s
+720 cinit CODE >10851:C:/temp\sgro.s
+721 cinit CODE >10852:C:/temp\sgro.s
+724 cinit CODE >10858:C:/temp\sgro.s
+724 cinit CODE >10860:C:/temp\sgro.s
+725 cinit CODE >10861:C:/temp\sgro.s
 CF1 text43 CODE >76:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 CF2 text43 CODE >78:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 CF7 text43 CODE >80:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
@@ -627,20 +627,20 @@ B1A text1 CODE >17:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Tem
 270 maintext CODE >159:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
 271 maintext CODE >161:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
 288 maintext CODE >170:C:\Users\Enzo D'Argento\Documents\USB - Maestría\PG7232 - Temas Especiales V - Sistemas Embebidos\Sprint 3\Proyecto\party-screen-lights\mplab\party_light_screen\main.c
-B58 clrtext CODE >10807:C:/temp\scoo.s
-B58 clrtext CODE >10808:C:/temp\scoo.s
-B59 clrtext CODE >10809:C:/temp\scoo.s
-B59 clrtext CODE >10810:C:/temp\scoo.s
-B5A clrtext CODE >10811:C:/temp\scoo.s
-B5B clrtext CODE >10812:C:/temp\scoo.s
-B5C clrtext CODE >10813:C:/temp\scoo.s
-B5D clrtext CODE >10814:C:/temp\scoo.s
-B5E clrtext CODE >10815:C:/temp\scoo.s
-B5F clrtext CODE >10816:C:/temp\scoo.s
-B60 clrtext CODE >10817:C:/temp\scoo.s
-B61 clrtext CODE >10818:C:/temp\scoo.s
-B62 clrtext CODE >10819:C:/temp\scoo.s
-B63 clrtext CODE >10820:C:/temp\scoo.s
+B58 clrtext CODE >10797:C:/temp\sgro.s
+B58 clrtext CODE >10798:C:/temp\sgro.s
+B59 clrtext CODE >10799:C:/temp\sgro.s
+B59 clrtext CODE >10800:C:/temp\sgro.s
+B5A clrtext CODE >10801:C:/temp\sgro.s
+B5B clrtext CODE >10802:C:/temp\sgro.s
+B5C clrtext CODE >10803:C:/temp\sgro.s
+B5D clrtext CODE >10804:C:/temp\sgro.s
+B5E clrtext CODE >10805:C:/temp\sgro.s
+B5F clrtext CODE >10806:C:/temp\sgro.s
+B60 clrtext CODE >10807:C:/temp\sgro.s
+B61 clrtext CODE >10808:C:/temp\sgro.s
+B62 clrtext CODE >10809:C:/temp\sgro.s
+B63 clrtext CODE >10810:C:/temp\sgro.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -676,7 +676,6 @@ _but_audio C4 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.prod
 ADC_GetConversion@channel 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Hstrings 0 0 ABS 0 strings -
 ?_vfprintf 5E 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_CLC3CONbits F24 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _LATA 10C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _LATB 10D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _LATC 10E 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -690,7 +689,7 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:/temp\scoo.o
+___sp 0 0 STACK 2 stack C:/temp\sgro.o
 _dbuf 134 0 BANK2 1 bssBANK2 dist/default/production\party_light_screen.production.o
 _dtoa 528 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
 _main 2F0 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
@@ -703,7 +702,7 @@ __end_of_ADC_GetConversion 1802 0 CODE 0 text28 dist/default/production\party_li
 pad@i 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 pad@p 25 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 pad@w 29 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:/temp\scoo.o
+start 4 0 CODE 0 init C:/temp\sgro.o
 ___aomod@counter 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -726,12 +725,12 @@ __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_scre
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_get 15EE 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
 _memory_set 15F2 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:/temp\scoo.o
-intlevel1 0 0 ENTRY 0 functab C:/temp\scoo.o
-intlevel2 0 0 ENTRY 0 functab C:/temp\scoo.o
-intlevel3 0 0 ENTRY 0 functab C:/temp\scoo.o
-intlevel4 0 0 ENTRY 0 functab C:/temp\scoo.o
-intlevel5 0 0 ENTRY 0 functab C:/temp\scoo.o
+intlevel0 0 0 ENTRY 0 functab C:/temp\sgro.o
+intlevel1 0 0 ENTRY 0 functab C:/temp\sgro.o
+intlevel2 0 0 ENTRY 0 functab C:/temp\sgro.o
+intlevel3 0 0 ENTRY 0 functab C:/temp\sgro.o
+intlevel4 0 0 ENTRY 0 functab C:/temp\sgro.o
+intlevel5 0 0 ENTRY 0 functab C:/temp\sgro.o
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -779,8 +778,8 @@ _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ?_strlen 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-___stackhi 233B 0 ABS 0 - C:/temp\scoo.o
-___stacklo 20D4 0 ABS 0 - C:/temp\scoo.o
+___stackhi 233B 0 ABS 0 - C:/temp\sgro.o
+___stacklo 20D4 0 ABS 0 - C:/temp\sgro.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___aomod@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _EUSART_Initialize 183A 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
@@ -805,7 +804,6 @@ _TRISCbits 8E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_init 15F0 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
 EUSART_SetOverrunErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _RC0PPS EA0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_RC1REG 199 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC1STA 19D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC3PPS EA3 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC6PPS EA6 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -821,7 +819,6 @@ __pcstackBANK1 C7 0 BANK1 1 cstackBANK1 dist/default/production\party_light_scre
 audio_get@sample 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 memory_set@audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 debug_get@auxString D0 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
-_TX1REG 19A 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _TX1STA 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 UART_send_string@st_pt 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -830,7 +827,7 @@ fputc@fp 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.p
 fputs@fp 78 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_SPI_Open 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:/temp\scoo.o
+___int_sp 0 0 STACK 2 stack C:/temp\sgro.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -1000,7 +997,7 @@ ___aodiv@sign 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_scr
 sprintf@fmt 66 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _debug_init 1682 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
 _SYSTEM_Initialize 1802 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
-_dtoa$1388 3B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
+_dtoa$1198 3B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 memory_get@mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __end_of_abs 1798 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 __end_of_pad EE 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
@@ -1009,7 +1006,7 @@ __end_of_pixel_set 42 0 CODE 0 text3 dist/default/production\party_light_screen.
 debug_get@status_audio 6B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:/temp\scoo.o
+reset_vec 0 0 CODE 0 reset_vec C:/temp\sgro.o
 strlen@a 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 strlen@s 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1145,7 +1142,6 @@ fputc@c 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.pr
 fputs@c 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 fputs@i 21 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 fputs@s 23 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_TX1STAbits 19E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __end_of_SPI_Initialize 170C 0 CODE 0 text33 dist/default/production\party_light_screen.production.o
 _temperature_enable_flag C2 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 __Lstrings 0 0 ABS 0 strings -
@@ -1269,7 +1265,6 @@ __pbssBANK0 6E 0 BANK0 1 bssBANK0 dist/default/production\party_light_screen.pro
 __pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 __pbssBANK2 120 0 BANK2 1 bssBANK2 dist/default/production\party_light_screen.production.o
 _Letters 2000 0 STRCODE 0 stringtext1 dist/default/production\party_light_screen.production.o
-_T2CONbits 1C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 dtoa@d 30 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 dtoa@i 4C 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 dtoa@n 44 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o

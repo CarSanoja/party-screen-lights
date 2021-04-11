@@ -10327,7 +10327,11 @@ const unsigned char Wheel[256][3] __attribute__((address(0x400))) =
 
 # 1 "./manager_debug.h" 1
 # 43 "./manager_debug.h"
-void debug_init();
+void UART_send_char(char bt);
+
+void UART_send_string(char* st_pt);
+
+void debug_init(void);
 
 void debug_get(uint8_t status_on_off,uint8_t status_mode,uint8_t status_audio);
 # 50 "main.c" 2

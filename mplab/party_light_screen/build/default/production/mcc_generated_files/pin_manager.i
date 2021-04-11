@@ -9636,7 +9636,3 @@ void PIN_MANAGER_Initialize(void)
     RC6PPS = 0x14;
     SSPCLKPPS = 0x13;
 }
-
-void PIN_MANAGER_IOC(void)
-{
-}

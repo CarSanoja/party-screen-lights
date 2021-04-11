@@ -23,7 +23,7 @@ void UART_send_string(char* st_pt)
         UART_send_char(*st_pt++); //process it as a byte data
 }
 
-void debug_init() {
+void debug_init(void) {
     //inicialización del usart
     EUSART_Initialize();
     

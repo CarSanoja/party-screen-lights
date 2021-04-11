@@ -91,26 +91,26 @@ void EUSART_Initialize(void)
 
 }
 
-bool EUSART_is_tx_ready(void)
+/*bool EUSART_is_tx_ready(void)
 {
     return (bool)(PIR1bits.TXIF && TX1STAbits.TXEN);
-}
+}*/
 
-bool EUSART_is_rx_ready(void)
+/*bool EUSART_is_rx_ready(void)
 {
     return (bool)(PIR1bits.RCIF);
-}
+}*/
 
-bool EUSART_is_tx_done(void)
+/*bool EUSART_is_tx_done(void)
 {
     return TX1STAbits.TRMT;
-}
+}*/
 
-eusart_status_t EUSART_get_last_status(void){
+/*eusart_status_t EUSART_get_last_status(void){
     return eusartRxLastError;
-}
+}*/
 
-uint8_t EUSART_Read(void)
+/*uint8_t EUSART_Read(void)
 {
     while(!PIR1bits.RCIF)
     {
@@ -127,16 +127,16 @@ uint8_t EUSART_Read(void)
     }
 
     return RC1REG;
-}
+}*/
 
-void EUSART_Write(uint8_t txData)
+/*void EUSART_Write(uint8_t txData)
 {
     while(0 == PIR1bits.TXIF)
     {
     }
 
     TX1REG = txData;    // Write the data byte to the USART.
-}
+}*/
 
 
 

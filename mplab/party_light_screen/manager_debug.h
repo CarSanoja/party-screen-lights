@@ -40,7 +40,11 @@
 
 #define BUG_PROGRAM_COUNTER 100
 
-void debug_init();
+void UART_send_char(char bt);
+
+void UART_send_string(char* st_pt);
+
+void debug_init(void);
 
 void debug_get(uint8_t status_on_off,uint8_t status_mode,uint8_t status_audio);
 
