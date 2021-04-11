@@ -46,8 +46,9 @@
 #define COLOR_RED               100, 0, 0
 #define COLOR_BLUE              0, 0, 100
 
-#define PANELCOUNT              1
+#define PANELCOUNT              2
 #define FRAMEBUFFERSIZE         8 * PANELCOUNT
+#define NUM_PIXELS              PANELCOUNT*64
 //#define LEDCOUNT                PANELCOUNT * 64
 #define PACKETCOUNT             LEDCOUNT * 3
 #define STRINGBUFFERSIZE        30

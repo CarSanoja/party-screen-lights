@@ -9,7 +9,6 @@
 #include <xc.h>
 #include "manager_pixel.h"
 
-#define NUM_PIXELS 64
 
 void write_pixel(uint8_t r,uint8_t g,uint8_t b){
     SSP1BUF = g;
