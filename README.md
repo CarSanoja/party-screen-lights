@@ -18,29 +18,29 @@ Posee memoria persistente, esto permite retomar el patrón de iluminación que e
 
 ## Table of Contents
 
-1. [About the Project](#party-screen-lights)
-2. [Hardware](#getting-started)
-3. [Software](#software)
-4. [Simulación](#authors)
-    1.[Prerequisites](##prerequisites)
+1. **[About the Project](#party-screen-lights)
+2. **[Hardware](#getting-started)
+3. **[Software](#software)
+4. **[Simulación](#authors)
+    1.**[Prerequisites](##prerequisites)
 
  
 ## Hardware
 El hardware utilizado son los siguientes:
 
-* [PIC16f1717] 
-* [FALTA SENSOR DE TEMP]
-* [FALTA EEPROM EXTERNA] 
+* **[PIC16f1717] 
+* **[FALTA SENSOR DE TEMP]
+* **[FALTA EEPROM EXTERNA] 
 
 ## Software
 El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
 
-* [GPIOS/IN] - Para censar el estado de los 3 botones
-* [GPIOS/OUT] - Para encender los 4 LED indicadores
-* [UART] - Para transmitir la señal de debugging en la fábrica
-* [ADC] - Para muestrear la señal de audio del microfono
-* [ADC] - Para muestrear la temperatura en la termocupla.
-* FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
+* **[GPIOS/IN] - Para censar el estado de los 3 botones
+* **[GPIOS/OUT] - Para encender los 4 LED indicadores
+* **[UART] - Para transmitir la señal de debugging en la fábrica
+* **[ADC] - Para muestrear la señal de audio del microfono
+* **[ADC] - Para muestrear la temperatura en la termocupla.
+* **FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
 
 El diagrama de software de desiciones (macro) que toma el programa durante su funcionamiento se puede observar a continuación:
 
@@ -117,9 +117,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **[Carlos Sanoja](https://github.com/CarSanoja)**
+* **[Jesús Guillen](https://github.com/JG-Guillen)**
+* **[Leonardo Ward](https://github.com/leonardoward)**
+* **[Mauricio Marcano](https://github.com/rinripper)**
+* **[Oscar Moreno](https://github.com/OscarEMoreno)**
+* **[Vincenzo D’Argento](https://github.com/vincdargento)**
 
 ## License
 
