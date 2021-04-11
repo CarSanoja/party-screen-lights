@@ -7,8 +7,11 @@
 
 
 #include <xc.h>
+#include "mcc_generated_files/spi.h"
 #include "manager_pixel.h"
+#include "manager_pixel_mode.h"
 
+#define _XTAL_FREQ 32000000
 
 void write_pixel(uint8_t r,uint8_t g,uint8_t b){
     SSP1BUF = g;
@@ -39,6 +42,8 @@ void ShowColor( unsigned char r, unsigned char g, unsigned char b )
         write_pixel(r, g, b);
     }
 }
+
+
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal) {
     //Funcion para setear los pixeles según el counter del programa, el modo y si hay audio o no
@@ -86,3 +91,5 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
     }
 }
+
+
