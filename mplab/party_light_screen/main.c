@@ -48,8 +48,18 @@
 #include "manager_temperature.h"
 #include "manager_pixel.h"
 #include "manager_debug.h"
+#include "device_config.h"
 
-
+void standby_pulse(void) {
+    // Clear all the pixels
+    EEPROM_UNIO_SetHigh()
+    __delay_us(600);          // Reset delay
+}
+void start_header(void) {
+    // Clear all the pixels
+    EEPROM_UNIO_SetHigh()
+    __delay_us(600);          // Reset delay
+}
 
 
 /*

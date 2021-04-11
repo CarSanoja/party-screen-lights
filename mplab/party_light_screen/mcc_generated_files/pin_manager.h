@@ -85,6 +85,26 @@
 #define ADC_AUDIO_SetAnalogMode()      do { ANSELAbits.ANSA0 = 1; } while(0)
 #define ADC_AUDIO_SetDigitalMode()     do { ANSELAbits.ANSA0 = 0; } while(0)
 
+// get/set EEPROM_UNIO aliases
+#define EEPROM_UNIO_TRIS                 TRISAbits.TRISA3
+#define EEPROM_UNIO_LAT                  LATAbits.LATA3
+#define EEPROM_UNIO_PORT                 PORTAbits.RA3
+#define EEPROM_UNIO_WPU                  WPUAbits.WPUA3
+#define EEPROM_UNIO_OD                   ODCONAbits.ODA3
+#define EEPROM_UNIO_ANS                  ANSELAbits.ANSA3
+#define EEPROM_UNIO_SetHigh()            do { LATAbits.LATA3 = 1; } while(0)
+#define EEPROM_UNIO_SetLow()             do { LATAbits.LATA3 = 0; } while(0)
+#define EEPROM_UNIO_Toggle()             do { LATAbits.LATA3 = ~LATAbits.LATA3; } while(0)
+#define EEPROM_UNIO_GetValue()           PORTAbits.RA3
+#define EEPROM_UNIO_SetDigitalInput()    do { TRISAbits.TRISA3 = 1; } while(0)
+#define EEPROM_UNIO_SetDigitalOutput()   do { TRISAbits.TRISA3 = 0; } while(0)
+#define EEPROM_UNIO_SetPullup()          do { WPUAbits.WPUA3 = 1; } while(0)
+#define EEPROM_UNIO_ResetPullup()        do { WPUAbits.WPUA3 = 0; } while(0)
+#define EEPROM_UNIO_SetPushPull()        do { ODCONAbits.ODA3 = 0; } while(0)
+#define EEPROM_UNIO_SetOpenDrain()       do { ODCONAbits.ODA3 = 1; } while(0)
+#define EEPROM_UNIO_SetAnalogMode()      do { ANSELAbits.ANSA3 = 1; } while(0)
+#define EEPROM_UNIO_SetDigitalMode()     do { ANSELAbits.ANSA3 = 0; } while(0)
+
 // get/set BUT_ON_OFF aliases
 #define BUT_ON_OFF_TRIS                 TRISBbits.TRISB0
 #define BUT_ON_OFF_LAT                  LATBbits.LATB0
