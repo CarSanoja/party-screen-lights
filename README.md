@@ -21,7 +21,7 @@ Posee memoria persistente, esto permite retomar el patrón de iluminación que e
 
 El diagrama de software macro se puede observar a continuación:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/diagrama_software.png?raw=true)
 
 
 
