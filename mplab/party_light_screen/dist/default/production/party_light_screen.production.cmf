@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\lward\AppData\Local\Temp\s2p4.o
+$C:\Users\lward\AppData\Local\Temp\s39k.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -146,18 +146,18 @@ STRING 804-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-7F4 cinit CODE >9673:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F4 cinit CODE >9676:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F4 cinit CODE >9730:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F5 cinit CODE >9734:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F6 cinit CODE >9735:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F7 cinit CODE >9736:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F8 cinit CODE >9737:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7F9 cinit CODE >9738:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7FA cinit CODE >9739:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7FD cinit CODE >9745:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7FD cinit CODE >9747:C:\Users\lward\AppData\Local\Temp\s2p4.s
-7FE cinit CODE >9748:C:\Users\lward\AppData\Local\Temp\s2p4.s
+7F4 cinit CODE >9673:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F4 cinit CODE >9676:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F4 cinit CODE >9730:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F5 cinit CODE >9734:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F6 cinit CODE >9735:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F7 cinit CODE >9736:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F8 cinit CODE >9737:C:\Users\lward\AppData\Local\Temp\s39k.s
+7F9 cinit CODE >9738:C:\Users\lward\AppData\Local\Temp\s39k.s
+7FA cinit CODE >9739:C:\Users\lward\AppData\Local\Temp\s39k.s
+7FD cinit CODE >9745:C:\Users\lward\AppData\Local\Temp\s39k.s
+7FD cinit CODE >9747:C:\Users\lward\AppData\Local\Temp\s39k.s
+7FE cinit CODE >9748:C:\Users\lward\AppData\Local\Temp\s39k.s
 5B6 text30 CODE >76:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 5B7 text30 CODE >78:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 5BC text30 CODE >80:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
@@ -432,14 +432,14 @@ $dist/default/production\party_light_screen.production.o
 7D0 maintext CODE >159:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\main.c
 7D1 maintext CODE >161:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\main.c
 7E8 maintext CODE >170:C:\Ext\SE1\development\party-screen-lights\mplab\party_light_screen\main.c
-41D clrtext CODE >9719:C:\Users\lward\AppData\Local\Temp\s2p4.s
-41D clrtext CODE >9720:C:\Users\lward\AppData\Local\Temp\s2p4.s
-41E clrtext CODE >9721:C:\Users\lward\AppData\Local\Temp\s2p4.s
-41E clrtext CODE >9722:C:\Users\lward\AppData\Local\Temp\s2p4.s
-41F clrtext CODE >9723:C:\Users\lward\AppData\Local\Temp\s2p4.s
-420 clrtext CODE >9724:C:\Users\lward\AppData\Local\Temp\s2p4.s
-421 clrtext CODE >9725:C:\Users\lward\AppData\Local\Temp\s2p4.s
-422 clrtext CODE >9726:C:\Users\lward\AppData\Local\Temp\s2p4.s
+41D clrtext CODE >9719:C:\Users\lward\AppData\Local\Temp\s39k.s
+41D clrtext CODE >9720:C:\Users\lward\AppData\Local\Temp\s39k.s
+41E clrtext CODE >9721:C:\Users\lward\AppData\Local\Temp\s39k.s
+41E clrtext CODE >9722:C:\Users\lward\AppData\Local\Temp\s39k.s
+41F clrtext CODE >9723:C:\Users\lward\AppData\Local\Temp\s39k.s
+420 clrtext CODE >9724:C:\Users\lward\AppData\Local\Temp\s39k.s
+421 clrtext CODE >9725:C:\Users\lward\AppData\Local\Temp\s39k.s
+422 clrtext CODE >9726:C:\Users\lward\AppData\Local\Temp\s39k.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -483,11 +483,11 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\s2p4.o
+___sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\s39k.o
 _main DBA 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __end_of_ADC_GetConversion 972 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\lward\AppData\Local\Temp\s2p4.o
+start 4 0 CODE 0 init C:\Users\lward\AppData\Local\Temp\s39k.o
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_write_pixel 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -505,12 +505,12 @@ _TMR2_Initialize 854 0 CODE 0 text19 dist/default/production\party_light_screen.
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_get 7F0 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
 _memory_set 7F4 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s2p4.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\s39k.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 37 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -551,8 +551,8 @@ _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___stackhi 23EF 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\s2p4.o
-___stacklo 2020 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\s2p4.o
+___stackhi 23EF 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\s39k.o
+___stacklo 2020 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\s39k.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_Initialize A1C 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -588,7 +588,7 @@ pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_li
 _WDTCON 97 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_SPI_Open 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 34 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\s2p4.o
+___int_sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\s39k.o
 _write_pixel 912 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -749,7 +749,7 @@ __end_of_pixel_set 9E2 0 CODE 0 text3 dist/default/production\party_light_screen
 debug_get@status_audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\lward\AppData\Local\Temp\s2p4.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\lward\AppData\Local\Temp\s39k.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_memory_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
