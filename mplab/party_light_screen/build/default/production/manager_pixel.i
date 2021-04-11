@@ -10308,11 +10308,12 @@ void pixel_init(void) {
 
 
 
-    ShowColor(100, 0, 0);
+
 
 
     _delay((unsigned long)((1000)*(32000000/4000.0)));
-    PrintText("PARTY");
+
+    ShowRainbowScan();
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10427,4 +10428,15 @@ void PrintCharFrameBuffer( unsigned char ch )
 
   FrameBuffer[i] = 0x00;
  }
+}
+
+void ShowRainbowScan( void )
+{
+    unsigned int i;
+    for (i = 0; i < 254; i++)
+    {
+        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
+        i = i + 2;
+        _delay((unsigned long)((50)*(32000000/4000.0)));
+    }
 }

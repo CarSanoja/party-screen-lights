@@ -157,9 +157,7 @@ void PrintCharFrameBuffer( unsigned char ch )
 void ShowRainbowScan( void )
 {
     unsigned int i;
-    
-    i = 0;
-    while(i < Wheel[i])
+    for (i = 0; i < 254; i++)
     {
         ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
         i = i + 2;
