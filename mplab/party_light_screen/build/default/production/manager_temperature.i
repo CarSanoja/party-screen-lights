@@ -9563,9 +9563,9 @@ extern __bank0 __bit __timeout;
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 210 "./mcc_generated_files/pin_manager.h"
+# 230 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 222 "./mcc_generated_files/pin_manager.h"
+# 242 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -9708,24 +9708,25 @@ typedef struct
 typedef enum
 {
     ADC_AUDIO = 0x0,
+    ADC_TEMP = 0x1,
     channel_DAC2_Output = 0x1C,
     channel_Temp = 0x1D,
     channel_DAC1_Output = 0x1E,
     channel_FVRBuffer1 = 0x1F
 } adc_channel_t;
-# 137 "./mcc_generated_files/adc.h"
+# 138 "./mcc_generated_files/adc.h"
 void ADC_Initialize(void);
-# 167 "./mcc_generated_files/adc.h"
+# 168 "./mcc_generated_files/adc.h"
 void ADC_SelectChannel(adc_channel_t channel);
-# 194 "./mcc_generated_files/adc.h"
+# 195 "./mcc_generated_files/adc.h"
 void ADC_StartConversion(void);
-# 226 "./mcc_generated_files/adc.h"
+# 227 "./mcc_generated_files/adc.h"
 _Bool ADC_IsConversionDone(void);
-# 259 "./mcc_generated_files/adc.h"
+# 260 "./mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversionResult(void);
-# 289 "./mcc_generated_files/adc.h"
+# 290 "./mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversion(adc_channel_t channel);
-# 317 "./mcc_generated_files/adc.h"
+# 318 "./mcc_generated_files/adc.h"
 void ADC_TemperatureAcquisitionDelay(void);
 # 55 "./mcc_generated_files/mcc.h" 2
 
@@ -9791,12 +9792,12 @@ _Bool temperature_get(void){
    adc_result_t sample;
    _Bool result;
 
-   sample = ADC_GetConversion(4);
+   sample = ADC_GetConversion(ADC_TEMP);
 
 
    if(temperature_enable_flag){
 
-       if(sample >= 512){
+       if(sample >= 133){
            result = 0;
            do { LATBbits.LATB3 = 1; } while(0);
 
@@ -9808,7 +9809,7 @@ _Bool temperature_get(void){
    }else{
 
 
-       if(sample > (255 + 10) || sample < (255) ){
+       if(sample < 112){
            result = 1;
            do { LATBbits.LATB3 = 0; } while(0);
 

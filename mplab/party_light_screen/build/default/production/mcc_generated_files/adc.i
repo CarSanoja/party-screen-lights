@@ -9655,24 +9655,25 @@ typedef struct
 typedef enum
 {
     ADC_AUDIO = 0x0,
+    ADC_TEMP = 0x1,
     channel_DAC2_Output = 0x1C,
     channel_Temp = 0x1D,
     channel_DAC1_Output = 0x1E,
     channel_FVRBuffer1 = 0x1F
 } adc_channel_t;
-# 137 "mcc_generated_files/adc.h"
+# 138 "mcc_generated_files/adc.h"
 void ADC_Initialize(void);
-# 167 "mcc_generated_files/adc.h"
+# 168 "mcc_generated_files/adc.h"
 void ADC_SelectChannel(adc_channel_t channel);
-# 194 "mcc_generated_files/adc.h"
+# 195 "mcc_generated_files/adc.h"
 void ADC_StartConversion(void);
-# 226 "mcc_generated_files/adc.h"
+# 227 "mcc_generated_files/adc.h"
 _Bool ADC_IsConversionDone(void);
-# 259 "mcc_generated_files/adc.h"
+# 260 "mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversionResult(void);
-# 289 "mcc_generated_files/adc.h"
+# 290 "mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversion(adc_channel_t channel);
-# 317 "mcc_generated_files/adc.h"
+# 318 "mcc_generated_files/adc.h"
 void ADC_TemperatureAcquisitionDelay(void);
 # 52 "mcc_generated_files/adc.c" 2
 

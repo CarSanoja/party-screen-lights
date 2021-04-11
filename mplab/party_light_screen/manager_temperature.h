@@ -38,8 +38,8 @@
 
 
 #define TEMPERATURE_PC_COUNTER 10000
-#define TEMPERATURE_MAX        512
-#define TEMPERATURE_MIN        255
+#define TEMPERATURE_MAX        133
+#define TEMPERATURE_MIN        112
 
 
 // Esta bandera sirve para indicar cuando las operaciones fueron desahilitadas por temperatura

@@ -95,6 +95,7 @@ typedef struct
 typedef enum
 {
     ADC_AUDIO =  0x0,
+    ADC_TEMP =  0x1,
     channel_DAC2_Output =  0x1C,
     channel_Temp =  0x1D,
     channel_DAC1_Output =  0x1E,

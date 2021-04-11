@@ -85,6 +85,26 @@
 #define ADC_AUDIO_SetAnalogMode()      do { ANSELAbits.ANSA0 = 1; } while(0)
 #define ADC_AUDIO_SetDigitalMode()     do { ANSELAbits.ANSA0 = 0; } while(0)
 
+// get/set ADC_TEMP aliases
+#define ADC_TEMP_TRIS                 TRISAbits.TRISA1
+#define ADC_TEMP_LAT                  LATAbits.LATA1
+#define ADC_TEMP_PORT                 PORTAbits.RA1
+#define ADC_TEMP_WPU                  WPUAbits.WPUA1
+#define ADC_TEMP_OD                   ODCONAbits.ODA1
+#define ADC_TEMP_ANS                  ANSELAbits.ANSA1
+#define ADC_TEMP_SetHigh()            do { LATAbits.LATA1 = 1; } while(0)
+#define ADC_TEMP_SetLow()             do { LATAbits.LATA1 = 0; } while(0)
+#define ADC_TEMP_Toggle()             do { LATAbits.LATA1 = ~LATAbits.LATA1; } while(0)
+#define ADC_TEMP_GetValue()           PORTAbits.RA1
+#define ADC_TEMP_SetDigitalInput()    do { TRISAbits.TRISA1 = 1; } while(0)
+#define ADC_TEMP_SetDigitalOutput()   do { TRISAbits.TRISA1 = 0; } while(0)
+#define ADC_TEMP_SetPullup()          do { WPUAbits.WPUA1 = 1; } while(0)
+#define ADC_TEMP_ResetPullup()        do { WPUAbits.WPUA1 = 0; } while(0)
+#define ADC_TEMP_SetPushPull()        do { ODCONAbits.ODA1 = 0; } while(0)
+#define ADC_TEMP_SetOpenDrain()       do { ODCONAbits.ODA1 = 1; } while(0)
+#define ADC_TEMP_SetAnalogMode()      do { ANSELAbits.ANSA1 = 1; } while(0)
+#define ADC_TEMP_SetDigitalMode()     do { ANSELAbits.ANSA1 = 0; } while(0)
+
 // get/set BUT_ON_OFF aliases
 #define BUT_ON_OFF_TRIS                 TRISBbits.TRISB0
 #define BUT_ON_OFF_LAT                  LATBbits.LATB0
