@@ -40,7 +40,7 @@ El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
 * **[UART] - Para transmitir la señal de debugging en la fábrica
 * **[ADC] - Para muestrear la señal de audio del microfono
 * **[ADC] - Para muestrear la temperatura en la termocupla.
-* **FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
+* ** FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
 
 El diagrama de software de desiciones (macro) que toma el programa durante su funcionamiento se puede observar a continuación:
 
