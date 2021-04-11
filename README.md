@@ -18,29 +18,29 @@ Posee memoria persistente, esto permite retomar el patrón de iluminación que e
 
 ## Table of Contents
 
-1. **[About the Project](#party-screen-lights)
-2. **[Hardware](##hardware)
-3. **[Software](##software)
-4. **[Simulación](##simulación)
-    1.**[Prerequisitos](##prerequisites)
+1. **[About the Project]**(#party-screen-lights)
+2. **[Hardware]**(##hardware)
+3. **[Software]**(##software)
+4. **[Simulación]**(##simulación)
+    1.**[Prerequisitos]**(###prerequisites)
 
  
 ## Hardware
 El hardware utilizado son los siguientes:
 
-* **[PIC16f1717] 
-* **[FALTA SENSOR DE TEMP]
-* **[FALTA EEPROM EXTERNA] 
+* **[PIC16f1717] **
+* **[FALTA SENSOR DE TEMP]**
+* **[FALTA EEPROM EXTERNA]** 
 
 ## Software
 El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
 
-* **[GPIOS/IN] - Para censar el estado de los 3 botones
-* **[GPIOS/OUT] - Para encender los 4 LED indicadores
-* **[UART] - Para transmitir la señal de debugging en la fábrica
-* **[ADC] - Para muestrear la señal de audio del microfono
-* **[ADC] - Para muestrear la temperatura en la termocupla.
-* ** FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
+* **[GPIOS/IN]** - Para censar el estado de los 3 botones
+* **[GPIOS/OUT]** - Para encender los 4 LED indicadores
+* **[UART]** - Para transmitir la señal de debugging en la fábrica
+* **[ADC]** - Para muestrear la señal de audio del microfono
+* **[ADC]** - Para muestrear la temperatura en la termocupla.
+*  FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
 
 El diagrama de software de desiciones (macro) que toma el programa durante su funcionamiento se puede observar a continuación:
 
@@ -51,9 +51,9 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 ### Prerequisites
 
 
-* [Proteus v8] - Se necesita el software Proteus en su version 8.
-* [.hex] - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
-* [Archivo de audio] - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
+* **[Proteus v8]** - Se necesita el software Proteus en su version 8.
+* **[.hex]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
+* **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
 
 ```
 Give examples
