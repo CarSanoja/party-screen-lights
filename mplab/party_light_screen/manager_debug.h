@@ -38,7 +38,7 @@
 
 
 
-#define BUG_PROGRAM_COUNTER 10000
+#define BUG_PROGRAM_COUNTER 100
 
 void debug_init();
 

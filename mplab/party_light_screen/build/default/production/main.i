@@ -10088,7 +10088,7 @@ void main(void)
     {
 
 
-        if(program_counter % (10000 )== 0){
+        if(program_counter % (100 )== 0){
             debug_get(but_on_off,but_mode,but_audio);
         }
 
