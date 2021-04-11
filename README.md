@@ -19,10 +19,10 @@ Posee memoria persistente, esto permite retomar el patrón de iluminación que e
 ## Table of Contents
 
 1. **[About the Project](#party-screen-lights)**
-2. **[Hardware](##hardware)**
-3. **[Software](##software)**
-4. **[Simulación](##simulación)**
-    1.**[Prerequisitos](###prerequisites)**
+2. **[Hardware](#hardware)**
+3. **[Software](#software)**
+4. **[Simulación](#simulación)**
+    1.**[Prerequisitos](#prerequisites)**
 
  
 ## Hardware
