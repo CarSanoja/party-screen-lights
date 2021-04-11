@@ -10305,15 +10305,7 @@ void clear(){
 }
 
 void pixel_init(void) {
-
-
-
-
-
-    ShowColor(0, 0, 0);
-    _delay((unsigned long)((1000)*(32000000/4000.0)));
-
-    ShowRainbowScan();
+# 41 "manager_pixel.c"
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10379,7 +10371,7 @@ void ShowRainbowScan( void )
     for (i = 0; i < 254; i++)
     {
         ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 2;
+        i = i + 1;
         _delay((unsigned long)((50)*(32000000/4000.0)));
     }
 }

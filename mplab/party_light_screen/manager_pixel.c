@@ -34,10 +34,10 @@ void pixel_init(void) {
     //clear();
     //ShowColor(COLOR_RED);
     //ShowRainbowScan();
-    ShowColor(COLOR_BLACK);
-    __delay_ms(1000);
+    //ShowColor(COLOR_BLACK);
+    //__delay_ms(1000);
     //PrintText("PARTY");
-    ShowRainbowScan();
+    //ShowRainbowScan();
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -103,7 +103,7 @@ void ShowRainbowScan( void )
     for (i = 0; i < 254; i++)
     {
         ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 2;
+        i = i + 1;
         __delay_ms(50);
     }
 }

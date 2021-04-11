@@ -15,17 +15,32 @@ Posee cuatro LED indicadores:
 
 Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red electrica.
 
+
+## Table of Contents
+
+1. **[About the Project](#party-screen-lights)
+2. **[Hardware](##hardware)
+3. **[Software](##software)
+4. **[Simulación](##simulación)
+    1.**[Prerequisitos](##prerequisites)
+
+ 
 ## Hardware
+El hardware utilizado son los siguientes:
+
+* **[PIC16f1717] 
+* **[FALTA SENSOR DE TEMP]
+* **[FALTA EEPROM EXTERNA] 
 
 ## Software
 El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
 
-* [GPIOS/IN] - Para censar el estado de los 3 botones
-* [GPIOS/OUT] - Para encender los 4 LED indicadores
-* [UART] - Para transmitir la señal de debugging en la fábrica
-* [ADC] - Para muestrear la señal de audio del microfono
-* [ADC] - Para muestrear la temperatura en la termocupla.
-* FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
+* **[GPIOS/IN] - Para censar el estado de los 3 botones
+* **[GPIOS/OUT] - Para encender los 4 LED indicadores
+* **[UART] - Para transmitir la señal de debugging en la fábrica
+* **[ADC] - Para muestrear la señal de audio del microfono
+* **[ADC] - Para muestrear la temperatura en la termocupla.
+* ** FALTA EXPLICAR LOS NEOPIXELES y LA MEMORIA ROM
 
 El diagrama de software de desiciones (macro) que toma el programa durante su funcionamiento se puede observar a continuación:
 
@@ -37,8 +52,8 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 
 
 * [Proteus v8] - Se necesita el software Proteus en su version 8.
-* [.hex] - Cada vez que se inicia la simulación, Proteus pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
-* [Archivo de audio] - Cada vez que se inicia la simulación, Proteus pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
+* [.hex] - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta: "..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex"
+* [Archivo de audio] - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta "...\Pedazo_Omen.wav"
 
 ```
 Give examples
@@ -102,9 +117,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **[Carlos Sanoja](https://github.com/CarSanoja)**
+* **[Jesús Guillen](https://github.com/JG-Guillen)**
+* **[Leonardo Ward](https://github.com/leonardoward)**
+* **[Mauricio Marcano](https://github.com/rinripper)**
+* **[Oscar Moreno](https://github.com/OscarEMoreno)**
+* **[Vincenzo D’Argento](https://github.com/vincdargento)**
 
 ## License
 
