@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\carlos\AppData\Local\Temp\s5cs.o
+$C:\Users\carlos\AppData\Local\Temp\sai8.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -145,30 +145,30 @@ STRING 827-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-700 cinit CODE >10596:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-700 cinit CODE >10599:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-700 cinit CODE >10663:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-701 cinit CODE >10664:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-702 cinit CODE >10665:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-703 cinit CODE >10666:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-704 cinit CODE >10667:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-705 cinit CODE >10668:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-706 cinit CODE >10669:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-707 cinit CODE >10670:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-708 cinit CODE >10671:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-70B cinit CODE >10675:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-70C cinit CODE >10679:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-70D cinit CODE >10680:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-70E cinit CODE >10681:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-70F cinit CODE >10682:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-710 cinit CODE >10683:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-711 cinit CODE >10684:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-712 cinit CODE >10685:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-713 cinit CODE >10686:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-714 cinit CODE >10687:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-717 cinit CODE >10693:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-717 cinit CODE >10695:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-718 cinit CODE >10696:C:\Users\carlos\AppData\Local\Temp\s5cs.s
+700 cinit CODE >10596:C:\Users\carlos\AppData\Local\Temp\sai8.s
+700 cinit CODE >10599:C:\Users\carlos\AppData\Local\Temp\sai8.s
+700 cinit CODE >10663:C:\Users\carlos\AppData\Local\Temp\sai8.s
+701 cinit CODE >10664:C:\Users\carlos\AppData\Local\Temp\sai8.s
+702 cinit CODE >10665:C:\Users\carlos\AppData\Local\Temp\sai8.s
+703 cinit CODE >10666:C:\Users\carlos\AppData\Local\Temp\sai8.s
+704 cinit CODE >10667:C:\Users\carlos\AppData\Local\Temp\sai8.s
+705 cinit CODE >10668:C:\Users\carlos\AppData\Local\Temp\sai8.s
+706 cinit CODE >10669:C:\Users\carlos\AppData\Local\Temp\sai8.s
+707 cinit CODE >10670:C:\Users\carlos\AppData\Local\Temp\sai8.s
+708 cinit CODE >10671:C:\Users\carlos\AppData\Local\Temp\sai8.s
+70B cinit CODE >10675:C:\Users\carlos\AppData\Local\Temp\sai8.s
+70C cinit CODE >10679:C:\Users\carlos\AppData\Local\Temp\sai8.s
+70D cinit CODE >10680:C:\Users\carlos\AppData\Local\Temp\sai8.s
+70E cinit CODE >10681:C:\Users\carlos\AppData\Local\Temp\sai8.s
+70F cinit CODE >10682:C:\Users\carlos\AppData\Local\Temp\sai8.s
+710 cinit CODE >10683:C:\Users\carlos\AppData\Local\Temp\sai8.s
+711 cinit CODE >10684:C:\Users\carlos\AppData\Local\Temp\sai8.s
+712 cinit CODE >10685:C:\Users\carlos\AppData\Local\Temp\sai8.s
+713 cinit CODE >10686:C:\Users\carlos\AppData\Local\Temp\sai8.s
+714 cinit CODE >10687:C:\Users\carlos\AppData\Local\Temp\sai8.s
+717 cinit CODE >10693:C:\Users\carlos\AppData\Local\Temp\sai8.s
+717 cinit CODE >10695:C:\Users\carlos\AppData\Local\Temp\sai8.s
+718 cinit CODE >10696:C:\Users\carlos\AppData\Local\Temp\sai8.s
 249 text31 CODE >76:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 24A text31 CODE >78:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 24F text31 CODE >80:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
@@ -446,20 +446,20 @@ AA text1 CODE >17:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Emb
 3DC maintext CODE >159:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\main.c
 3DD maintext CODE >161:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\main.c
 3F4 maintext CODE >170:C:\Users\carlos\Downloads\UNIVERSIDAD\Trimestre 3\PG7232 - Embebidos\proyecto3\party-screen-lights\mplab\party_light_screen\main.c
-DD clrtext CODE >10646:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-DD clrtext CODE >10647:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-DE clrtext CODE >10648:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-DE clrtext CODE >10649:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-DF clrtext CODE >10650:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E0 clrtext CODE >10651:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E1 clrtext CODE >10652:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E2 clrtext CODE >10653:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E3 clrtext CODE >10654:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E4 clrtext CODE >10655:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E5 clrtext CODE >10656:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E6 clrtext CODE >10657:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E7 clrtext CODE >10658:C:\Users\carlos\AppData\Local\Temp\s5cs.s
-E8 clrtext CODE >10659:C:\Users\carlos\AppData\Local\Temp\s5cs.s
+DD clrtext CODE >10646:C:\Users\carlos\AppData\Local\Temp\sai8.s
+DD clrtext CODE >10647:C:\Users\carlos\AppData\Local\Temp\sai8.s
+DE clrtext CODE >10648:C:\Users\carlos\AppData\Local\Temp\sai8.s
+DE clrtext CODE >10649:C:\Users\carlos\AppData\Local\Temp\sai8.s
+DF clrtext CODE >10650:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E0 clrtext CODE >10651:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E1 clrtext CODE >10652:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E2 clrtext CODE >10653:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E3 clrtext CODE >10654:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E4 clrtext CODE >10655:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E5 clrtext CODE >10656:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E6 clrtext CODE >10657:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E7 clrtext CODE >10658:C:\Users\carlos\AppData\Local\Temp\sai8.s
+E8 clrtext CODE >10659:C:\Users\carlos\AppData\Local\Temp\sai8.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -505,11 +505,11 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\carlos\AppData\Local\Temp\s5cs.o
+___sp 0 0 STACK 2 stack C:\Users\carlos\AppData\Local\Temp\sai8.o
 _main 5D2 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __end_of_ADC_GetConversion 2D2 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\carlos\AppData\Local\Temp\s5cs.o
+start 4 0 CODE 0 init C:\Users\carlos\AppData\Local\Temp\sai8.o
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_write_pixel 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -527,12 +527,12 @@ _TMR2_Initialize 156 0 CODE 0 text20 dist/default/production\party_light_screen.
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _memory_get FE 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 _memory_set 102 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\s5cs.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\carlos\AppData\Local\Temp\sai8.o
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 47 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -573,8 +573,8 @@ _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___stackhi 233B 0 ABS 0 - C:\Users\carlos\AppData\Local\Temp\s5cs.o
-___stacklo 2030 0 ABS 0 - C:\Users\carlos\AppData\Local\Temp\s5cs.o
+___stackhi 233B 0 ABS 0 - C:\Users\carlos\AppData\Local\Temp\sai8.o
+___stacklo 2030 0 ABS 0 - C:\Users\carlos\AppData\Local\Temp\sai8.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_Initialize 342 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -614,7 +614,7 @@ pixel_set@flag_audio 75 0 COMMON 1 cstackCOMMON dist/default/production\party_li
 _WDTCON 97 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_SPI_Open 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 44 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\carlos\AppData\Local\Temp\s5cs.o
+___int_sp 0 0 STACK 2 stack C:\Users\carlos\AppData\Local\Temp\sai8.o
 _write_pixel 240 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
@@ -775,7 +775,7 @@ __end_of_pixel_set 342 0 CODE 0 text3 dist/default/production\party_light_screen
 debug_get@status_audio 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\carlos\AppData\Local\Temp\s5cs.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\carlos\AppData\Local\Temp\sai8.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_memory_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __LbssBANK0 0 0 ABS 0 bssBANK0 -

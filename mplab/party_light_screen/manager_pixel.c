@@ -7,7 +7,7 @@
 
 
 #include <xc.h>
-#include "mcc_generated_files/spi.h"
+#include "mcc_generated_files/mcc.h"
 #include "manager_pixel.h"
 #include "manager_pixel_mode.h"
 
@@ -92,4 +92,15 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     }
 }
 
-
+void ShowRainbowScan( void )
+{
+    unsigned int i;
+    
+    i = 0;
+    while(i < NUM_PIXELS)
+    {
+        SPI_WriteBlock(Wheel[i], PACKETCOUNT);
+        i = i + 3;
+        __delay_ms(50);
+    }
+}
