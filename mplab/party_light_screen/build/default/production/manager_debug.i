@@ -9654,9 +9654,9 @@ typedef uint32_t uint_fast32_t;
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 283 "./mcc_generated_files/pin_manager.h"
+# 323 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 295 "./mcc_generated_files/pin_manager.h"
+# 335 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -9903,24 +9903,25 @@ typedef struct
 typedef enum
 {
     ADC_AUDIO = 0x0,
+    ADC_TEMPERATURE = 0x1,
     channel_DAC2_Output = 0x1C,
     channel_Temp = 0x1D,
     channel_DAC1_Output = 0x1E,
     channel_FVRBuffer1 = 0x1F
 } adc_channel_t;
-# 137 "./mcc_generated_files/adc.h"
+# 138 "./mcc_generated_files/adc.h"
 void ADC_Initialize(void);
-# 167 "./mcc_generated_files/adc.h"
+# 168 "./mcc_generated_files/adc.h"
 void ADC_SelectChannel(adc_channel_t channel);
-# 194 "./mcc_generated_files/adc.h"
+# 195 "./mcc_generated_files/adc.h"
 void ADC_StartConversion(void);
-# 226 "./mcc_generated_files/adc.h"
+# 227 "./mcc_generated_files/adc.h"
 _Bool ADC_IsConversionDone(void);
-# 259 "./mcc_generated_files/adc.h"
+# 260 "./mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversionResult(void);
-# 289 "./mcc_generated_files/adc.h"
+# 290 "./mcc_generated_files/adc.h"
 adc_result_t ADC_GetConversion(adc_channel_t channel);
-# 317 "./mcc_generated_files/adc.h"
+# 318 "./mcc_generated_files/adc.h"
 void ADC_TemperatureAcquisitionDelay(void);
 # 59 "./mcc_generated_files/mcc.h" 2
 
@@ -9975,12 +9976,38 @@ void debug_get(uint8_t status_on_off,uint8_t status_mode,uint8_t status_audio);
 # 10 "manager_debug.c" 2
 
 
+
+void UART_send_char(char bt)
+{
+    while(!TXIF);
+    TXREG = bt;
+}
+
+
+void UART_send_string(char* st_pt)
+{
+    while(*st_pt)
+        UART_send_char(*st_pt++);
+}
+
 void debug_init() {
 
     EUSART_Initialize();
+
+    UART_send_string("Inicializando el sistema...\n");
 }
 
-void debug_get(uint8_t status_on_off,uint8_t status_mode,uint8_t status_audio){
+void debug_get(uint8_t status_on_off,uint8_t status_mode, uint8_t status_audio){
+
+    char auxString[20] = "";
 
 
+    sprintf(auxString, "Status ON/OFF: %d\n\r", status_on_off);
+    UART_send_string(auxString);
+
+    sprintf(auxString, "Status Mode: %d\n\r", status_mode);
+    UART_send_string(auxString);
+
+    sprintf(auxString, "Status Audio: %d\n\r", status_audio);
+    UART_send_string(auxString);
 };

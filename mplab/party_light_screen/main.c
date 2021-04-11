@@ -78,7 +78,7 @@ void main(void)
     // Config SPI
     SPI_Open(SPI_DEFAULT);
    
-    //Inializa la memoria para guardar el estado del programa
+    //Inicializa la memoria para guardar el estado del programa
     memory_init();
     bool flag_save_status;
     

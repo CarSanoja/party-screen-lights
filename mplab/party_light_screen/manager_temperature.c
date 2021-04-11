@@ -21,7 +21,7 @@ bool temperature_get(void){
    adc_result_t sample;
    bool result;
    
-   sample = ADC_GetConversion(4);
+   sample = ADC_GetConversion(ADC_TEMPERATURE);
  
    //Si temperature_enable_flag está encendida, está operando normalmente 
    if(temperature_enable_flag){
@@ -38,7 +38,7 @@ bool temperature_get(void){
    }else{ // si temperature_enable_flag es cero, quiere decir que esta sobrecalentado
        // Entonces antes de restaurar las operaciones hay que esperar que la 
        // temperatura baje a un rango especifico antes de habilitar las operaciones
-       if(sample > (TEMPERATURE_MIN + 10) || sample < (TEMPERATURE_MIN) ){ 
+       if(sample < TEMPERATURE_MIN){ 
            result = 1;
            LED_TEMPETURE_SetLow();
             

@@ -9695,7 +9695,7 @@ void EUSART_Initialize(void)
     BAUD1CON = 0x08;
 
 
-    RC1STA = 0x80;
+    RC1STA = 0x90;
 
 
     TX1STA = 0x24;
