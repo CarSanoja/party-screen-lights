@@ -32,7 +32,8 @@ void pixel_init(void) {
     //Funcion para inicializar los pixeles
     // Clear all the pixels
     //clear();
-    ShowColor(COLOR_BLUE);
+    //ShowColor(COLOR_BLUE);
+    ShowRainbowScan();
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
