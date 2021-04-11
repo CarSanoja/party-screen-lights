@@ -16,6 +16,11 @@ Posee cuatro LED indicadores:
 Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red electrica.
 
 ## Hardware
+El hardware utilizado son los siguientes:
+
+* [PIC16f1717] 
+* [FALTA SENSOR DE TEMP]
+* [FALTA EEPROM EXTERNA] 
 
 ## Software
 El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
