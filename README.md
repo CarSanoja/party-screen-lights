@@ -15,6 +15,16 @@ Posee cuatro LED indicadores:
 
 Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red electrica.
 
+
+## Table of Contents
+
+1. [About the Project](#party-screen-lights)
+2. [Hardware](#getting-started)
+3. [Software](#software)
+4. [Simulación](#authors)
+    1.[Prerequisites](##prerequisites)
+
+ 
 ## Hardware
 El hardware utilizado son los siguientes:
 
