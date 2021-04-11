@@ -1,6 +1,3 @@
-# party-screen-lights
-
-
 # Party Screen Lights
 
 Consiste en una matriz 8x8 de neopixeles capaces de cambiar de patron de iluminación con o sin influencia de señales de audio. 
@@ -10,9 +7,23 @@ Posee tres botones:
 * [MODE] - Permite seleccionar el patrón de iluminación, con cada pulsada se va cambiando el modo de operación.
 * [AUDIO] - Permite activar el microfono para que la señal de audio influya en el patrón de iluminación
 
-## Getting Started
+Posee cuatro LED indicadores:
+* [ON/OFF] - Para indicar cuando está encendido o apagado la pantalla. (Util para la simulación)
+* [AUDIO] - Para indicar cuando está encendido el microfono y se está operando con señales de audio.
+* [TEMPERATURA] - Para indicar cuando la matriz excede la temperatura máxima de operación.
+* [ACTIVIDAD] - Para observar la dinámica de la señal de audio. (Util para la simulación) 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red electrica.
+
+## Hardware
+
+## Software
+
+El diagrama de software macro se puede observar a continuación:
+
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
+
 
 ### Prerequisites
 
