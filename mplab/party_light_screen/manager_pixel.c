@@ -34,7 +34,7 @@ void pixel_init(void) {
     //clear();
     //ShowColor(COLOR_RED);
     //ShowRainbowScan();
-    //ShowColor(COLOR_BLACK);
+    ShowColor(COLOR_BLACK);
     __delay_ms(1000);
     //PrintText("PARTY");
     ShowRainbowScan();
@@ -97,6 +97,18 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     }
 }
 
+void ShowRainbowScan( void )
+{
+    unsigned int i;
+    for (i = 0; i < 254; i++)
+    {
+        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
+        i = i + 2;
+        __delay_ms(50);
+    }
+}
+
+
 void PrintText( unsigned char *Text )
 {
     unsigned int cnt = 0;
@@ -154,13 +166,3 @@ void PrintCharFrameBuffer( unsigned char ch )
 	}
 }
 
-void ShowRainbowScan( void )
-{
-    unsigned int i;
-    for (i = 0; i < 254; i++)
-    {
-        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 2;
-        __delay_ms(50);
-    }
-}

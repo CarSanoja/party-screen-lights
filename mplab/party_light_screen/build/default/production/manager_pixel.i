@@ -10310,7 +10310,7 @@ void pixel_init(void) {
 
 
 
-
+    ShowColor(0, 0, 0);
     _delay((unsigned long)((1000)*(32000000/4000.0)));
 
     ShowRainbowScan();
@@ -10373,6 +10373,18 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     }
 }
 
+void ShowRainbowScan( void )
+{
+    unsigned int i;
+    for (i = 0; i < 254; i++)
+    {
+        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
+        i = i + 2;
+        _delay((unsigned long)((50)*(32000000/4000.0)));
+    }
+}
+
+
 void PrintText( unsigned char *Text )
 {
     unsigned int cnt = 0;
@@ -10428,15 +10440,4 @@ void PrintCharFrameBuffer( unsigned char ch )
 
   FrameBuffer[i] = 0x00;
  }
-}
-
-void ShowRainbowScan( void )
-{
-    unsigned int i;
-    for (i = 0; i < 254; i++)
-    {
-        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 2;
-        _delay((unsigned long)((50)*(32000000/4000.0)));
-    }
 }
