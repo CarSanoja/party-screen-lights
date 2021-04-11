@@ -32,7 +32,7 @@ void pixel_init(void) {
     //Funcion para inicializar los pixeles
     // Clear all the pixels
     //clear();
-    ShowColor(COLOR_RED);
+    //ShowColor(COLOR_RED);
     //ShowRainbowScan();
     //ShowColor(COLOR_BLACK);
     __delay_ms(1000);
@@ -161,8 +161,8 @@ void ShowRainbowScan( void )
     i = 0;
     while(i < Wheel[i])
     {
-        write_pixel(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 3;
+        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
+        i = i + 2;
         __delay_ms(50);
     }
 }
