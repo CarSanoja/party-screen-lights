@@ -30,8 +30,14 @@ void pixel_init(void) {
     //Funcion para inicializar los pixeles
     // Clear all the pixels
     //clear();
-    for(int i = 0; i < NUM_PIXELS; i++) {
-        write_pixel(0,255,0);  // Black  
+    ShowColor(COLOR_BLUE);
+}
+
+void ShowColor( unsigned char r, unsigned char g, unsigned char b )
+{
+    for(unsigned char i = 0; i < NUM_PIXELS; i++)
+    {
+        write_pixel(r, g, b);
     }
 }
 

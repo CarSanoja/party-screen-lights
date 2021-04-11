@@ -9799,11 +9799,26 @@ typedef uint32_t uint_fast32_t;
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.31\\pic\\include\\c99\\stdbool.h" 1 3
 # 38 "./manager_pixel.h" 2
-
-
+# 56 "./manager_pixel.h"
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
+
+void ShowRainbowScan( void );
+
+void ShowColor( unsigned char r, unsigned char g, unsigned char b );
+
+void UpdateDisplay( void );
+
+void DisplayShowArray( uint32_t bg, uint32_t fg );
+
+void DisplaySweep( void );
+
+void PrintText( unsigned char *Text);
+
+void PrintCharStringBuffer( unsigned char ch, unsigned char pos );
+
+void PrintCharFrameBuffer( unsigned char ch );
 # 10 "manager_pixel.c" 2
 
 
@@ -9828,8 +9843,14 @@ void pixel_init(void) {
 
 
 
-    for(int i = 0; i < 64; i++) {
-        write_pixel(0,255,0);
+    ShowColor(0, 0, 100);
+}
+
+void ShowColor( unsigned char r, unsigned char g, unsigned char b )
+{
+    for(unsigned char i = 0; i < 64; i++)
+    {
+        write_pixel(r, g, b);
     }
 }
 
