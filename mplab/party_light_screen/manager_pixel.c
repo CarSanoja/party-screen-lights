@@ -27,6 +27,7 @@ void pixel_init(void) {
     // Clear all the pixels
     wheel_index = 0;
     ShowColor( 0, 0, 0 );
+    
     //clear();
     //ShowColor(COLOR_RED);
     //ShowRainbowScan();
@@ -85,7 +86,9 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     //Selecciona el modo, dependiendo del estado del boton de modo (mode)
     switch(mode){
         case MODE_0: //Strobe lento
-            Animation1(audio_signal, 10);
+            //Animation1(audio_signal, 10);
+            Animation2(audio_signal);
+            //Animation3(audio_signal);
             /*
             if(flag_audio == 0){
                 //si no hay musica hacer rutina con program_counter
