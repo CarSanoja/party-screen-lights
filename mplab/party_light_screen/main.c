@@ -64,10 +64,10 @@ void main(void)
     // Use the following macros to:
 
     // Enable the Global Interrupts
-    //INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_GlobalInterruptEnable();
 
     // Enable the Peripheral Interrupts
-    //INTERRUPT_PeripheralInterruptEnable();
+    INTERRUPT_PeripheralInterruptEnable();
 
     // Disable the Global Interrupts
     //INTERRUPT_GlobalInterruptDisable();
@@ -80,7 +80,7 @@ void main(void)
    
     //Inicializa la memoria para guardar el estado del programa
     memory_init();
-    bool flag_save_status;
+    
     
     //Obtiene el estado de los botones guardados en memoria
     memory_get(&but_on_off,&but_mode,&but_audio);
@@ -105,9 +105,7 @@ void main(void)
     
     //Contador de ciclos de programa para refrescar el programa
     uint32_t program_counter = 0;
-    
-    but_debouncer = program_counter;
-    
+        
     while (1)
     {
         
@@ -126,18 +124,11 @@ void main(void)
         // cuando se mida la temperatura de nuevo y este en el rango correcto vuelve a operar normalmente
         if(temperature_enable_flag){
         
-            //Lee el estado de los botones y si hay algun cambio  
-            //modifica las variables globales: but_on_off, but_mode, but_audio.
-            //Si hubo algun cambio en el estado de los botones, manda un 1, si no hubo manda un 0
-            if(but_debouncer < program_counter){
-                flag_save_status = buts_get();
-            }
             //Si hubo alguna modificación en los botones se activa la rutina de guardado de estado.
             if(flag_save_status){
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
-                but_debouncer = program_counter + BUT_DELAY;
-                
+                  
             }
             
             // Si el estado de boton on_off es 1 (encendido) entonces permite la operacion normal, si no manda a apagar las luces

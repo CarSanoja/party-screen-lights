@@ -335,6 +335,258 @@ void PIN_MANAGER_Initialize (void);
 void PIN_MANAGER_IOC(void);
 
 
+/**
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Interrupt on Change Handler for the IOCBF0 pin functionality
+ * @Example
+    IOCBF0_ISR();
+ */
+void IOCBF0_ISR(void);
+
+/**
+  @Summary
+    Interrupt Handler Setter for IOCBF0 pin interrupt-on-change functionality
+
+  @Description
+    Allows selecting an interrupt handler for IOCBF0 at application runtime
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    InterruptHandler function pointer.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(MyInterruptHandler);
+
+*/
+void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
+
+/**
+  @Summary
+    Dynamic Interrupt Handler for IOCBF0 pin
+
+  @Description
+    This is a dynamic interrupt handler to be used together with the IOCBF0_SetInterruptHandler() method.
+    This handler is called every time the IOCBF0 ISR is executed and allows any function to be registered at runtime.
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(IOCBF0_InterruptHandler);
+
+*/
+extern void (*IOCBF0_InterruptHandler)(void);
+
+/**
+  @Summary
+    Default Interrupt Handler for IOCBF0 pin
+
+  @Description
+    This is a predefined interrupt handler to be used together with the IOCBF0_SetInterruptHandler() method.
+    This handler is called every time the IOCBF0 ISR is executed. 
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF0_SetInterruptHandler(IOCBF0_DefaultInterruptHandler);
+
+*/
+void IOCBF0_DefaultInterruptHandler(void);
+
+
+/**
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Interrupt on Change Handler for the IOCBF1 pin functionality
+ * @Example
+    IOCBF1_ISR();
+ */
+void IOCBF1_ISR(void);
+
+/**
+  @Summary
+    Interrupt Handler Setter for IOCBF1 pin interrupt-on-change functionality
+
+  @Description
+    Allows selecting an interrupt handler for IOCBF1 at application runtime
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    InterruptHandler function pointer.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(MyInterruptHandler);
+
+*/
+void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
+
+/**
+  @Summary
+    Dynamic Interrupt Handler for IOCBF1 pin
+
+  @Description
+    This is a dynamic interrupt handler to be used together with the IOCBF1_SetInterruptHandler() method.
+    This handler is called every time the IOCBF1 ISR is executed and allows any function to be registered at runtime.
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(IOCBF1_InterruptHandler);
+
+*/
+extern void (*IOCBF1_InterruptHandler)(void);
+
+/**
+  @Summary
+    Default Interrupt Handler for IOCBF1 pin
+
+  @Description
+    This is a predefined interrupt handler to be used together with the IOCBF1_SetInterruptHandler() method.
+    This handler is called every time the IOCBF1 ISR is executed. 
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF1_SetInterruptHandler(IOCBF1_DefaultInterruptHandler);
+
+*/
+void IOCBF1_DefaultInterruptHandler(void);
+
+
+/**
+ * @Param
+    none
+ * @Returns
+    none
+ * @Description
+    Interrupt on Change Handler for the IOCBF2 pin functionality
+ * @Example
+    IOCBF2_ISR();
+ */
+void IOCBF2_ISR(void);
+
+/**
+  @Summary
+    Interrupt Handler Setter for IOCBF2 pin interrupt-on-change functionality
+
+  @Description
+    Allows selecting an interrupt handler for IOCBF2 at application runtime
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    InterruptHandler function pointer.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF2_SetInterruptHandler(MyInterruptHandler);
+
+*/
+void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void));
+
+/**
+  @Summary
+    Dynamic Interrupt Handler for IOCBF2 pin
+
+  @Description
+    This is a dynamic interrupt handler to be used together with the IOCBF2_SetInterruptHandler() method.
+    This handler is called every time the IOCBF2 ISR is executed and allows any function to be registered at runtime.
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF2_SetInterruptHandler(IOCBF2_InterruptHandler);
+
+*/
+extern void (*IOCBF2_InterruptHandler)(void);
+
+/**
+  @Summary
+    Default Interrupt Handler for IOCBF2 pin
+
+  @Description
+    This is a predefined interrupt handler to be used together with the IOCBF2_SetInterruptHandler() method.
+    This handler is called every time the IOCBF2 ISR is executed. 
+    
+  @Preconditions
+    Pin Manager intializer called
+
+  @Returns
+    None.
+
+  @Param
+    None.
+
+  @Example
+    PIN_MANAGER_Initialize();
+    IOCBF2_SetInterruptHandler(IOCBF2_DefaultInterruptHandler);
+
+*/
+void IOCBF2_DefaultInterruptHandler(void);
+
+
 
 #endif // PIN_MANAGER_H
 /**

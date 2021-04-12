@@ -47,9 +47,13 @@
 */
 
 #include "pin_manager.h"
+#include "../manager_button.h"
+#include "../manager_memory.h"
 
 
-
+void (*IOCBF0_InterruptHandler)(void);
+void (*IOCBF1_InterruptHandler)(void);
+void (*IOCBF2_InterruptHandler)(void);
 
 
 void PIN_MANAGER_Initialize(void)
@@ -119,10 +123,37 @@ void PIN_MANAGER_Initialize(void)
     INLVLE = 0x0F;
 
 
+    /**
+    IOCx registers 
+    */
+    //interrupt on change for group IOCBF - flag
+    IOCBFbits.IOCBF0 = 0;
+    //interrupt on change for group IOCBF - flag
+    IOCBFbits.IOCBF1 = 0;
+    //interrupt on change for group IOCBF - flag
+    IOCBFbits.IOCBF2 = 0;
+    //interrupt on change for group IOCBN - negative
+    IOCBNbits.IOCBN0 = 0;
+    //interrupt on change for group IOCBN - negative
+    IOCBNbits.IOCBN1 = 0;
+    //interrupt on change for group IOCBN - negative
+    IOCBNbits.IOCBN2 = 0;
+    //interrupt on change for group IOCBP - positive
+    IOCBPbits.IOCBP0 = 1;
+    //interrupt on change for group IOCBP - positive
+    IOCBPbits.IOCBP1 = 1;
+    //interrupt on change for group IOCBP - positive
+    IOCBPbits.IOCBP2 = 1;
 
 
 
+    // register default IOC callback functions at runtime; use these methods to register a custom function
+    IOCBF0_SetInterruptHandler(IOCBF0_DefaultInterruptHandler);
+    IOCBF1_SetInterruptHandler(IOCBF1_DefaultInterruptHandler);
+    IOCBF2_SetInterruptHandler(IOCBF2_DefaultInterruptHandler);
    
+    // Enable IOCI interrupt 
+    INTCONbits.IOCIE = 1; 
     
 	
     RC0PPS = 0x14;   //RC0->EUSART:TX;    
@@ -135,9 +166,134 @@ void PIN_MANAGER_Initialize(void)
     SSPCLKPPS = 0x13;   //RC3->MSSP:SCK;    
 }
   
-/*void PIN_MANAGER_IOC(void)
+void PIN_MANAGER_IOC(void)
 {   
-}*/
+    
+
+	// interrupt on change for pin IOCBF0
+    if(IOCBFbits.IOCBF0 == 1)
+    {
+        IOCBF0_ISR();  
+    }	
+	// interrupt on change for pin IOCBF1
+    if(IOCBFbits.IOCBF1 == 1)
+    {
+        IOCBF1_ISR();  
+    }	
+	// interrupt on change for pin IOCBF2
+    if(IOCBFbits.IOCBF2 == 1)
+    {
+        IOCBF2_ISR();  
+    }	
+}
+
+/**
+   IOCBF0 Interrupt Service Routine
+*/
+void IOCBF0_ISR(void) {
+
+    // Add custom IOCBF0 code
+    flag_save_status++; //le indica al main que se cambió un estado para sea guardado en la memoria permanente
+    but_on_off++;
+    but_on_off %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
+    
+    if(but_on_off){
+        LED_ON_OFF_SetHigh(); // enciende el led de on_off
+     }else{
+        LED_ON_OFF_SetLow(); // apaga el led de on_off
+    }
+    
+    // Call the interrupt handler for the callback registered at runtime
+    if(IOCBF0_InterruptHandler)
+    {
+        IOCBF0_InterruptHandler();
+    }
+    IOCBFbits.IOCBF0 = 0;
+}
+
+/**
+  Allows selecting an interrupt handler for IOCBF0 at application runtime
+*/
+void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void)){
+    IOCBF0_InterruptHandler = InterruptHandler;
+}
+
+/**
+  Default interrupt handler for IOCBF0
+*/
+void IOCBF0_DefaultInterruptHandler(void){
+    // add your IOCBF0 interrupt custom code
+    // or set custom function using IOCBF0_SetInterruptHandler()
+}
+
+/**
+   IOCBF1 Interrupt Service Routine
+*/
+void IOCBF1_ISR(void) {
+
+    // Add custom IOCBF1 code
+    flag_save_status++; //le indica al main que se cambió un estado para sea guardado en la memoria permanente
+    but_mode++;
+    but_mode %= MODE_MAX; //con la operación modulo el estado del boton solo puede ir de 0 a MODE_MAX, de forma ciclica
+    // Call the interrupt handler for the callback registered at runtime
+    if(IOCBF1_InterruptHandler)
+    {
+        IOCBF1_InterruptHandler();
+    }
+    IOCBFbits.IOCBF1 = 0;
+}
+
+/**
+  Allows selecting an interrupt handler for IOCBF1 at application runtime
+*/
+void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void)){
+    IOCBF1_InterruptHandler = InterruptHandler;
+}
+
+/**
+  Default interrupt handler for IOCBF1
+*/
+void IOCBF1_DefaultInterruptHandler(void){
+    // add your IOCBF1 interrupt custom code
+    // or set custom function using IOCBF1_SetInterruptHandler()
+}
+
+/**
+   IOCBF2 Interrupt Service Routine
+*/
+void IOCBF2_ISR(void) {
+
+    // Add custom IOCBF2 code
+    flag_save_status++; //le indica al main que se cambió un estado para sea guardado en la memoria permanente 
+    but_audio++; 
+    but_audio %= 2; //con la operación modulo el estado del boton solo puede ser 0 o 1, apagado o prendido
+    if(but_audio){
+        LED_AUDIO_SetHigh(); // enciende el led de audio_mode 
+    }else{
+        LED_AUDIO_SetLow(); // apaga el led de audio_mode
+    }
+    // Call the interrupt handler for the callback registered at runtime
+    if(IOCBF2_InterruptHandler)
+    {
+        IOCBF2_InterruptHandler();
+    }
+    IOCBFbits.IOCBF2 = 0;
+}
+
+/**
+  Allows selecting an interrupt handler for IOCBF2 at application runtime
+*/
+void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void)){
+    IOCBF2_InterruptHandler = InterruptHandler;
+}
+
+/**
+  Default interrupt handler for IOCBF2
+*/
+void IOCBF2_DefaultInterruptHandler(void){
+    // add your IOCBF2 interrupt custom code
+    // or set custom function using IOCBF2_SetInterruptHandler()
+}
 
 /**
  End of File

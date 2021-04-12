@@ -9559,6 +9559,30 @@ extern __bank0 __bit __timeout;
 void PIN_MANAGER_Initialize (void);
 # 335 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
+# 348 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_ISR(void);
+# 371 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 395 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF0_InterruptHandler)(void);
+# 419 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_DefaultInterruptHandler(void);
+# 432 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_ISR(void);
+# 455 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
+# 479 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF1_InterruptHandler)(void);
+# 503 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_DefaultInterruptHandler(void);
+# 516 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_ISR(void);
+# 539 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void));
+# 563 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF2_InterruptHandler)(void);
+# 587 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_DefaultInterruptHandler(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.31\\pic\\include\\c99\\stdint.h" 1 3
@@ -9683,6 +9707,9 @@ extern __bit kbhit(void);
 extern char * cgets(char *);
 extern void cputs(const char *);
 # 54 "./mcc_generated_files/mcc.h" 2
+
+# 1 "./mcc_generated_files/interrupt_manager.h" 1
+# 55 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/spi.h" 1
 # 54 "./mcc_generated_files/spi.h"
@@ -9843,14 +9870,14 @@ void SPI_WriteBlock(void *block, size_t blockSize);
 void SPI_ReadBlock(void *block, size_t blockSize);
 void SPI_WriteByte(uint8_t byte);
 uint8_t SPI_ReadByte(void);
-# 55 "./mcc_generated_files/mcc.h" 2
+# 56 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/clc3.h" 1
 # 91 "./mcc_generated_files/clc3.h"
 void CLC3_Initialize(void);
 # 113 "./mcc_generated_files/clc3.h"
 _Bool CLC3_OutputStatusGet(void);
-# 56 "./mcc_generated_files/mcc.h" 2
+# 57 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/tmr2.h" 1
 # 103 "./mcc_generated_files/tmr2.h"
@@ -9867,14 +9894,14 @@ void TMR2_WriteTimer(uint8_t timerVal);
 void TMR2_LoadPeriodRegister(uint8_t periodVal);
 # 325 "./mcc_generated_files/tmr2.h"
 _Bool TMR2_HasOverflowOccured(void);
-# 57 "./mcc_generated_files/mcc.h" 2
+# 58 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pwm4.h" 1
 # 102 "./mcc_generated_files/pwm4.h"
  void PWM4_Initialize(void);
 # 129 "./mcc_generated_files/pwm4.h"
  void PWM4_LoadDutyValue(uint16_t dutyValue);
-# 58 "./mcc_generated_files/mcc.h" 2
+# 59 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/adc.h" 1
 # 72 "./mcc_generated_files/adc.h"
@@ -9912,7 +9939,7 @@ adc_result_t ADC_GetConversionResult(void);
 adc_result_t ADC_GetConversion(adc_channel_t channel);
 # 318 "./mcc_generated_files/adc.h"
 void ADC_TemperatureAcquisitionDelay(void);
-# 59 "./mcc_generated_files/mcc.h" 2
+# 60 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/eusart.h" 1
 # 75 "./mcc_generated_files/eusart.h"
@@ -9945,12 +9972,12 @@ void EUSART_SetFramingErrorHandler(void (* interruptHandler)(void));
 void EUSART_SetOverrunErrorHandler(void (* interruptHandler)(void));
 # 397 "./mcc_generated_files/eusart.h"
 void EUSART_SetErrorHandler(void (* interruptHandler)(void));
-# 60 "./mcc_generated_files/mcc.h" 2
-# 75 "./mcc_generated_files/mcc.h"
+# 61 "./mcc_generated_files/mcc.h" 2
+# 76 "./mcc_generated_files/mcc.h"
 void SYSTEM_Initialize(void);
-# 88 "./mcc_generated_files/mcc.h"
+# 89 "./mcc_generated_files/mcc.h"
 void OSCILLATOR_Initialize(void);
-# 100 "./mcc_generated_files/mcc.h"
+# 101 "./mcc_generated_files/mcc.h"
 void WDT_Initialize(void);
 # 44 "main.c" 2
 
@@ -9970,20 +9997,10 @@ enum mode_quantity_t{
 
 
 
-
-
-uint32_t but_debouncer;
-
-
-
-
 uint8_t but_on_off, but_mode, but_audio;
 
 
 void buts_init(void);
-
-
-_Bool buts_get(void);
 # 45 "main.c" 2
 
 # 1 "./manager_audio.h" 1
@@ -9994,7 +10011,9 @@ uint8_t audio_get(void);
 # 46 "main.c" 2
 
 # 1 "./manager_memory.h" 1
-# 40 "./manager_memory.h"
+# 43 "./manager_memory.h"
+_Bool flag_save_status;
+
 void memory_init(void);
 
 void memory_set(uint8_t on_off, uint8_t mode, uint8_t audio);
@@ -10329,12 +10348,21 @@ void main(void)
 {
 
     SYSTEM_Initialize();
+
+
+
+
+
+    (INTCONbits.GIE = 1);
+
+
+    (INTCONbits.PEIE = 1);
 # 79 "main.c"
     SPI_Open(SPI_DEFAULT);
 
 
     memory_init();
-    _Bool flag_save_status;
+
 
 
     memory_get(&but_on_off,&but_mode,&but_audio);
@@ -10360,8 +10388,6 @@ void main(void)
 
     uint32_t program_counter = 0;
 
-    but_debouncer = program_counter;
-
     while (1)
     {
 
@@ -10381,16 +10407,9 @@ void main(void)
         if(temperature_enable_flag){
 
 
-
-
-            if(but_debouncer < program_counter){
-                flag_save_status = buts_get();
-            }
-
             if(flag_save_status){
                 flag_save_status = 0;
                 memory_set(but_on_off,but_mode,but_audio);
-                but_debouncer = program_counter + 100;
 
             }
 

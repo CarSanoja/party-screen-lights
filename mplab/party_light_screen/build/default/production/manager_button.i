@@ -9562,6 +9562,30 @@ extern __bank0 __bit __timeout;
 void PIN_MANAGER_Initialize (void);
 # 335 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
+# 348 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_ISR(void);
+# 371 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
+# 395 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF0_InterruptHandler)(void);
+# 419 "./mcc_generated_files/pin_manager.h"
+void IOCBF0_DefaultInterruptHandler(void);
+# 432 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_ISR(void);
+# 455 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
+# 479 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF1_InterruptHandler)(void);
+# 503 "./mcc_generated_files/pin_manager.h"
+void IOCBF1_DefaultInterruptHandler(void);
+# 516 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_ISR(void);
+# 539 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void));
+# 563 "./mcc_generated_files/pin_manager.h"
+extern void (*IOCBF2_InterruptHandler)(void);
+# 587 "./mcc_generated_files/pin_manager.h"
+void IOCBF2_DefaultInterruptHandler(void);
 # 35 "./manager_button.h" 2
 
 # 1 "C:\\Program Files\\Microchip\\xc8\\v2.31\\pic\\include\\c99\\stdint.h" 1 3
@@ -9668,20 +9692,10 @@ enum mode_quantity_t{
 
 
 
-
-
-uint32_t but_debouncer;
-
-
-
-
 uint8_t but_on_off, but_mode, but_audio;
 
 
 void buts_init(void);
-
-
-_Bool buts_get(void);
 # 8 "manager_button.c" 2
 
 
@@ -9689,50 +9703,4 @@ _Bool buts_get(void);
 
 void buts_init(void){
     PIN_MANAGER_Initialize();
-}
-
-_Bool buts_get(void){
-
-    uint24_t flag_on_off,flag_mode,flag_audio;
-
-
-
-    _Bool flag_change = 0;
-
-    flag_on_off = PORTBbits.RB0;
-    flag_mode = PORTBbits.RB1;
-    flag_audio = PORTBbits.RB2;
-
-
-    if(flag_on_off + flag_mode + flag_audio >= 1){
-        flag_change++;
-    }
-
-    if(flag_on_off){
-        but_on_off++;
-        but_on_off %= 2;
-
-        if(but_on_off){
-            do { LATBbits.LATB5 = 1; } while(0);
-        }else{
-            do { LATBbits.LATB5 = 0; } while(0);
-        }
-    }
-
-    if(flag_mode){
-
-        but_mode++;
-        but_mode %= MODE_MAX;
-    }
-    if(flag_audio){
-
-        but_audio++;
-        but_audio %= 2;
-        if(but_audio){
-            do { LATBbits.LATB4 = 1; } while(0);
-        }else{
-            do { LATBbits.LATB4 = 0; } while(0);
-        }
-    }
-    return flag_change;
 }

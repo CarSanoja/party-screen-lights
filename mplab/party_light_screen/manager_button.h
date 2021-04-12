@@ -37,21 +37,12 @@
 #include <stdbool.h>
 #include "manager_pixel_mode.h"
 
-
-#define BUT_DELAY 100
-        
-uint32_t  but_debouncer;
-
-
-
 //Variables globales donde se guardan el estado de los botones
 uint8_t but_on_off, but_mode, but_audio;
 
 //Inicializa los botones
 void buts_init(void);
 
-//Lee el estado de los botones
-bool buts_get(void);
 
 
 #ifdef	__cplusplus

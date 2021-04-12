@@ -36,6 +36,11 @@
 #include <conio.h>
 
 #include <xc.h> // include processor files - each processor file is guarded.  
+#include "mcc_generated_files/mcc.h"
+#include <stdint.h>
+#include <stdbool.h>
+
+bool flag_save_status; // bandera indicadora que hay algun cambio que guardar en memoria rom
 
 void memory_init(void);
 

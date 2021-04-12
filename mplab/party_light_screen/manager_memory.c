@@ -9,6 +9,7 @@
 #include <xc.h>
 #include "manager_memory.h"
 
+
 void memory_init(void) {
     // Funcion para inicializar la memoria permanente
 }
