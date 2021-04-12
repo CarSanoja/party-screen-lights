@@ -97,7 +97,8 @@ Podrá hacer uso del botón BUT_MODE para alternar entre los siguientes modos:
 - Modo 1: Matriz en color verde claro.
 - Modo 2: Matriz en color amarillo.
 - Modo 3: Matriz en color magenta.
-![alt text](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/modos_sin_audio.mkv?raw=true)
+
+[Ver video](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/modos_sin_audio.mkv)
 ### Controlado por audio: 
 Aquí el led LED_AUDIO se encuentra encendido. 
 Para probar al Speaker podrá hacer uso del potenciometro conectado en su extremo izquiedo, con el que podrá ajustar el volúmen. 
@@ -110,7 +111,7 @@ Podrá hacer uso del botón BUT_MODE para alternar entre los siguientes modos:
 - Modo 2: Barra de colores que inicia en el borde izquierdo, el ancho de la barra de colores depende de la amplitud de la señal analógica. Usa diferentes transiciones de color a las del modo 0. 
 - Modo 3: El color en la matriz parpadea rápido. El color depende de la amplitud de la señal analógica.
 
-
+[Ver video](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/modos_con_audio.mkv)
 
 ### Sensor de temperatura:
 Para probar el sensor de temperatura, podrá hacer uso de los controles que el propio sensor incluye, que le permitirán ajustar la temperatura al valor desado. Podrá observar que al alcanzar los 65° se encenderá el led LED_TEMP y se apagará la matriz. Si luego empieza a disminuir la temperatura, al aproximarse a los 53° se apagará LED_TEMP y la matriz se encenderá nuevamente.
