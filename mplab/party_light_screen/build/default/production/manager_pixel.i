@@ -10366,8 +10366,15 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     switch(mode){
         case MODE_0:
 
-            Animation2(audio_signal);
-# 102 "manager_pixel.c"
+            if(flag_audio == 0){
+
+                ShowColor(0, 255, 255);
+                _delay((unsigned long)((5)*(32000000/4000.0)));
+            }else{
+
+                Animation1(audio_signal, 10);
+            }
+
         break;
 
         case MODE_1:

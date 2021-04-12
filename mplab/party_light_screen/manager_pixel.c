@@ -86,10 +86,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
     //Selecciona el modo, dependiendo del estado del boton de modo (mode)
     switch(mode){
         case MODE_0: //Strobe lento
-            //Animation1(audio_signal, 10);
-            Animation2(audio_signal);
-            //Animation3(audio_signal);
-            /*
+            
             if(flag_audio == 0){
                 //si no hay musica hacer rutina con program_counter
                 ShowColor(COLOR_CYAN);
@@ -98,7 +95,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
                 //si hay musica hacer rutina con audio_signal
                 Animation1(audio_signal, 10);
             }
-            */
+            
         break;
 
         case MODE_1:  //Stobe rapido
