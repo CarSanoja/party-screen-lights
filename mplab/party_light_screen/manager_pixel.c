@@ -101,7 +101,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
         case MODE_1:  //Stobe rapido
             if(flag_audio == 0){
                 //si no hay musica hacer rutina con program_counter
-                ShowColor(COLOR_LIGHT_GREEN);
+                ShowColor(0, 255, 0); //Green
                 __delay_ms(5); 
             }else{
                 //si hay musica hacer rutina con audio_signal

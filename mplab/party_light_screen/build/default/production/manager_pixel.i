@@ -10380,7 +10380,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
         case MODE_1:
             if(flag_audio == 0){
 
-                ShowColor(100, 255, 180);
+                ShowColor(0, 255, 0);
                 _delay((unsigned long)((5)*(32000000/4000.0)));
             }else{
 
