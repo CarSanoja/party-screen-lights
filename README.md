@@ -52,18 +52,34 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 
 
 * **[Proteus v8]** - Se necesita el software Proteus en su version 8.
-* **[.hex]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dandole doble click al PIC, y buscando en el campo Program File la ruta:
+* **[.hex]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo que contiene la configuración del PIC. Este debe ser recuperado, dándole doble click al PIC, y buscando en el campo Program File la ruta:
 
 ```
 ..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex
 ```
  
-* **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al icono de señal de audio, dandolé clicl al boton Browse y poner la ruta:
+* **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble clic al ícono de señal de audio, dandolé clic al botón Browse y poner la ruta:
 
 ```
 proteus\Pedazo_Omen.wav
 ```
+## Pruebas
+En esta sección se muestran todas las funcionalidades implementadas.
 
+La siguiente imágen muestra el proyecto completo de Proteus.
+![alt text](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/proteus_project.png?raw=true)
+
+Básicamente consta de 5 grandes partes:
+
+- El Speaker con el terminal del ADC del Microcontrolador. 
+- Los 3 botones de control del producto (encendido, cambio de modos y audio).
+- El grupo de leds indicadores. 
+- La matriz de neopixeles.
+- El microcontrolador PIC16F1717
+
+Antes de inciar la simualción se deben seguir las indicaciones de la sección [Prerequisitos](#prerequisites).
+
+Luego de iniciar la simulación en Proteus se deberá hacer clic en el botón **BUT_ON_OFF** para encender el equipo, podrá observar que la luz indicadora **LED_ON_OFF** se enciende.
 
 ## Authors
 
