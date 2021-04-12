@@ -9962,7 +9962,7 @@ void WDT_Initialize(void);
 # 10 "manager_pixel.c" 2
 
 # 1 "./manager_pixel.h" 1
-# 56 "./manager_pixel.h"
+# 61 "./manager_pixel.h"
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
@@ -9975,46 +9975,28 @@ void ShowRainbowScan( void );
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b );
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b, unsigned char start, unsigned char stop);
+
+void Animation1(uint8_t signal_level, int wheel_change);
+
+void Animation2(uint8_t signal_level);
+
+void Animation3(uint8_t signal_level);
+
 void UpdateDisplay( void );
 
 void DisplayShowArray( uint32_t bg, uint32_t fg );
 
 void DisplaySweep( void );
 
-void PrintText( unsigned char *Text);
 
-void PrintCharStringBuffer( unsigned char ch, unsigned char pos );
 
-void PrintCharFrameBuffer( unsigned char ch );
 
-const unsigned char Letters[130]={
-    0x7e,0x11,0x11,0x11,0x7e,
-    0x7f,0x49,0x49,0x49,0x36,
-    0x3e,0x41,0x41,0x41,0x22,
-    0x7f,0x41,0x41,0x22,0x1c,
-    0x7f,0x49,0x49,0x49,0x41,
-    0x7f,0x09,0x09,0x09,0x01,
-    0x3e,0x41,0x49,0x49,0x7a,
-    0x7f,0x08,0x08,0x08,0x7f,
-    0x00,0x41,0x7f,0x41,0x00,
-    0x20,0x40,0x41,0x3f,0x01,
-    0x7f,0x08,0x14,0x22,0x41,
-    0x7f,0x40,0x40,0x40,0x40,
-    0x7f,0x02,0x0c,0x02,0x7f,
-    0x7f,0x04,0x08,0x10,0x7f,
-    0x3e,0x41,0x41,0x41,0x3e,
-    0x7f,0x09,0x09,0x09,0x06,
-    0x3e,0x41,0x51,0x21,0x5e,
-    0x7f,0x09,0x19,0x29,0x46,
-    0x46,0x49,0x49,0x49,0x31,
-    0x01,0x01,0x7f,0x01,0x01,
-    0x3f,0x40,0x40,0x40,0x3f,
-    0x1f,0x20,0x40,0x20,0x1f,
-    0x3f,0x40,0x38,0x40,0x3f,
-    0x63,0x14,0x08,0x14,0x63,
-    0x07,0x08,0x70,0x08,0x07,
-    0x61,0x51,0x49,0x45,0x43};
 
+
+
+int wheel_index;
+# 123 "./manager_pixel.h"
 const unsigned char Wheel[256][3] __attribute__((address(0x400))) =
 {
 {252,0,3},
@@ -10299,14 +10281,18 @@ void write_pixel(uint8_t r,uint8_t g,uint8_t b){
     while(!SSP1STATbits.BF);
 }
 
-void clear(){
-    for(int i = 0; i < 2*64; i++) {
-        write_pixel(0,0,0);
-    }
-}
-
 void pixel_init(void) {
-# 41 "manager_pixel.c"
+
+
+    wheel_index = 0;
+    ShowColor( 0, 0, 0 );
+
+
+
+
+
+
+
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10317,7 +10303,40 @@ void ShowColor( unsigned char r, unsigned char g, unsigned char b )
     }
 }
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b, unsigned char start, unsigned char stop)
+{
+    for(unsigned char i = start; i < stop; i++)
+    {
+        write_pixel(r, g, b);
+    }
+}
 
+
+void Animation1(uint8_t signal_level, int wheel_change){
+    unsigned char limit = ((unsigned char)((signal_level*15)/255))*8+8;
+    wheel_index = wheel_index + wheel_change;
+    if(wheel_index > 255) wheel_index = 0;
+    if(wheel_index < 0) wheel_index = 255;
+
+    ShowColorRange(Wheel[wheel_index][0], Wheel[wheel_index][1], Wheel[wheel_index][2], 0, limit);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+}
+
+
+void Animation2(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    _delay((unsigned long)((30)*(32000000/4000.0)));
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    _delay((unsigned long)((30)*(32000000/4000.0)));
+}
+
+
+void Animation3(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+}
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal) {
 
@@ -10325,112 +10344,51 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
     switch(mode){
         case MODE_0:
-            if(flag_audio == 0){
-
-            }else{
-
-            }
+            Animation1(audio_signal, 10);
+# 99 "manager_pixel.c"
         break;
 
         case MODE_1:
             if(flag_audio == 0){
 
+                ShowColor(100, 255, 180);
+                _delay((unsigned long)((5)*(32000000/4000.0)));
             }else{
 
+                Animation2(audio_signal);
             }
         break;
 
         case MODE_2:
             if(flag_audio == 0){
 
+                ShowColor(255, 255, 0);
+                _delay((unsigned long)((5)*(32000000/4000.0)));
             }else{
 
+                Animation1(audio_signal, -10);
             }
         break;
 
         case MODE_3:
             if(flag_audio == 0){
 
+                ShowColor(255, 0, 255);
+                _delay((unsigned long)((5)*(32000000/4000.0)));
             }else{
 
+                Animation3(audio_signal);
             }
         break;
 
         case MODE_OFF:
 
+            ShowColor(0, 0, 0);
+            _delay((unsigned long)((5)*(32000000/4000.0)));
         break;
 
         default:
         break;
 
     }
-}
-
-void ShowRainbowScan( void )
-{
-    unsigned int i;
-    for (i = 0; i < 254; i++)
-    {
-        ShowColor(Wheel[i][0], Wheel[i][1], Wheel[i][2]);
-        i = i + 1;
-        _delay((unsigned long)((50)*(32000000/4000.0)));
-    }
-}
-
-
-void PrintText( unsigned char *Text )
-{
-    unsigned int cnt = 0;
-    while (Text[cnt] != 0)
-    {
-        PrintCharStringBuffer(Text[cnt], cnt * 6);
-        cnt++;
-    }
-}
-
-void PrintCharStringBuffer( unsigned char ch, unsigned char pos )
-{
-    unsigned char i = 0;
-
- if (ch == ' ')
- {
-  for (i = 0; i < 6; i++)
-  {
-   StringBuffer[pos + i] = 0x00;
-  }
- }
-    else if ((ch > 0x40) && (ch < 0x5B))
- {
-        ch = ch - 0x41;
-
-  for (i = 0; i < 5; i++)
-  {
-   StringBuffer[pos + i] = Letters[(ch * 5) + i];
-  }
-  StringBuffer[pos + 6] = 0x00;
- }
-}
-
-void PrintCharFrameBuffer( unsigned char ch )
-{
-    unsigned char i = 0;
-
- if (ch == ' ')
- {
-  for (i = 0; i < 6; i++)
-  {
-   FrameBuffer[i] = 0x00;
-  }
- }
-    else if ((ch > 0x40) && (ch < 0x5B))
- {
-        ch = ch - 0x41;
-
-  for (i = 0; i < 5; i++)
-  {
-   FrameBuffer[i] = Letters[(ch * 5) + i];
-  }
-
-  FrameBuffer[i] = 0x00;
- }
 }
