@@ -10286,13 +10286,7 @@ void pixel_init(void) {
 
     wheel_index = 0;
     ShowColor( 0, 0, 0 );
-
-
-
-
-
-
-
+# 38 "manager_pixel.c"
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10344,8 +10338,9 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
     switch(mode){
         case MODE_0:
-            Animation1(audio_signal, 10);
-# 99 "manager_pixel.c"
+
+            Animation2(audio_signal);
+# 102 "manager_pixel.c"
         break;
 
         case MODE_1:

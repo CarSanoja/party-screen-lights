@@ -13,57 +13,57 @@
 %PSECTS
 $dist/default/production\party_light_screen.production.o
 cinit CODE 0 700 700 27 2
-text1 CODE 0 850 850 7 2
+text1 CODE 0 854 854 7 2
 text2 CODE 0 7C4 7C4 33 2
-text3 CODE 0 D38 D38 78 2
-text4 CODE 0 C5C C5C 6B 2
-text5 CODE 0 CC7 CC7 71 2
+text3 CODE 0 D3C D3C 74 2
+text4 CODE 0 C60 C60 6B 2
+text5 CODE 0 CCB CCB 71 2
 text6 CODE 0 727 727 9D 2
-text7 CODE 0 9A5 9A5 1F 2
-text8 CODE 0 BFC BFC 60 2
-text9 CODE 0 988 988 1D 2
-text10 CODE 0 869 869 A 2
-text11 CODE 0 904 904 19 2
-text12 CODE 0 8D8 8D8 15 2
+text7 CODE 0 9A9 9A9 1F 2
+text8 CODE 0 C00 C00 60 2
+text9 CODE 0 98C 98C 1D 2
+text10 CODE 0 86D 86D A 2
+text11 CODE 0 908 908 19 2
+text12 CODE 0 8DC 8DC 15 2
 text13 CODE 0 4 4 1 2
-text14 CODE 0 831 831 1 2
-text15 CODE 0 830 830 1 2
-text16 CODE 0 87E 87E B 2
+text14 CODE 0 835 835 1 2
+text15 CODE 0 834 834 1 2
+text16 CODE 0 882 882 B 2
 text17 CODE 0 5 5 54 2
-text18 CODE 0 9E7 9E7 24 2
-text19 CODE 0 A34 A34 31 2
+text18 CODE 0 9EB 9EB 24 2
+text19 CODE 0 A38 A38 31 2
 text20 CODE 0 E3B E3B DB 2
 text21 CODE 0 290 290 170 2
-text22 CODE 0 BA3 BA3 59 2
-text23 CODE 0 937 937 1A 2
-text24 CODE 0 A0B A0B 29 2
-text25 CODE 0 AFE AFE 4F 2
-text26 CODE 0 82F 82F 1 2
-text27 CODE 0 91D 91D 1A 2
+text22 CODE 0 BA7 BA7 59 2
+text23 CODE 0 93B 93B 1A 2
+text24 CODE 0 A0F A0F 29 2
+text25 CODE 0 B02 B02 4F 2
+text26 CODE 0 833 833 1 2
+text27 CODE 0 921 921 1A 2
 text28 CODE 0 F16 F16 EA 2
 text29 CODE 0 59 59 101 2
-text30 CODE 0 8ED 8ED 17 2
-text31 CODE 0 85F 85F A 2
-text32 CODE 0 83A 83A 4 2
+text30 CODE 0 8F1 8F1 17 2
+text31 CODE 0 863 863 A 2
+text32 CODE 0 83E 83E 4 2
 text33 CODE 0 DB0 DB0 8B 2
-text34 CODE 0 836 836 4 2
-text35 CODE 0 8A1 8A1 F 2
-text36 CODE 0 951 951 1B 2
-text37 CODE 0 A65 A65 4A 2
-text38 CODE 0 96C 96C 1C 2
-text39 CODE 0 832 832 4 2
-text40 CODE 0 857 857 8 2
-text41 CODE 0 8B0 8B0 13 2
-text42 CODE 0 873 873 B 2
-text43 CODE 0 B4D B4D 56 2
-text44 CODE 0 889 889 C 2
-text45 CODE 0 9C4 9C4 23 2
-text46 CODE 0 84A 84A 6 2
-text47 CODE 0 844 844 6 2
-text48 CODE 0 83E 83E 6 2
-text49 CODE 0 8C3 8C3 15 2
+text34 CODE 0 83A 83A 4 2
+text35 CODE 0 8A5 8A5 F 2
+text36 CODE 0 955 955 1B 2
+text37 CODE 0 A69 A69 4A 2
+text38 CODE 0 970 970 1C 2
+text39 CODE 0 836 836 4 2
+text40 CODE 0 85B 85B 8 2
+text41 CODE 0 8B4 8B4 13 2
+text42 CODE 0 877 877 B 2
+text43 CODE 0 B51 B51 56 2
+text44 CODE 0 88D 88D C 2
+text45 CODE 0 9C8 9C8 23 2
+text46 CODE 0 84E 84E 6 2
+text47 CODE 0 848 848 6 2
+text48 CODE 0 842 842 6 2
+text49 CODE 0 8C7 8C7 15 2
 text50 CODE 0 7F7 7F7 9 2
-text51 CODE 0 AAF AAF 4F 2
+text51 CODE 0 AB3 AB3 4F 2
 maintext CODE 0 15A 15A 136 2
 cstackCOMMON COMMON 1 70 70 E 1
 cstackBANK0 BANK0 1 20 20 4E 1
@@ -77,9 +77,9 @@ bssBANK0 BANK0 1 6E 6E 2 1
 bssBANK1 BANK1 1 A0 A0 29 1
 bssBANK2 BANK2 1 120 120 34 1
 _Wheel_text STRCODE 0 400 400 300 2
-clrtext CODE 0 895 895 C 2
+clrtext CODE 0 899 899 C 2
 config CONFIG 4 8007 8007 2 2
-$C:\Users\lward\AppData\Local\Temp\seo0.o
+$C:\Users\lward\AppData\Local\Temp\sfk4.o
 reset_vec CODE 0 0 0 2 2
 end_init CODE 0 2 2 2 2
 config CONFIG 4 8007 8007 2 2
@@ -106,9 +106,9 @@ BANK6 320-36F 1
 BANK7 3A0-3EF 1
 BANK8 420-46F 1
 BANK9 4A0-4EF 1
-CONST 800-82E 2
+CONST 800-832 2
 CONST 105A-1FFF 2
-ENTRY 800-82E 2
+ENTRY 800-832 2
 ENTRY 105A-1FFF 2
 IDLOC 8000-8003 2
 SFR10 500-51F 1
@@ -134,7 +134,7 @@ SFR29 E80-EEF 1
 SFR30 F00-F6F 1
 SFR31 F80-FEF 1
 STACK 20D4-233B 1
-CODE 800-82E 2
+CODE 800-832 2
 CODE 105A-1FFF 2
 SFR0 0-1F 1
 SFR1 80-9F 1
@@ -148,9 +148,9 @@ SFR8 400-41F 1
 SFR9 480-49F 1
 BANK10 520-53B 1
 BIGRAM 2000-23EF 1
-STRCODE 800-82E 2
+STRCODE 800-832 2
 STRCODE 105A-1FFF 2
-STRING 800-82E 2
+STRING 800-832 2
 STRING 105A-1FFF 2
 # %LINETAB Section
 # This section enumerates the file/line to address mappings.
@@ -166,50 +166,50 @@ STRING 105A-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\party_light_screen.production.o
-700 cinit CODE >10600:C:\Users\lward\AppData\Local\Temp\seo0.s
-700 cinit CODE >10603:C:\Users\lward\AppData\Local\Temp\seo0.s
-700 cinit CODE >10691:C:\Users\lward\AppData\Local\Temp\seo0.s
-701 cinit CODE >10692:C:\Users\lward\AppData\Local\Temp\seo0.s
-702 cinit CODE >10693:C:\Users\lward\AppData\Local\Temp\seo0.s
-703 cinit CODE >10694:C:\Users\lward\AppData\Local\Temp\seo0.s
-704 cinit CODE >10695:C:\Users\lward\AppData\Local\Temp\seo0.s
-705 cinit CODE >10696:C:\Users\lward\AppData\Local\Temp\seo0.s
-706 cinit CODE >10697:C:\Users\lward\AppData\Local\Temp\seo0.s
-707 cinit CODE >10698:C:\Users\lward\AppData\Local\Temp\seo0.s
-708 cinit CODE >10699:C:\Users\lward\AppData\Local\Temp\seo0.s
-70B cinit CODE >10703:C:\Users\lward\AppData\Local\Temp\seo0.s
-70C cinit CODE >10704:C:\Users\lward\AppData\Local\Temp\seo0.s
-70D cinit CODE >10705:C:\Users\lward\AppData\Local\Temp\seo0.s
-70E cinit CODE >10709:C:\Users\lward\AppData\Local\Temp\seo0.s
-70F cinit CODE >10710:C:\Users\lward\AppData\Local\Temp\seo0.s
-710 cinit CODE >10711:C:\Users\lward\AppData\Local\Temp\seo0.s
-711 cinit CODE >10712:C:\Users\lward\AppData\Local\Temp\seo0.s
-712 cinit CODE >10713:C:\Users\lward\AppData\Local\Temp\seo0.s
-713 cinit CODE >10714:C:\Users\lward\AppData\Local\Temp\seo0.s
-714 cinit CODE >10715:C:\Users\lward\AppData\Local\Temp\seo0.s
-715 cinit CODE >10716:C:\Users\lward\AppData\Local\Temp\seo0.s
-716 cinit CODE >10717:C:\Users\lward\AppData\Local\Temp\seo0.s
-719 cinit CODE >10721:C:\Users\lward\AppData\Local\Temp\seo0.s
-71A cinit CODE >10722:C:\Users\lward\AppData\Local\Temp\seo0.s
-71B cinit CODE >10723:C:\Users\lward\AppData\Local\Temp\seo0.s
-71C cinit CODE >10724:C:\Users\lward\AppData\Local\Temp\seo0.s
-71D cinit CODE >10725:C:\Users\lward\AppData\Local\Temp\seo0.s
-71E cinit CODE >10726:C:\Users\lward\AppData\Local\Temp\seo0.s
-71F cinit CODE >10727:C:\Users\lward\AppData\Local\Temp\seo0.s
-720 cinit CODE >10728:C:\Users\lward\AppData\Local\Temp\seo0.s
-721 cinit CODE >10729:C:\Users\lward\AppData\Local\Temp\seo0.s
-724 cinit CODE >10735:C:\Users\lward\AppData\Local\Temp\seo0.s
-724 cinit CODE >10737:C:\Users\lward\AppData\Local\Temp\seo0.s
-725 cinit CODE >10738:C:\Users\lward\AppData\Local\Temp\seo0.s
-AAF text51 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AB0 text51 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AB5 text51 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AC4 text51 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AD3 text51 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AD4 text51 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AE3 text51 CODE >84:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AFB text51 CODE >85:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-AFD text51 CODE >89:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+700 cinit CODE >10600:C:\Users\lward\AppData\Local\Temp\sfk4.s
+700 cinit CODE >10603:C:\Users\lward\AppData\Local\Temp\sfk4.s
+700 cinit CODE >10691:C:\Users\lward\AppData\Local\Temp\sfk4.s
+701 cinit CODE >10692:C:\Users\lward\AppData\Local\Temp\sfk4.s
+702 cinit CODE >10693:C:\Users\lward\AppData\Local\Temp\sfk4.s
+703 cinit CODE >10694:C:\Users\lward\AppData\Local\Temp\sfk4.s
+704 cinit CODE >10695:C:\Users\lward\AppData\Local\Temp\sfk4.s
+705 cinit CODE >10696:C:\Users\lward\AppData\Local\Temp\sfk4.s
+706 cinit CODE >10697:C:\Users\lward\AppData\Local\Temp\sfk4.s
+707 cinit CODE >10698:C:\Users\lward\AppData\Local\Temp\sfk4.s
+708 cinit CODE >10699:C:\Users\lward\AppData\Local\Temp\sfk4.s
+70B cinit CODE >10703:C:\Users\lward\AppData\Local\Temp\sfk4.s
+70C cinit CODE >10704:C:\Users\lward\AppData\Local\Temp\sfk4.s
+70D cinit CODE >10705:C:\Users\lward\AppData\Local\Temp\sfk4.s
+70E cinit CODE >10709:C:\Users\lward\AppData\Local\Temp\sfk4.s
+70F cinit CODE >10710:C:\Users\lward\AppData\Local\Temp\sfk4.s
+710 cinit CODE >10711:C:\Users\lward\AppData\Local\Temp\sfk4.s
+711 cinit CODE >10712:C:\Users\lward\AppData\Local\Temp\sfk4.s
+712 cinit CODE >10713:C:\Users\lward\AppData\Local\Temp\sfk4.s
+713 cinit CODE >10714:C:\Users\lward\AppData\Local\Temp\sfk4.s
+714 cinit CODE >10715:C:\Users\lward\AppData\Local\Temp\sfk4.s
+715 cinit CODE >10716:C:\Users\lward\AppData\Local\Temp\sfk4.s
+716 cinit CODE >10717:C:\Users\lward\AppData\Local\Temp\sfk4.s
+719 cinit CODE >10721:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71A cinit CODE >10722:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71B cinit CODE >10723:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71C cinit CODE >10724:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71D cinit CODE >10725:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71E cinit CODE >10726:C:\Users\lward\AppData\Local\Temp\sfk4.s
+71F cinit CODE >10727:C:\Users\lward\AppData\Local\Temp\sfk4.s
+720 cinit CODE >10728:C:\Users\lward\AppData\Local\Temp\sfk4.s
+721 cinit CODE >10729:C:\Users\lward\AppData\Local\Temp\sfk4.s
+724 cinit CODE >10735:C:\Users\lward\AppData\Local\Temp\sfk4.s
+724 cinit CODE >10737:C:\Users\lward\AppData\Local\Temp\sfk4.s
+725 cinit CODE >10738:C:\Users\lward\AppData\Local\Temp\sfk4.s
+AB3 text51 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AB4 text51 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AB9 text51 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AC8 text51 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AD7 text51 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AD8 text51 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AE7 text51 CODE >84:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+AFF text51 CODE >85:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+B01 text51 CODE >89:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
 7F7 text50 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
 7F7 text50 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
 7FA text50 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
@@ -217,157 +217,157 @@ AFD text51 CODE >89:C:\Ext\SE1\development2\party-screen-lights\mplab\party_ligh
 7FC text50 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
 7FD text50 CODE >84:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
 7FF text50 CODE >86:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-8C3 text49 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8C3 text49 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8C6 text49 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8C8 text49 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8CA text49 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8CC text49 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8CD text49 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8CF text49 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8D1 text49 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8D3 text49 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8D5 text49 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-8D7 text49 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
-83E text48 CODE >165:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-83E text48 CODE >166:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-843 text48 CODE >167:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-844 text47 CODE >157:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-844 text47 CODE >158:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-849 text47 CODE >159:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-84A text46 CODE >161:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-84A text46 CODE >162:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-84F text46 CODE >163:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9C4 text45 CODE >66:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9C4 text45 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9C7 text45 CODE >74:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9C9 text45 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9CB text45 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9CD text45 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9CF text45 CODE >86:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9D6 text45 CODE >87:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9DD text45 CODE >88:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9E4 text45 CODE >90:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-9E6 text45 CODE >92:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
-889 text44 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-889 text44 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-88C text44 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-88D text44 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-88F text44 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-88F text44 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-894 text44 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-B4D text43 CODE >55:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B4D text43 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B4F text43 CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B50 text43 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B51 text43 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B52 text43 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B53 text43 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B56 text43 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B58 text43 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B5A text43 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B5C text43 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B5E text43 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B61 text43 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B63 text43 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B65 text43 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B67 text43 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B69 text43 CODE >87:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B6B text43 CODE >88:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B6C text43 CODE >89:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B6D text43 CODE >90:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B6E text43 CODE >91:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B6F text43 CODE >92:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B71 text43 CODE >97:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B73 text43 CODE >98:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B74 text43 CODE >99:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B75 text43 CODE >100:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B76 text43 CODE >101:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B77 text43 CODE >106:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B7A text43 CODE >107:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B7C text43 CODE >108:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B7E text43 CODE >109:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B80 text43 CODE >110:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B82 text43 CODE >115:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B85 text43 CODE >116:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B87 text43 CODE >117:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B89 text43 CODE >118:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B8B text43 CODE >119:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B8D text43 CODE >128:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B90 text43 CODE >129:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B93 text43 CODE >130:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B95 text43 CODE >131:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B98 text43 CODE >132:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B9A text43 CODE >133:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B9D text43 CODE >134:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-B9F text43 CODE >135:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-BA2 text43 CODE >136:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
-873 text42 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-873 text42 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-876 text42 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-878 text42 CODE >68:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-87A text42 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-87D text42 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
-8B0 text41 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8B0 text41 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8B3 text41 CODE >66:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8B5 text41 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8B8 text41 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8BA text41 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8BC text41 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8BE text41 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8C0 text41 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-8C2 text41 CODE >74:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
-857 text40 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-857 text40 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-85A text40 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-85B text40 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-85C text40 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-85E text40 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
-832 text39 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-832 text39 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-835 text39 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-96C text38 CODE >50:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-96C text38 CODE >53:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-96F text38 CODE >54:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-972 text38 CODE >55:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-975 text38 CODE >56:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-978 text38 CODE >57:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-97B text38 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-97E text38 CODE >59:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-981 text38 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-984 text38 CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-987 text38 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
-A65 text37 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A65 text37 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A6D text37 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A6F text37 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A70 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A77 text37 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A7B text37 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A7F text37 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A91 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-A99 text37 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-AA0 text37 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-AA6 text37 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-AAE text37 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
-951 text36 CODE >115:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-952 text36 CODE >118:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-95C text36 CODE >121:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-95D text36 CODE >124:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-961 text36 CODE >127:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-963 text36 CODE >130:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-963 text36 CODE >132:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-967 text36 CODE >135:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-96B text36 CODE >136:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
-8A1 text35 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-8A1 text35 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-8A9 text35 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-8AE text35 CODE >25:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-8AF text35 CODE >26:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-836 text34 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-836 text34 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
-839 text34 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+8C7 text49 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8C7 text49 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8CA text49 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8CC text49 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8CE text49 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D0 text49 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D1 text49 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D3 text49 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D5 text49 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D7 text49 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8D9 text49 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+8DB text49 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/clc3.c
+842 text48 CODE >165:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+842 text48 CODE >166:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+847 text48 CODE >167:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+848 text47 CODE >157:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+848 text47 CODE >158:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+84D text47 CODE >159:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+84E text46 CODE >161:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+84E text46 CODE >162:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+853 text46 CODE >163:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9C8 text45 CODE >66:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9C8 text45 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9CB text45 CODE >74:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9CD text45 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9CF text45 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9D1 text45 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9D3 text45 CODE >86:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9DA text45 CODE >87:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9E1 text45 CODE >88:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9E8 text45 CODE >90:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+9EA text45 CODE >92:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/eusart.c
+88D text44 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+88D text44 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+890 text44 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+891 text44 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+893 text44 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+893 text44 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+898 text44 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+B51 text43 CODE >55:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B51 text43 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B53 text43 CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B54 text43 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B55 text43 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B56 text43 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B57 text43 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B5A text43 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B5C text43 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B5E text43 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B60 text43 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B62 text43 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B65 text43 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B67 text43 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B69 text43 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B6B text43 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B6D text43 CODE >87:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B6F text43 CODE >88:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B70 text43 CODE >89:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B71 text43 CODE >90:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B72 text43 CODE >91:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B73 text43 CODE >92:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B75 text43 CODE >97:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B77 text43 CODE >98:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B78 text43 CODE >99:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B79 text43 CODE >100:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B7A text43 CODE >101:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B7B text43 CODE >106:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B7E text43 CODE >107:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B80 text43 CODE >108:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B82 text43 CODE >109:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B84 text43 CODE >110:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B86 text43 CODE >115:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B89 text43 CODE >116:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B8B text43 CODE >117:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B8D text43 CODE >118:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B8F text43 CODE >119:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B91 text43 CODE >128:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B94 text43 CODE >129:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B97 text43 CODE >130:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B99 text43 CODE >131:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B9C text43 CODE >132:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+B9E text43 CODE >133:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+BA1 text43 CODE >134:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+BA3 text43 CODE >135:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+BA6 text43 CODE >136:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pin_manager.c
+877 text42 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+877 text42 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+87A text42 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+87C text42 CODE >68:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+87E text42 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+881 text42 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/pwm4.c
+8B4 text41 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8B4 text41 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8B7 text41 CODE >66:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8B9 text41 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8BC text41 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8BE text41 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8C0 text41 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8C2 text41 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8C4 text41 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+8C6 text41 CODE >74:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/spi.c
+85B text40 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+85B text40 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+85E text40 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+85F text40 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+860 text40 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+862 text40 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/tmr2.c
+836 text39 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+836 text39 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+839 text39 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+970 text38 CODE >50:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+970 text38 CODE >53:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+973 text38 CODE >54:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+976 text38 CODE >55:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+979 text38 CODE >56:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+97C text38 CODE >57:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+97F text38 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+982 text38 CODE >59:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+985 text38 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+988 text38 CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+98B text38 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/mcc.c
+A69 text37 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A69 text37 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A71 text37 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A73 text37 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A74 text37 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A7B text37 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A7F text37 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A83 text37 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A95 text37 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+A9D text37 CODE >21:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+AA4 text37 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+AAA text37 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+AB2 text37 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\llmod.c
+955 text36 CODE >115:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+956 text36 CODE >118:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+960 text36 CODE >121:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+961 text36 CODE >124:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+965 text36 CODE >127:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+967 text36 CODE >130:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+967 text36 CODE >132:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+96B text36 CODE >135:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+96F text36 CODE >136:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\mcc_generated_files/adc.c
+8A5 text35 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+8A5 text35 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+8AD text35 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+8B2 text35 CODE >25:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+8B3 text35 CODE >26:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+83A text34 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+83A text34 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
+83D text34 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_audio.c
 DB0 text33 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
 DB0 text33 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
 DB2 text33 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
@@ -392,18 +392,18 @@ E33 text33 CODE >54:C:\Ext\SE1\development2\party-screen-lights\mplab\party_ligh
 E36 text33 CODE >56:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
 E38 text33 CODE >59:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
 E3A text33 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
-83A text32 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
-83A text32 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
-83D text32 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
-85F text31 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-860 text31 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-865 text31 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-868 text31 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-8ED text30 CODE >20:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-8ED text30 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-8EE text30 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-8FA text30 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-903 text30 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+83E text32 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
+83E text32 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
+841 text32 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_button.c
+863 text31 CODE >13:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+864 text31 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+869 text31 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+86C text31 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+8F1 text30 CODE >20:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+8F1 text30 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+8F2 text30 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+8FE text30 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+907 text30 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
 59 text29 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
 59 text29 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
 5A text29 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aodiv.c
@@ -450,46 +450,46 @@ FCB text28 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\
 FD0 text28 CODE >34:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
 FEE text28 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
 FFF text28 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\aomod.c
-91D text27 CODE >1:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
-91D text27 CODE >3:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
-936 text27 CODE >4:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
-82F text26 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
-82F text26 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
-AFE text25 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-AFE text25 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B08 text25 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B0C text25 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B0D text25 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B34 text25 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B44 text25 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-B4C text25 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
-A0B text24 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A0D text24 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A0F text24 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A10 text24 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A1E text24 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A23 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-A33 text24 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
-937 text23 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-938 text23 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-93C text23 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-93D text23 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-941 text23 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-94A text23 CODE >11:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-950 text23 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
-BA3 text22 CODE >72:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BA5 text22 CODE >77:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BAA text22 CODE >78:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BB3 text22 CODE >82:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BBF text22 CODE >83:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BC1 text22 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BC2 text22 CODE >85:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BCE text22 CODE >86:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BD3 text22 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BE1 text22 CODE >90:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BE6 text22 CODE >91:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BEF text22 CODE >94:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-BFB text22 CODE >95:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+921 text27 CODE >1:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+921 text27 CODE >3:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+93A text27 CODE >4:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\abs.c
+833 text26 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
+833 text26 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\putch.c
+B02 text25 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B02 text25 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B0C text25 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B10 text25 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B11 text25 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B38 text25 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B48 text25 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+B50 text25 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputc.c
+A0F text24 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A11 text24 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A13 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A14 text24 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A22 text24 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A27 text24 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+A37 text24 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_fputs.c
+93B text23 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+93C text23 CODE >7:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+940 text23 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+941 text23 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+945 text23 CODE >8:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+94E text23 CODE >11:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+954 text23 CODE >12:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\strlen.c
+BA7 text22 CODE >72:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BA9 text22 CODE >77:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BAE text22 CODE >78:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BB7 text22 CODE >82:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BC3 text22 CODE >83:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BC5 text22 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BC6 text22 CODE >85:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BD2 text22 CODE >86:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BD7 text22 CODE >84:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BE5 text22 CODE >90:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BEA text22 CODE >91:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BF3 text22 CODE >94:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+BFF text22 CODE >95:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 290 text21 CODE >287:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 292 text21 CODE >293:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 2A2 text21 CODE >294:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
@@ -537,22 +537,22 @@ EEF text20 CODE >1380:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\commo
 EF2 text20 CODE >1384:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 F0B text20 CODE >1385:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
 F15 text20 CODE >1387:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A34 text19 CODE >1390:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A36 text19 CODE >1395:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A3A text19 CODE >1396:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A3D text19 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A3E text19 CODE >1398:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A52 text19 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A5C text19 CODE >1400:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-A64 text19 CODE >1404:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
-9E7 text18 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-9E9 text18 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-9ED text18 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-9F1 text18 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-9F3 text18 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-9F5 text18 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-A02 text18 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
-A0A text18 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+A38 text19 CODE >1390:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A3A text19 CODE >1395:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A3E text19 CODE >1396:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A41 text19 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A42 text19 CODE >1398:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A56 text19 CODE >1397:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A60 text19 CODE >1400:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+A68 text19 CODE >1404:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\doprnt.c
+9EB text18 CODE >9:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+9ED text18 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+9F1 text18 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+9F5 text18 CODE >17:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+9F7 text18 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+9F9 text18 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+A06 text18 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
+A0E text18 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\nf_sprintf.c
 5 text17 CODE >33:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
 7 text17 CODE >35:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
 12 text17 CODE >38:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
@@ -562,110 +562,110 @@ A0A text18 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\
 41 text17 CODE >44:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
 51 text17 CODE >45:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
 58 text17 CODE >46:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-87E text16 CODE >26:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-87E text16 CODE >28:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-881 text16 CODE >30:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-888 text16 CODE >31:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
-830 text15 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
-830 text15 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
-831 text14 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
-831 text14 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
+882 text16 CODE >26:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+882 text16 CODE >28:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+885 text16 CODE >30:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+88C text16 CODE >31:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_debug.c
+834 text15 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
+834 text15 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
+835 text14 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
+835 text14 CODE >14:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
 4 text13 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
 4 text13 CODE >19:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_memory.c
-8D8 text12 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8D9 text12 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8DC text12 CODE >18:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8E0 text12 CODE >19:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8E2 text12 CODE >20:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8E6 text12 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8E8 text12 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-8EC text12 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-904 text11 CODE >39:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-905 text11 CODE >41:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-906 text11 CODE >43:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-912 text11 CODE >44:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-91C text11 CODE >45:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-869 text10 CODE >25:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-869 text10 CODE >28:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-86C text10 CODE >29:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-872 text10 CODE >37:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-988 text9 CODE >47:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-989 text9 CODE >49:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-98E text9 CODE >51:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-99A text9 CODE >52:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-9A4 text9 CODE >53:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-BFC text8 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-BFC text8 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-BFE text8 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C02 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C07 text8 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C09 text8 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C0D text8 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C12 text8 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C16 text8 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C18 text8 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C1E text8 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C20 text8 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C21 text8 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C26 text8 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C2A text8 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C2E text8 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C33 text8 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C3D text8 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C41 text8 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C42 text8 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C47 text8 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C4D text8 CODE >38:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C52 text8 CODE >39:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C57 text8 CODE >40:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-C5B text8 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
-9A5 text7 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9A5 text7 CODE >43:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9A7 text7 CODE >45:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9AB text7 CODE >46:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9AF text7 CODE >47:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9B4 text7 CODE >48:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9B9 text7 CODE >49:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9BF text7 CODE >52:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-9C3 text7 CODE >53:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
-727 text6 CODE >56:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-729 text6 CODE >57:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-74F text6 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-755 text6 CODE >59:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-765 text6 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-76E text6 CODE >62:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-7BA text6 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-7C3 text6 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CC7 text5 CODE >67:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CC8 text5 CODE >68:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CCE text5 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CDA text5 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D2B text5 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D37 text5 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-C5C text4 CODE >75:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-C5D text4 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-C63 text4 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-C6C text4 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CBD text4 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-CC6 text4 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D38 text3 CODE >82:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D38 text3 CODE >86:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D39 text3 CODE >88:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D41 text3 CODE >99:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D42 text3 CODE >102:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D47 text3 CODE >104:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D53 text3 CODE >105:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D5C text3 CODE >106:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D5D text3 CODE >108:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D62 text3 CODE >113:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D67 text3 CODE >115:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D71 text3 CODE >119:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D7A text3 CODE >124:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D7F text3 CODE >126:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D89 text3 CODE >130:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D8E text3 CODE >136:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-D95 text3 CODE >143:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
-DAF text3 CODE >144:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8DC text12 CODE >16:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8DD text12 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8E0 text12 CODE >18:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8E4 text12 CODE >19:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8E6 text12 CODE >20:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8EA text12 CODE >21:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8EC text12 CODE >22:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+8F0 text12 CODE >23:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+908 text11 CODE >40:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+909 text11 CODE >42:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+90A text11 CODE >44:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+916 text11 CODE >45:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+920 text11 CODE >46:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+86D text10 CODE >25:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+86D text10 CODE >28:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+870 text10 CODE >29:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+876 text10 CODE >38:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+98C text9 CODE >48:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+98D text9 CODE >50:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+992 text9 CODE >52:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+99E text9 CODE >53:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+9A8 text9 CODE >54:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+C00 text8 CODE >5:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C00 text8 CODE >13:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C02 text8 CODE >14:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C06 text8 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C0B text8 CODE >16:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C0D text8 CODE >18:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C11 text8 CODE >19:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C16 text8 CODE >20:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C1A text8 CODE >22:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C1C text8 CODE >23:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C22 text8 CODE >24:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C24 text8 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C25 text8 CODE >26:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C2A text8 CODE >27:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C2E text8 CODE >25:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C32 text8 CODE >30:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C37 text8 CODE >31:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C41 text8 CODE >32:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C45 text8 CODE >33:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C46 text8 CODE >35:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C4B text8 CODE >36:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C51 text8 CODE >38:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C56 text8 CODE >39:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C5B text8 CODE >40:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+C5F text8 CODE >41:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\awdiv.c
+9A9 text7 CODE >15:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9A9 text7 CODE >43:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9AB text7 CODE >45:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9AF text7 CODE >46:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9B3 text7 CODE >47:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9B8 text7 CODE >48:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9BD text7 CODE >49:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9C3 text7 CODE >52:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+9C7 text7 CODE >53:C:\Program Files\Microchip\xc8\v2.31\pic\sources\c99\common\Umul16.c
+727 text6 CODE >57:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+729 text6 CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+74F text6 CODE >59:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+755 text6 CODE >60:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+765 text6 CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+76E text6 CODE >63:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+7BA text6 CODE >64:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+7C3 text6 CODE >65:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CCB text5 CODE >68:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CCC text5 CODE >69:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CD2 text5 CODE >70:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CDE text5 CODE >71:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D2F text5 CODE >72:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D3B text5 CODE >73:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+C60 text4 CODE >76:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+C61 text4 CODE >77:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+C67 text4 CODE >78:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+C70 text4 CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CC1 text4 CODE >80:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+CCA text4 CODE >81:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D3C text3 CODE >83:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D3C text3 CODE >87:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D3D text3 CODE >90:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D41 text3 CODE >102:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D42 text3 CODE >105:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D47 text3 CODE >107:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D53 text3 CODE >108:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D5C text3 CODE >109:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D5D text3 CODE >111:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D62 text3 CODE >116:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D67 text3 CODE >118:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D71 text3 CODE >122:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D7A text3 CODE >127:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D7F text3 CODE >129:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D89 text3 CODE >133:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D8E text3 CODE >139:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+D95 text3 CODE >146:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
+DAF text3 CODE >147:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_pixel.c
 7C4 text2 CODE >19:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
 7C4 text2 CODE >24:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
 7CC text2 CODE >27:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
@@ -682,10 +682,10 @@ DAF text3 CODE >144:C:\Ext\SE1\development2\party-screen-lights\mplab\party_ligh
 7F3 text2 CODE >48:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
 7F5 text2 CODE >53:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
 7F6 text2 CODE >54:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
-850 text1 CODE >11:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
-850 text1 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
-853 text1 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
-856 text1 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+854 text1 CODE >11:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+854 text1 CODE >12:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+857 text1 CODE >15:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
+85A text1 CODE >17:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\manager_temperature.c
 15A maintext CODE >58:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
 15A maintext CODE >61:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
 15D maintext CODE >79:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
@@ -718,20 +718,20 @@ DAF text3 CODE >144:C:\Ext\SE1\development2\party-screen-lights\mplab\party_ligh
 25F maintext CODE >159:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
 260 maintext CODE >161:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
 284 maintext CODE >170:C:\Ext\SE1\development2\party-screen-lights\mplab\party_light_screen\main.c
-895 clrtext CODE >10674:C:\Users\lward\AppData\Local\Temp\seo0.s
-895 clrtext CODE >10675:C:\Users\lward\AppData\Local\Temp\seo0.s
-896 clrtext CODE >10676:C:\Users\lward\AppData\Local\Temp\seo0.s
-896 clrtext CODE >10677:C:\Users\lward\AppData\Local\Temp\seo0.s
-897 clrtext CODE >10678:C:\Users\lward\AppData\Local\Temp\seo0.s
-898 clrtext CODE >10679:C:\Users\lward\AppData\Local\Temp\seo0.s
-899 clrtext CODE >10680:C:\Users\lward\AppData\Local\Temp\seo0.s
-89A clrtext CODE >10681:C:\Users\lward\AppData\Local\Temp\seo0.s
-89B clrtext CODE >10682:C:\Users\lward\AppData\Local\Temp\seo0.s
-89C clrtext CODE >10683:C:\Users\lward\AppData\Local\Temp\seo0.s
-89D clrtext CODE >10684:C:\Users\lward\AppData\Local\Temp\seo0.s
-89E clrtext CODE >10685:C:\Users\lward\AppData\Local\Temp\seo0.s
-89F clrtext CODE >10686:C:\Users\lward\AppData\Local\Temp\seo0.s
-8A0 clrtext CODE >10687:C:\Users\lward\AppData\Local\Temp\seo0.s
+899 clrtext CODE >10674:C:\Users\lward\AppData\Local\Temp\sfk4.s
+899 clrtext CODE >10675:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89A clrtext CODE >10676:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89A clrtext CODE >10677:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89B clrtext CODE >10678:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89C clrtext CODE >10679:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89D clrtext CODE >10680:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89E clrtext CODE >10681:C:\Users\lward\AppData\Local\Temp\sfk4.s
+89F clrtext CODE >10682:C:\Users\lward\AppData\Local\Temp\sfk4.s
+8A0 clrtext CODE >10683:C:\Users\lward\AppData\Local\Temp\sfk4.s
+8A1 clrtext CODE >10684:C:\Users\lward\AppData\Local\Temp\sfk4.s
+8A2 clrtext CODE >10685:C:\Users\lward\AppData\Local\Temp\sfk4.s
+8A3 clrtext CODE >10686:C:\Users\lward\AppData\Local\Temp\sfk4.s
+8A4 clrtext CODE >10687:C:\Users\lward\AppData\Local\Temp\sfk4.s
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -763,7 +763,7 @@ __H_Wheel_text E00 0 STRCODE 0 _Wheel_text -
 __Heeprom_data 0 0 EEDATA 3 eeprom_data -
 ?_abs 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 ?_pad 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-__end_of_WDT_Initialize 106C 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
+__end_of_WDT_Initialize 1074 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
 _but_audio C6 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 ADC_GetConversion@channel 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __Hstrings 0 0 ABS 0 strings -
@@ -781,7 +781,7 @@ _WPUB 20D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUC 20E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUD 20F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _WPUE 210 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\seo0.o
+___sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\sfk4.o
 _dbuf 134 0 BANK2 1 bssBANK2 dist/default/production\party_light_screen.production.o
 _dtoa 520 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
 _main 2B4 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
@@ -790,11 +790,11 @@ _prec B8 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.productio
 abs@a 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_UART_send_char 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 btemp 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_ADC_GetConversion 12D8 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
+__end_of_ADC_GetConversion 12E0 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
 pad@i 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 pad@p 25 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 pad@w 29 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-start 4 0 CODE 0 init C:\Users\lward\AppData\Local\Temp\seo0.o
+start 4 0 CODE 0 init C:\Users\lward\AppData\Local\Temp\sfk4.o
 ___aomod@counter 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of___aodiv 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___aomod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -803,39 +803,39 @@ __size_of_dtoa 0 0 ABS 0 - dist/default/production\party_light_screen.production
 __size_of_main 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of___llmod 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_write_pixel 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_audio_init 106C 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
+_audio_init 1074 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
 main@flag_save_status EA 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
 pad@fp 2B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_pixel_init 10D2 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
-__end_of_EUSART_SetFramingErrorHandler 1094 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
-_temperature_init 10A0 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+_pixel_init 10DA 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetFramingErrorHandler 109C 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
+_temperature_init 10A8 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
 _Animation1 E4E 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
-_Animation2 198E 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-_Animation3 18B8 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-__end_of_EUSART_SetOverrunErrorHandler 10A0 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
+_Animation2 1996 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+_Animation3 18C0 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetOverrunErrorHandler 10A8 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
 ?___wmul 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _OPTION_REGbits 95 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_ShowColorRange 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_EUSART_Initialize 13CE 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_Initialize 13D6 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
 Animation1@limit 2B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Hpowerup 0 0 CODE 0 powerup -
 __end_of_vfpfcnvrt 1E2C 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
-_TMR2_Initialize 10AE 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
+_TMR2_Initialize 10B6 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
 __size_of_SYSTEM_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_vfpfcnvrt 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_memory_get 1060 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+_memory_get 1068 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
 _memory_set 8 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
-intlevel0 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
-intlevel1 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
-intlevel2 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
-intlevel3 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
-intlevel4 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
-intlevel5 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\seo0.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\lward\AppData\Local\Temp\sfk4.o
 __size_of_ADC_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_audio 27 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 wtemp0 7E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___llmod@divisor 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_UART_send_string 11DA 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
+_UART_send_string 11E2 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
 __Hfunctab 0 0 ENTRY 0 functab -
 _RC1STAbits 19D 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _EUSART_DefaultFramingErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -847,7 +847,7 @@ __Hclrtext 0 0 ABS 0 clrtext -
 _vfpfcnvrt 1C76 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
 dtoa@fp 3D 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __size_of_SPI_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_buts_init 107C 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
+__end_of_buts_init 1084 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
 __size_of_buts_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___wmul@multiplicand 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _ADCON0 9D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -862,16 +862,16 @@ _ANSELD 18F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ANSELE 190 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___awdiv@dividend 78 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _BORCON 116 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_audio_init 1074 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
-__end_of_pixel_init 10E6 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__end_of_audio_init 107C 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
+__end_of_pixel_init 10EE 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
 __end_of_Animation1 F88 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
-__end_of_Animation2 1A70 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
-__end_of_Animation3 198E 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-__end_of___wmul 1388 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-_buts_init 1074 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
+__end_of_Animation2 1A78 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+__end_of_Animation3 1996 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+__end_of___wmul 1390 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+_buts_init 107C 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
 __Lmaintext 0 0 ABS 0 maintext -
 __size_of_sprintf 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_ADC_GetConversion 12A2 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
+_ADC_GetConversion 12AA 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
 ShowColorRange@b 77 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 ShowColorRange@g 76 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 ShowColorRange@i 7D 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -879,11 +879,11 @@ ShowColorRange@r 7C 0 COMMON 1 cstackCOMMON dist/default/production\party_light_
 ___awdiv@divisor 76 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __end_of___aodiv 2B4 0 CODE 0 text29 dist/default/production\party_light_screen.production.o
 __end_of___aomod 2000 0 CODE 0 text28 dist/default/production\party_light_screen.production.o
-__end_of___awdiv 18B8 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
-__end_of___llmod 155E 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
-__end_of_temperature_init 10AE 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+__end_of___awdiv 18C0 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+__end_of___llmod 1566 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
+__end_of_temperature_init 10B6 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
 ___aodiv@quotient 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_memory_get 1062 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+__end_of_memory_get 106A 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
 __end_of_memory_set A 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
 _INLVLA 38C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLB 38D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -891,16 +891,16 @@ _INLVLC 38E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLD 38F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _INLVLE 390 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ?_strlen 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-___stackhi 233B 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\seo0.o
-___stacklo 20D4 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\seo0.o
+___stackhi 233B 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\sfk4.o
+___stacklo 20D4 0 ABS 0 - C:\Users\lward\AppData\Local\Temp\sfk4.o
 __size_of_temperature_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___aomod@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_EUSART_Initialize 1388 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
+_EUSART_Initialize 1390 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
 __size_of_fputc 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_fputs 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_putch 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_TMR2_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_PIN_MANAGER_Initialize 169A 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
+_PIN_MANAGER_Initialize 16A2 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
 ___aomod@divisor 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 start_initialization E00 0 CODE 0 cinit dist/default/production\party_light_screen.production.o
 ShowColor@b 77 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -914,11 +914,11 @@ _ODCOND 28F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _ODCONE 290 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _CCPTMRSbits 29E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 main@program_counter EC 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
-_EUSART_SetErrorHandler 107C 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
+_EUSART_SetErrorHandler 1084 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
 _OSCCON 99 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_UART_send_string 1208 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
+__end_of_UART_send_string 1210 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
 _TRISCbits 8E 0 ABS 0 - dist/default/production\party_light_screen.production.o
-_memory_init 1062 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+_memory_init 106A 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
 EUSART_SetOverrunErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _RC0PPS EA0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _RC1STA 19D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -928,9 +928,9 @@ _RD0PPS EA8 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetFramingErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetOverrunErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_UART_send_string 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_SYSTEM_Initialize 1310 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
+__end_of_SYSTEM_Initialize 1318 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
 debug_get@status_on_off E6 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
-clear_ram0 112A 0 CODE 0 clrtext dist/default/production\party_light_screen.production.o
+clear_ram0 1132 0 CODE 0 clrtext dist/default/production\party_light_screen.production.o
 __pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __pcstackBANK1 C9 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
 audio_get@sample 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -944,8 +944,8 @@ fputc@fp 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.p
 fputs@fp 78 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_SPI_Open 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 buts_get@flag_mode 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-___int_sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\seo0.o
-_write_pixel 11B0 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\lward\AppData\Local\Temp\sfk4.o
+_write_pixel 11B8 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -957,7 +957,7 @@ __Hbank7 0 0 ABS 0 bank7 -
 __Hbank8 0 0 ABS 0 bank8 -
 __Hbank9 0 0 ABS 0 bank9 -
 __Hcinit E4E 0 CODE 0 cinit -
-__end_of_strlen 12A2 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+__end_of_strlen 12AA 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
 __size_of_OSCILLATOR_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Hsfr10 0 0 ABS 0 sfr10 -
 __Hsfr11 0 0 ABS 0 sfr11 -
@@ -1007,7 +1007,7 @@ __Hbank31 0 0 BANK31 1 bank31 -
 __Hbigram 0 0 ABS 0 bigram -
 __Hmaintext 0 0 ABS 0 maintext -
 _BAUD1CON 19F 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_sprintf 1416 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+__end_of_sprintf 141E 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
 __Hcommon 0 0 ABS 0 common -
 __Hconfig 10012 0 CONFIG 4 config -
 __Lbank0 0 0 ABS 0 bank0 -
@@ -1046,7 +1046,7 @@ __Lsfr30 0 0 ABS 0 sfr30 -
 __Lsfr31 0 0 ABS 0 sfr31 -
 __Lstack 0 0 STACK 2 stack -
 _PORTBbits D 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_CLC3_Initialize 11B0 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
+__end_of_CLC3_Initialize 11B8 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
 __Habs1 0 0 ABS 0 abs1 -
 __Hcode 0 0 ABS 0 code -
 __Hinit 4 0 CODE 0 init -
@@ -1085,7 +1085,7 @@ ___aodiv@counter 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_
 _SSP1CON1 215 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _SSP1CON2 216 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _SSP1STAT 214 0 ABS 0 - dist/default/production\party_light_screen.production.o
-___wmul 134A 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+___wmul 1352 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
 ___aomod@sign 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __LcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __LcstackBANK1 0 0 ABS 0 cstackBANK1 -
@@ -1103,12 +1103,12 @@ _PR2 1B 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __S0 105A 0 ABS 0 - -
 __S1 154 0 ABS 0 - -
 __S2 0 0 ABS 0 - -
-_abs 123A 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
-_pad 1746 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+_abs 1242 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
+_pad 174E 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
 Animation1@signal_level 2A 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 SPI_Open@spiUniqueConfiguration 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_UART_send_char 10BE 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
-_SPI_Open 155E 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
+_UART_send_char 10C6 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
+_SPI_Open 1566 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
 __size_of_audio_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_pixel_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_Animation1 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1116,19 +1116,19 @@ __size_of_Animation2 0 0 ABS 0 - dist/default/production\party_light_screen.prod
 __size_of_Animation3 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 ___aodiv@sign 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 sprintf@fmt 66 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_debug_init 10FC 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
-_SYSTEM_Initialize 12D8 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
+_debug_init 1104 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+_SYSTEM_Initialize 12E0 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
 _dtoa$1203 3B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_ShowColorRange 1310 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+_ShowColorRange 1318 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 memory_get@mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_abs 126E 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
-__end_of_pad 17F8 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
-__end_of_SPI_Open 15FC 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
+__end_of_abs 1276 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
+__end_of_pad 1800 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+__end_of_SPI_Open 1604 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
 __end_of_pixel_set 1B60 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
 debug_get@status_audio 6B 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Lintentry 4 0 CODE 0 intentry -
 __size_of_pixel_set 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-reset_vec 0 0 CODE 0 reset_vec C:\Users\lward\AppData\Local\Temp\seo0.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\lward\AppData\Local\Temp\sfk4.o
 strlen@a 73 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 strlen@s 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __size_of_memory_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1137,7 +1137,7 @@ __size_of___wmul 0 0 ABS 0 - dist/default/production\party_light_screen.producti
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
 __LbssBANK1 0 0 ABS 0 bssBANK1 -
 __LbssBANK2 0 0 ABS 0 bssBANK2 -
-_CLC3_Initialize 1186 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
+_CLC3_Initialize 118E 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
 __end_of_temperature_get FEE 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
 __Lstringtext1 0 0 ABS 0 stringtext1 -
 __Lstringtext2 0 0 ABS 0 stringtext2 -
@@ -1147,60 +1147,60 @@ __Lstringtext5 0 0 ABS 0 stringtext5 -
 __Lstringtext6 0 0 ABS 0 stringtext6 -
 vfpfcnvrt@fmt 4E 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _ADC_Initialize FEE 0 CODE 0 text50 dist/default/production\party_light_screen.production.o
-__end_of_PWM4_Initialize 10FC 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
+__end_of_PWM4_Initialize 1104 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
 pixel_set@mode 30 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 ?_ADC_GetConversion 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 EUSART_SetFramingErrorHandler@interruptHandler 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 pad@buf 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_pixel_set 1A70 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
-__ptext10 10D2 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
-__ptext11 1208 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
-__ptext12 11B0 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+_pixel_set 1A78 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
+__ptext10 10DA 0 CODE 0 text10 dist/default/production\party_light_screen.production.o
+__ptext11 1210 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+__ptext12 11B8 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
 __ptext13 8 0 CODE 0 text13 dist/default/production\party_light_screen.production.o
-__ptext14 1062 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
-__ptext15 1060 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
-__ptext16 10FC 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+__ptext14 106A 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+__ptext15 1068 0 CODE 0 text15 dist/default/production\party_light_screen.production.o
+__ptext16 1104 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
 __ptext17 A 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
-__ptext18 13CE 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
-__ptext19 1468 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+__ptext18 13D6 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+__ptext19 1470 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 __ptext20 1C76 0 CODE 0 text20 dist/default/production\party_light_screen.production.o
 __ptext21 520 0 CODE 0 text21 dist/default/production\party_light_screen.production.o
-__ptext22 1746 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
-__ptext23 126E 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
-__ptext24 1416 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
-__ptext25 15FC 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
-__ptext26 105E 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
-__ptext27 123A 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
+__ptext22 174E 0 CODE 0 text22 dist/default/production\party_light_screen.production.o
+__ptext23 1276 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+__ptext24 141E 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+__ptext25 1604 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
+__ptext26 1066 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
+__ptext27 1242 0 CODE 0 text27 dist/default/production\party_light_screen.production.o
 __ptext28 1E2C 0 CODE 0 text28 dist/default/production\party_light_screen.production.o
 __ptext29 B2 0 CODE 0 text29 dist/default/production\party_light_screen.production.o
-__ptext30 11DA 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
-__ptext31 10BE 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
-__ptext32 1074 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
+__ptext30 11E2 0 CODE 0 text30 dist/default/production\party_light_screen.production.o
+__ptext31 10C6 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
+__ptext32 107C 0 CODE 0 text32 dist/default/production\party_light_screen.production.o
 __ptext33 1B60 0 CODE 0 text33 dist/default/production\party_light_screen.production.o
-__ptext34 106C 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
-__ptext35 1142 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
-__ptext36 12A2 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
-__ptext37 14CA 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
-__ptext38 12D8 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
-__ptext39 1064 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
-__ptext40 10AE 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
-__ptext41 1160 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
-__ptext42 10E6 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
-__ptext43 169A 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
-__ptext44 1112 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
-__ptext45 1388 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
-__ptext46 1094 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
-__ptext47 1088 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
-__ptext48 107C 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
-__ptext49 1186 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
+__ptext34 1074 0 CODE 0 text34 dist/default/production\party_light_screen.production.o
+__ptext35 114A 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
+__ptext36 12AA 0 CODE 0 text36 dist/default/production\party_light_screen.production.o
+__ptext37 14D2 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
+__ptext38 12E0 0 CODE 0 text38 dist/default/production\party_light_screen.production.o
+__ptext39 106C 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
+__ptext40 10B6 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
+__ptext41 1168 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
+__ptext42 10EE 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
+__ptext43 16A2 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
+__ptext44 111A 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
+__ptext45 1390 0 CODE 0 text45 dist/default/production\party_light_screen.production.o
+__ptext46 109C 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
+__ptext47 1090 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
+__ptext48 1084 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
+__ptext49 118E 0 CODE 0 text49 dist/default/production\party_light_screen.production.o
 __ptext50 FEE 0 CODE 0 text50 dist/default/production\party_light_screen.production.o
-__ptext51 155E 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
-__end_of_PIN_MANAGER_Initialize 1746 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
+__ptext51 1566 0 CODE 0 text51 dist/default/production\party_light_screen.production.o
+__end_of_PIN_MANAGER_Initialize 174E 0 CODE 0 text43 dist/default/production\party_light_screen.production.o
 ___aodiv B2 0 CODE 0 text29 dist/default/production\party_light_screen.production.o
 ___aomod 1E2C 0 CODE 0 text28 dist/default/production\party_light_screen.production.o
-___awdiv 17F8 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+___awdiv 1800 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
 memory_set@mode 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-___llmod 14CA 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
+___llmod 14D2 0 CODE 0 text37 dist/default/production\party_light_screen.production.o
 __Lbank10 0 0 ABS 0 bank10 -
 __Lbank11 0 0 ABS 0 bank11 -
 __Lbank12 0 0 ABS 0 bank12 -
@@ -1225,20 +1225,20 @@ __Lbank30 0 0 BANK30 1 bank30 -
 __Lbank31 0 0 BANK31 1 bank31 -
 __pmaintext 2B4 0 CODE 0 maintext dist/default/production\party_light_screen.production.o
 __Lbigram 0 0 ABS 0 bigram -
-_SPI_Initialize 1160 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
-__end_of_UART_send_char 10D2 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
-__end_of_EUSART_SetErrorHandler 1088 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
+_SPI_Initialize 1168 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
+__end_of_UART_send_char 10DA 0 CODE 0 text31 dist/default/production\party_light_screen.production.o
+__end_of_EUSART_SetErrorHandler 1090 0 CODE 0 text48 dist/default/production\party_light_screen.production.o
 ?_dtoa 30 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Lcommon 0 0 ABS 0 common -
 __Lconfig 0 0 CONFIG 4 config -
 ___wmul@multiplier 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 _LATBbits 10D 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_ShowColorRange 134A 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+__end_of_ShowColorRange 1352 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 temperature_get@result 76 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_strlen 126E 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
+_strlen 1276 0 CODE 0 text23 dist/default/production\party_light_screen.production.o
 pixel_set@audio_signal 32 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 temperature_get@sample 74 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_debug_init 1112 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
+__end_of_debug_init 111A 0 CODE 0 text16 dist/default/production\party_light_screen.production.o
 _EUSART_FramingErrorHandler C0 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 _EUSART_OverrunErrorHandler BE 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 __size_of_vfprintf 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1256,7 +1256,7 @@ __Lspace_2 0 0 ABS 0 - -
 __Lspace_3 0 0 ABS 0 - -
 __Lspace_4 0 0 ABS 0 - -
 __end_of_ADC_Initialize 1000 0 CODE 0 text50 dist/default/production\party_light_screen.production.o
-_PWM4_Initialize 10E6 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
+_PWM4_Initialize 10EE 0 CODE 0 text42 dist/default/production\party_light_screen.production.o
 __HcstackBANK0 0 0 ABS 0 cstackBANK0 -
 __HcstackBANK1 0 0 ABS 0 cstackBANK1 -
 _PIR1bits 11 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1267,17 +1267,17 @@ __end_of_spi_configuration 20B4 0 STRCODE 0 stringtext1 dist/default/production\
 ___aodiv@dividend 28 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 Animation2@signal_level 7C 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 __LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
-_EUSART_SetFramingErrorHandler 1088 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
+_EUSART_SetFramingErrorHandler 1090 0 CODE 0 text47 dist/default/production\party_light_screen.production.o
 ShowColorRange@start 78 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_EUSART_SetOverrunErrorHandler 1094 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
+_EUSART_SetOverrunErrorHandler 109C 0 CODE 0 text46 dist/default/production\party_light_screen.production.o
 end_of_initialization E48 0 CODE 0 cinit dist/default/production\party_light_screen.production.o
-__end_of_memory_init 1064 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
+__end_of_memory_init 106C 0 CODE 0 text14 dist/default/production\party_light_screen.production.o
 __Hintentry 4 0 CODE 0 intentry -
 fputc@c 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 fputs@c 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 fputs@i 21 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 fputs@s 23 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-__end_of_SPI_Initialize 1186 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
+__end_of_SPI_Initialize 118E 0 CODE 0 text41 dist/default/production\party_light_screen.production.o
 _temperature_enable_flag C4 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 __Lstrings 0 0 ABS 0 strings -
 ___awdiv@quotient 22 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
@@ -1298,25 +1298,25 @@ __size_of_CLC3_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen
 vfpfcnvrt@ap 4F 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 vfpfcnvrt@fp 5D 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 vfpfcnvrt@ll 55 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-__ptext1 10A0 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
+__ptext1 10A8 0 CODE 0 text1 dist/default/production\party_light_screen.production.o
 __ptext2 F88 0 CODE 0 text2 dist/default/production\party_light_screen.production.o
-__ptext3 1A70 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
-__ptext4 18B8 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
-__ptext5 198E 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
+__ptext3 1A78 0 CODE 0 text3 dist/default/production\party_light_screen.production.o
+__ptext4 18C0 0 CODE 0 text4 dist/default/production\party_light_screen.production.o
+__ptext5 1996 0 CODE 0 text5 dist/default/production\party_light_screen.production.o
 __ptext6 E4E 0 CODE 0 text6 dist/default/production\party_light_screen.production.o
-__ptext7 134A 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
-__ptext8 17F8 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
-__ptext9 1310 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
+__ptext7 1352 0 CODE 0 text7 dist/default/production\party_light_screen.production.o
+__ptext8 1800 0 CODE 0 text8 dist/default/production\party_light_screen.production.o
+__ptext9 1318 0 CODE 0 text9 dist/default/production\party_light_screen.production.o
 vfprintf@ap 60 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 vfprintf@fp 63 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 UART_send_char@bt 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 vfprintf@cfmt 64 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_sprintf 13CE 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
-_vfprintf 1468 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+_sprintf 13D6 0 CODE 0 text18 dist/default/production\party_light_screen.production.o
+_vfprintf 1470 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 __Lpowerup 0 0 CODE 0 powerup -
 __L_Wheel_text 800 0 STRCODE 0 _Wheel_text -
 __Leeprom_data 0 0 EEDATA 3 eeprom_data -
-__end_of_write_pixel 11DA 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
+__end_of_write_pixel 11E2 0 CODE 0 text12 dist/default/production\party_light_screen.production.o
 sprintf@ap CB 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
 buts_get@flag_change 20 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 __Lreset_vec 0 0 CODE 0 reset_vec -
@@ -1326,8 +1326,8 @@ __Hstringtext3 0 0 ABS 0 stringtext3 -
 __Hstringtext4 0 0 ABS 0 stringtext4 -
 __Hstringtext5 0 0 ABS 0 stringtext5 -
 __Hstringtext6 0 0 ABS 0 stringtext6 -
-__end_of_audio_get 1160 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
-__end_of_vfprintf 14CA 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
+__end_of_audio_get 1168 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
+__end_of_vfprintf 14D2 0 CODE 0 text19 dist/default/production\party_light_screen.production.o
 main@audio_signal EB 0 BANK1 1 cstackBANK1 dist/default/production\party_light_screen.production.o
 _SLRCONA 30C 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _SLRCONB 30D 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1344,10 +1344,10 @@ _SP1BRGL 19B 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __Lclrtext 0 0 ABS 0 clrtext -
 _SSP1CON1bits 215 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_ShowColor 123A 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+__end_of_ShowColor 1242 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
 _StringBuffer 233C 0 ABS 1 - dist/default/production\party_light_screen.production.o
 _but_mode C7 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
-_audio_get 1142 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
+_audio_get 114A 0 CODE 0 text35 dist/default/production\party_light_screen.production.o
 __pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 Animation1@wheel_change 24 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _buts_get 1B60 0 CODE 0 text33 dist/default/production\party_light_screen.production.o
@@ -1368,8 +1368,8 @@ __end_of_main 520 0 CODE 0 maintext dist/default/production\party_light_screen.p
 __end_of_Wheel E00 0 STRCODE 0 _Wheel_text dist/default/production\party_light_screen.production.o
 __end_of_buts_get 1C76 0 CODE 0 text33 dist/default/production\party_light_screen.production.o
 memory_get@on_off 72 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-__end_of_fputc 169A 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
-__end_of_fputs 1468 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+__end_of_fputc 16A2 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
+__end_of_fputs 1470 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
 ?_sprintf 66 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
 _RXPPS E24 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _T2CON 1C 0 ABS 0 - dist/default/production\party_light_screen.production.o
@@ -1379,27 +1379,27 @@ _TRISC 8E 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _TRISD 8F 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _TRISE 90 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _TXREG 19A 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_putch 1060 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
+__end_of_putch 1068 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
 _Wheel 800 0 STRCODE 0 _Wheel_text dist/default/production\party_light_screen.production.o
 __Hram 0 0 ABS 0 ram -
 __Lram 0 0 ABS 0 ram -
 _flags BA 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
-_fputc 15FC 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
-_fputs 1416 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
+_fputc 1604 0 CODE 0 text25 dist/default/production\party_light_screen.production.o
+_fputs 141E 0 CODE 0 text24 dist/default/production\party_light_screen.production.o
 buts_get@flag_on_off 21 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_putch 105E 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
+_putch 1066 0 CODE 0 text26 dist/default/production\party_light_screen.production.o
 __end_of_debug_get B2 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
 _width B6 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 __size_of_PIN_MANAGER_Initialize 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _eusartRxLastError C5 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
-_WDT_Initialize 1064 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
+_WDT_Initialize 106C 0 CODE 0 text39 dist/default/production\party_light_screen.production.o
 pixel_set@program_count 2C 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.production.o
-_ShowColor 1208 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
+_ShowColor 1210 0 CODE 0 text11 dist/default/production\party_light_screen.production.o
 __size_of_debug_get 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_abs 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_pad 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 __size_of_EUSART_SetErrorHandler 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
-__end_of_OSCILLATOR_Initialize 112A 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
+__end_of_OSCILLATOR_Initialize 1132 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
 _but_debouncer B0 0 BANK1 1 bssBANK1 dist/default/production\party_light_screen.production.o
 write_pixel@b 71 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
 write_pixel@g 70 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
@@ -1419,8 +1419,8 @@ dtoa@w 40 0 BANK0 1 cstackBANK0 dist/default/production\party_light_screen.produ
 __size_of_debug_init 0 0 ABS 0 - dist/default/production\party_light_screen.production.o
 _debug_get A 0 CODE 0 text17 dist/default/production\party_light_screen.production.o
 ShowColorRange@stop 79 0 COMMON 1 cstackCOMMON dist/default/production\party_light_screen.production.o
-_OSCILLATOR_Initialize 1112 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
-__end_of_TMR2_Initialize 10BE 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
+_OSCILLATOR_Initialize 111A 0 CODE 0 text44 dist/default/production\party_light_screen.production.o
+__end_of_TMR2_Initialize 10C6 0 CODE 0 text40 dist/default/production\party_light_screen.production.o
 # %SPLITSTAB Section
 # This section enumerates all the psect splits performed by the assembler.
 # The beginning of the section is indicated by %SPLITSTAB.
@@ -1451,53 +1451,53 @@ _StringBuffer 1 233C 0
 # All other numeric quantities are in decimal.
 %SEGMENTS
 cinit 0 700 E00 100 2
-text1 0 850 10A0 7 2
-text3 0 D38 1A70 78 2
-text4 0 C5C 18B8 6B 2
-text5 0 CC7 198E 71 2
-text7 0 9A5 134A 1F 2
-text8 0 BFC 17F8 60 2
-text9 0 988 1310 1D 2
-text10 0 869 10D2 A 2
-text11 0 904 1208 19 2
-text12 0 8D8 11B0 15 2
-text14 0 831 1062 1 2
-text15 0 830 1060 1 2
-text16 0 87E 10FC B 2
+text1 0 854 10A8 7 2
+text3 0 D3C 1A78 74 2
+text4 0 C60 18C0 6B 2
+text5 0 CCB 1996 71 2
+text7 0 9A9 1352 1F 2
+text8 0 C00 1800 60 2
+text9 0 98C 1318 1D 2
+text10 0 86D 10DA A 2
+text11 0 908 1210 19 2
+text12 0 8DC 11B8 15 2
+text14 0 835 106A 1 2
+text15 0 834 1068 1 2
+text16 0 882 1104 B 2
 text17 0 5 A 54 2
-text18 0 9E7 13CE 24 2
-text19 0 A34 1468 31 2
+text18 0 9EB 13D6 24 2
+text19 0 A38 1470 31 2
 text20 0 E3B 1C76 DB 2
 text21 0 290 520 170 2
-text22 0 BA3 1746 59 2
-text23 0 937 126E 1A 2
-text24 0 A0B 1416 29 2
-text25 0 AFE 15FC 4F 2
-text26 0 82F 105E 1 2
-text27 0 91D 123A 1A 2
+text22 0 BA7 174E 59 2
+text23 0 93B 1276 1A 2
+text24 0 A0F 141E 29 2
+text25 0 B02 1604 4F 2
+text26 0 833 1066 1 2
+text27 0 921 1242 1A 2
 text28 0 F16 1E2C EA 2
 text29 0 59 B2 101 2
-text30 0 8ED 11DA 17 2
-text31 0 85F 10BE A 2
-text32 0 83A 1074 4 2
+text30 0 8F1 11E2 17 2
+text31 0 863 10C6 A 2
+text32 0 83E 107C 4 2
 text33 0 DB0 1B60 8B 2
-text34 0 836 106C 4 2
-text35 0 8A1 1142 F 2
-text36 0 951 12A2 1B 2
-text37 0 A65 14CA 4A 2
-text38 0 96C 12D8 1C 2
-text39 0 832 1064 4 2
-text40 0 857 10AE 8 2
-text41 0 8B0 1160 13 2
-text42 0 873 10E6 B 2
-text43 0 B4D 169A 56 2
-text44 0 889 1112 C 2
-text45 0 9C4 1388 23 2
-text46 0 84A 1094 6 2
-text47 0 844 1088 6 2
-text48 0 83E 107C 6 2
-text49 0 8C3 1186 15 2
-text51 0 AAF 155E 4F 2
+text34 0 83A 1074 4 2
+text35 0 8A5 114A F 2
+text36 0 955 12AA 1B 2
+text37 0 A69 14D2 4A 2
+text38 0 970 12E0 1C 2
+text39 0 836 106C 4 2
+text40 0 85B 10B6 8 2
+text41 0 8B4 1168 13 2
+text42 0 877 10EE B 2
+text43 0 B51 16A2 56 2
+text44 0 88D 111A C 2
+text45 0 9C8 1390 23 2
+text46 0 84E 109C 6 2
+text47 0 848 1090 6 2
+text48 0 842 1084 6 2
+text49 0 8C7 118E 15 2
+text51 0 AB3 1566 4F 2
 maintext 0 15A 2B4 136 2
 cstackCOMMON 1 70 70 E 1
 cstackBANK0 1 20 20 50 1
@@ -1506,7 +1506,7 @@ reset_vec 0 0 0 5 2
 bssBANK1 1 A0 A0 50 1
 bssBANK2 1 120 120 34 1
 _Wheel_text 0 400 800 300 2
-clrtext 0 895 112A C 2
+clrtext 0 899 1132 C 2
 # %NOTES Section
 # This section contains data of all the note-psects.  The beginning of the section
 # is indicated by %NOTES. The first line indicates the name and decimal
