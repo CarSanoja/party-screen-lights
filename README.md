@@ -1,6 +1,6 @@
 # Party Screen Lights
 
-Consiste en una matriz 8x8 de neopixeles capaces de cambiar de patron de iluminación con o sin influencia de señales de audio. 
+Consiste en una matriz 8x8 de neopixeles, capaces de cambiar de patrón de iluminación con o sin influencia de señales de audio. 
 
 Posee tres botones:
 * [ON/OFF] - Permite encender y apagar la pantalla.
@@ -8,21 +8,21 @@ Posee tres botones:
 * [AUDIO] - Permite activar el microfono para que la señal de audio influya en el patrón de iluminación
 
 Posee cuatro LED indicadores:
-* [ON/OFF] - Para indicar cuando está encendido o apagado la pantalla. (Util para la simulación)
-* [AUDIO] - Para indicar cuando está encendido el microfono y se está operando con señales de audio.
+* [ON/OFF] - Para indicar cuando está encendido o apagado la pantalla. (Útil para la simulación)
+* [AUDIO] - Para indicar cuando está encendido el micrófono y se está operando con señales de audio.
 * [TEMPERATURA] - Para indicar cuando la matriz excede la temperatura máxima de operación.
-* [ACTIVIDAD] - Para observar la dinámica de la señal de audio. (Util para la simulación) 
+* [ACTIVIDAD] - Para observar la dinámica de la señal de audio. (Útil para la simulación) 
 
-Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red electrica.
+Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red eléctrica.
 
 
-## Table of Contents
+## Tabla de Contenidos
 
 1. **[About the Project](#party-screen-lights)**
 2. **[Hardware](#hardware)**
 3. **[Software](#software)**
 4. **[Simulación](#simulación)**
-5. **[Prerequisitos](#prerequisites)**
+5. **[Prerequisitos](#prerequisitos)**
 
  
 ## Hardware
@@ -33,7 +33,7 @@ El hardware utilizado son los siguientes:
 * **[FALTA EEPROM EXTERNA]** 
 
 ## Software
-El software se desarrolló en MPLAB, se utilizan los siguientes perifericos:
+El software se desarrolló en MPLAB, se utilizan los siguientes periféricos:
 
 * **[GPIOS/IN]** - Para censar el estado de los 3 botones
 * **[GPIOS/OUT]** - Para encender los 4 LED indicadores
@@ -48,7 +48,7 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 
 ## Simulación
 
-### Prerequisites
+### Prerequisitos
 
 
 * **[Proteus v8]** - Se necesita el software Proteus en su version 8.
@@ -58,7 +58,7 @@ El diagrama de software de desiciones (macro) que toma el programa durante su fu
 ..\mplab\party_light_screen\dist\default\production\party_light_screen.production.hex
 ```
  
-* **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble clic al ícono de señal de audio, dandolé clic al botón Browse y poner la ruta:
+* **[Archivo de audio]** - Cada vez que se inicia Proteus, se pierde la ruta del archivo de audio. Este debe ser recuperado dando doble click al ícono de señal de audio, dándole click al botón _Browse_ y poner la ruta:
 
 ```
 proteus\Pedazo_Omen.wav
@@ -66,7 +66,7 @@ proteus\Pedazo_Omen.wav
 ## Pruebas
 En esta sección se muestran todas las funcionalidades implementadas.
 
-La siguiente imágen muestra el proyecto completo de Proteus.
+La siguiente imagen muestra el proyecto completo de Proteus.
 ![alt text](https://github.com/CarSanoja/party-screen-lights/blob/development/imagenes/proteus_project.png?raw=true)
 
 Básicamente consta de 5 grandes partes:
@@ -81,7 +81,7 @@ Antes de inciar la simualción se deben seguir las indicaciones de la sección [
 
 Luego de iniciar la simulación en Proteus se deberá hacer clic en el botón **BUT_ON_OFF** para encender el equipo, podrá observar que la luz indicadora **LED_ON_OFF** se enciende.
 
-## Authors
+## Autores
 
 * **[Carlos Sanoja](https://github.com/CarSanoja)**
 * **[Jesús Guillen](https://github.com/JG-Guillen)**
@@ -90,7 +90,7 @@ Luego de iniciar la simulación en Proteus se deberá hacer clic en el botón **
 * **[Oscar Moreno](https://github.com/OscarEMoreno)**
 * **[Vincenzo D’Argento](https://github.com/vincdargento)**
 
-## License
+## Licencia
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
