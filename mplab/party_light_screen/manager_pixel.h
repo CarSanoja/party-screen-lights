@@ -44,6 +44,11 @@
 #define COLOR_BLACK             0, 0, 0
 #define COLOR_RED               100, 0, 0
 #define COLOR_BLUE              0, 0, 100
+#define COLOR_YELLOW            255, 255, 0
+#define COLOR_CYAN              0, 255, 255
+#define COLOR_MAGENTA           255, 0, 255
+#define COLOR_LIGHT_GREEN       100, 255, 180
+#define WHITE                   255, 255, 255
 
 #define PANELCOUNT              2
 #define FRAMEBUFFERSIZE         8 * PANELCOUNT
@@ -65,6 +70,14 @@ void ShowRainbowScan( void );
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b );
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b,  unsigned char start, unsigned char stop);
+
+void Animation1(uint8_t signal_level, int wheel_change);
+
+void Animation2(uint8_t signal_level);
+
+void Animation3(uint8_t signal_level);
+
 void UpdateDisplay( void );
 
 void DisplayShowArray( uint32_t bg, uint32_t fg );
@@ -76,6 +89,8 @@ void PrintText( unsigned char *Text);
 void PrintCharStringBuffer( unsigned char ch, unsigned char pos );
 
 void PrintCharFrameBuffer( unsigned char ch );
+
+int wheel_index;
 
 const unsigned char Letters[130]={		// Uppercase Definitions			
     0x7e,0x11,0x11,0x11,0x7e,	// 41 A

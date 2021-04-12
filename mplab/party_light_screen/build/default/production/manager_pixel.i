@@ -9961,7 +9961,7 @@ void WDT_Initialize(void);
 # 10 "manager_pixel.c" 2
 
 # 1 "./manager_pixel.h" 1
-# 56 "./manager_pixel.h"
+# 61 "./manager_pixel.h"
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
@@ -9974,6 +9974,14 @@ void ShowRainbowScan( void );
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b );
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b, unsigned char start, unsigned char stop);
+
+void Animation1(uint8_t signal_level, int wheel_change);
+
+void Animation2(uint8_t signal_level);
+
+void Animation3(uint8_t signal_level);
+
 void UpdateDisplay( void );
 
 void DisplayShowArray( uint32_t bg, uint32_t fg );
@@ -9985,6 +9993,8 @@ void PrintText( unsigned char *Text);
 void PrintCharStringBuffer( unsigned char ch, unsigned char pos );
 
 void PrintCharFrameBuffer( unsigned char ch );
+
+int wheel_index;
 
 const unsigned char Letters[130]={
     0x7e,0x11,0x11,0x11,0x7e,
@@ -10305,7 +10315,9 @@ void clear(){
 }
 
 void pixel_init(void) {
-# 41 "manager_pixel.c"
+    wheel_index = 0;
+    ShowColor( 0, 0, 0 );
+# 44 "manager_pixel.c"
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10316,7 +10328,40 @@ void ShowColor( unsigned char r, unsigned char g, unsigned char b )
     }
 }
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b, unsigned char start, unsigned char stop)
+{
+    for(unsigned char i = start; i < stop; i++)
+    {
+        write_pixel(r, g, b);
+    }
+}
 
+
+void Animation1(uint8_t signal_level, int wheel_change){
+    unsigned char limit = ((unsigned char)((signal_level*15)/255))*8+8;
+    wheel_index = wheel_index + wheel_change;
+    if(wheel_index > 255) wheel_index = 0;
+    if(wheel_index < 0) wheel_index = 255;
+
+    ShowColorRange(Wheel[wheel_index][0], Wheel[wheel_index][1], Wheel[wheel_index][2], 0, limit);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+}
+
+
+void Animation2(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    _delay((unsigned long)((30)*(32000000/4000.0)));
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    _delay((unsigned long)((30)*(32000000/4000.0)));
+}
+
+
+void Animation3(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    _delay((unsigned long)((5)*(32000000/4000.0)));
+}
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal) {
 
@@ -10326,8 +10371,11 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
         case MODE_0:
             if(flag_audio == 0){
 
+
             }else{
 
+
+                Animation1(audio_signal, 10);
             }
         break;
 
@@ -10336,6 +10384,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
             }else{
 
+                Animation3(audio_signal);
             }
         break;
 
@@ -10344,6 +10393,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
             }else{
 
+                Animation1(audio_signal, 10);
             }
         break;
 
@@ -10352,6 +10402,7 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
             }else{
 
+                Animation1(audio_signal, -10);
             }
         break;
 

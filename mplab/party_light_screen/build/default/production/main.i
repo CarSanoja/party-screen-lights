@@ -10011,7 +10011,7 @@ _Bool temperature_get(void);
 # 48 "main.c" 2
 
 # 1 "./manager_pixel.h" 1
-# 56 "./manager_pixel.h"
+# 61 "./manager_pixel.h"
 void pixel_init(void);
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal);
@@ -10024,6 +10024,14 @@ void ShowRainbowScan( void );
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b );
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b, unsigned char start, unsigned char stop);
+
+void Animation1(uint8_t signal_level, int wheel_change);
+
+void Animation2(uint8_t signal_level);
+
+void Animation3(uint8_t signal_level);
+
 void UpdateDisplay( void );
 
 void DisplayShowArray( uint32_t bg, uint32_t fg );
@@ -10035,6 +10043,8 @@ void PrintText( unsigned char *Text);
 void PrintCharStringBuffer( unsigned char ch, unsigned char pos );
 
 void PrintCharFrameBuffer( unsigned char ch );
+
+int wheel_index;
 
 const unsigned char Letters[130]={
     0x7e,0x11,0x11,0x11,0x7e,

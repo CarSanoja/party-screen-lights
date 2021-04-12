@@ -29,10 +29,13 @@ void clear(){
 }
 
 void pixel_init(void) {
+    wheel_index = 0;
+    ShowColor( 0, 0, 0 );
     //Funcion para inicializar los pixeles
     // Clear all the pixels
     //clear();
-    //ShowColor(COLOR_RED);
+    //ShowColor(0, 255, 0);
+    //Animation1(100);
     //ShowRainbowScan();
     //ShowColor(COLOR_BLACK);
     //__delay_ms(1000);
@@ -48,7 +51,40 @@ void ShowColor( unsigned char r, unsigned char g, unsigned char b )
     }
 }
 
+void ShowColorRange( unsigned char r, unsigned char g, unsigned char b,  unsigned char start, unsigned char stop)
+{
+    for(unsigned char i = start; i < stop; i++)
+    {
+        write_pixel(r, g, b);
+    }
+}
 
+// Lateral bar that changes depending on the signal level
+void Animation1(uint8_t signal_level, int wheel_change){
+    unsigned char limit = ((unsigned char)((signal_level*15)/255))*8+8;
+    wheel_index = wheel_index + wheel_change;
+    if(wheel_index > 255) wheel_index = 0; 
+    if(wheel_index < 0) wheel_index = 255; 
+    //write_pixel(Wheel[wheel_index][0], Wheel[wheel_index][1], Wheel[wheel_index][2]);
+    ShowColorRange(Wheel[wheel_index][0], Wheel[wheel_index][1], Wheel[wheel_index][2], 0, limit);
+    __delay_ms(5);    
+}
+
+// Slow Strobing
+void Animation2(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    __delay_ms(30);  
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    __delay_ms(30);    
+}
+
+// Fast Strobing 
+void Animation3(uint8_t signal_level){
+    ShowColor(0, 0, 0);
+    __delay_ms(5);  
+    ShowColor(Wheel[signal_level][0], Wheel[signal_level][1], Wheel[signal_level][2]);
+    __delay_ms(5);    
+}
 
 void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t audio_signal) {
     //Funcion para setear los pixeles según el counter del programa, el modo y si hay audio o no
@@ -58,8 +94,11 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
         case MODE_0: //Strobe lento
             if(flag_audio == 0){
                 //si no hay musica hacer rutina con program_counter
+                //ShowRainbowScan();
             }else{
                 //si hay musica hacer rutina con audio_signal
+                //Animation2(audio_signal);
+                Animation1(audio_signal, 10);
             }
         break;
 
@@ -68,14 +107,16 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
                 //si no hay musica hacer rutina con program_counter
             }else{
                 //si hay musica hacer rutina con audio_signal
+                Animation3(audio_signal);
             }
         break;
 
-        case MODE_2: //Latigo desde el principio
+        case MODE_2: //Lateral Bar 
             if(flag_audio == 0){
                 //si no hay musica hacer rutina con program_counter
             }else{
                 //si hay musica hacer rutina con audio_signal
+                Animation1(audio_signal, 10);
             }            
         break;
 
@@ -84,11 +125,14 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
                 //si no hay musica hacer rutina con program_counter
             }else{
                 //si hay musica hacer rutina con audio_signal
+                Animation1(audio_signal, -10);
             }            
         break;
         
         case MODE_OFF: //Apagado
             //apagado
+            ShowColor(0, 0, 0);
+            __delay_ms(5); 
         break;
         
         default:
