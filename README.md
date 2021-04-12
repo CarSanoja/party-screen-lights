@@ -13,7 +13,11 @@ Posee cuatro LED indicadores:
 * [TEMPERATURA] - Para indicar cuando la matriz excede la temperatura máxima de operación.
 * [ACTIVIDAD] - Para observar la dinámica de la señal de audio. (Útil para la simulación)
 
-Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red eléctrica.
+Posee sensor de temperatura para monitorear la temperatura de la matriz, protección para sobrecalentamiento y reanudación automática luego de enfriarse.
+
+Posee mensajes de estado para depuración (debuging) por consola en fábrica.
+
+Posee conector ICSP para la programación del PIC.
 
 
 ## Tabla de Contenidos
@@ -83,7 +87,7 @@ Básicamente consta de 5 grandes partes:
 
 Antes de inciar la simualción se deben seguir las indicaciones de la sección [Prerequisitos](#prerequisites).
 
-Luego de iniciar la simulación en Proteus se deberá hacer clic en el botón **BUT_ON_OFF** para encender el equipo, podrá observar que la luz indicadora **LED_ON_OFF** se enciende (deberpa esperar al menos 2 segundos antes de hacer clic en alguno de los otros 2 botones).
+Luego de iniciar la simulación en Proteus se deberá hacer clic en el botón **BUT_ON_OFF** para encender el equipo, podrá observar que la luz indicadora **LED_ON_OFF** se enciende (deberá esperar al menos 2 segundos antes de hacer clic en alguno de los otros 2 botones).
 
  Al iniciar la simulación se activará al terminal virtual con el que podrá observar el estatus de encendido del equipo, el modo de operación y si está funcionando controlado por una señal de audio.
 
