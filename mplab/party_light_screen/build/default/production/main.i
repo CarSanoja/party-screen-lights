@@ -10397,7 +10397,7 @@ void main(void)
         }
 
 
-        if(program_counter % (10000 )== 0){
+        if(program_counter % (10 )== 0){
             temperature_enable_flag = temperature_get();
         }
 
