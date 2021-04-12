@@ -9550,33 +9550,33 @@ extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 28 "C:/Program Files/Microchip/MPLABX/v5.45/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\\pic\\include\\xc.h" 2 3
 # 54 "mcc_generated_files/pin_manager.h" 2
-# 323 "mcc_generated_files/pin_manager.h"
+# 326 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 335 "mcc_generated_files/pin_manager.h"
+# 338 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 348 "mcc_generated_files/pin_manager.h"
+# 351 "mcc_generated_files/pin_manager.h"
 void IOCBF0_ISR(void);
-# 371 "mcc_generated_files/pin_manager.h"
+# 374 "mcc_generated_files/pin_manager.h"
 void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
-# 395 "mcc_generated_files/pin_manager.h"
+# 398 "mcc_generated_files/pin_manager.h"
 extern void (*IOCBF0_InterruptHandler)(void);
-# 419 "mcc_generated_files/pin_manager.h"
+# 422 "mcc_generated_files/pin_manager.h"
 void IOCBF0_DefaultInterruptHandler(void);
-# 432 "mcc_generated_files/pin_manager.h"
+# 435 "mcc_generated_files/pin_manager.h"
 void IOCBF1_ISR(void);
-# 455 "mcc_generated_files/pin_manager.h"
+# 458 "mcc_generated_files/pin_manager.h"
 void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
-# 479 "mcc_generated_files/pin_manager.h"
+# 482 "mcc_generated_files/pin_manager.h"
 extern void (*IOCBF1_InterruptHandler)(void);
-# 503 "mcc_generated_files/pin_manager.h"
+# 506 "mcc_generated_files/pin_manager.h"
 void IOCBF1_DefaultInterruptHandler(void);
-# 516 "mcc_generated_files/pin_manager.h"
+# 519 "mcc_generated_files/pin_manager.h"
 void IOCBF2_ISR(void);
-# 539 "mcc_generated_files/pin_manager.h"
+# 542 "mcc_generated_files/pin_manager.h"
 void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void));
-# 563 "mcc_generated_files/pin_manager.h"
+# 566 "mcc_generated_files/pin_manager.h"
 extern void (*IOCBF2_InterruptHandler)(void);
-# 587 "mcc_generated_files/pin_manager.h"
+# 590 "mcc_generated_files/pin_manager.h"
 void IOCBF2_DefaultInterruptHandler(void);
 # 49 "mcc_generated_files/pin_manager.c" 2
 
@@ -10044,15 +10044,15 @@ void PIN_MANAGER_Initialize(void)
 
     TRISE = 0x0F;
     TRISA = 0xFF;
-    TRISB = 0x87;
-    TRISC = 0xB6;
+    TRISB = 0xC7;
+    TRISC = 0xB2;
     TRISD = 0xFE;
 
 
 
 
     ANSELD = 0xFE;
-    ANSELC = 0xE4;
+    ANSELC = 0xE0;
     ANSELB = 0x20;
     ANSELE = 0x07;
     ANSELA = 0x3F;

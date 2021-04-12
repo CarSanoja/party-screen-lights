@@ -9562,33 +9562,33 @@ extern __bank0 __bit __timeout;
 # 50 "./mcc_generated_files/mcc.h" 2
 
 # 1 "./mcc_generated_files/pin_manager.h" 1
-# 323 "./mcc_generated_files/pin_manager.h"
+# 326 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
-# 335 "./mcc_generated_files/pin_manager.h"
+# 338 "./mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 348 "./mcc_generated_files/pin_manager.h"
+# 351 "./mcc_generated_files/pin_manager.h"
 void IOCBF0_ISR(void);
-# 371 "./mcc_generated_files/pin_manager.h"
+# 374 "./mcc_generated_files/pin_manager.h"
 void IOCBF0_SetInterruptHandler(void (* InterruptHandler)(void));
-# 395 "./mcc_generated_files/pin_manager.h"
+# 398 "./mcc_generated_files/pin_manager.h"
 extern void (*IOCBF0_InterruptHandler)(void);
-# 419 "./mcc_generated_files/pin_manager.h"
+# 422 "./mcc_generated_files/pin_manager.h"
 void IOCBF0_DefaultInterruptHandler(void);
-# 432 "./mcc_generated_files/pin_manager.h"
+# 435 "./mcc_generated_files/pin_manager.h"
 void IOCBF1_ISR(void);
-# 455 "./mcc_generated_files/pin_manager.h"
+# 458 "./mcc_generated_files/pin_manager.h"
 void IOCBF1_SetInterruptHandler(void (* InterruptHandler)(void));
-# 479 "./mcc_generated_files/pin_manager.h"
+# 482 "./mcc_generated_files/pin_manager.h"
 extern void (*IOCBF1_InterruptHandler)(void);
-# 503 "./mcc_generated_files/pin_manager.h"
+# 506 "./mcc_generated_files/pin_manager.h"
 void IOCBF1_DefaultInterruptHandler(void);
-# 516 "./mcc_generated_files/pin_manager.h"
+# 519 "./mcc_generated_files/pin_manager.h"
 void IOCBF2_ISR(void);
-# 539 "./mcc_generated_files/pin_manager.h"
+# 542 "./mcc_generated_files/pin_manager.h"
 void IOCBF2_SetInterruptHandler(void (* InterruptHandler)(void));
-# 563 "./mcc_generated_files/pin_manager.h"
+# 566 "./mcc_generated_files/pin_manager.h"
 extern void (*IOCBF2_InterruptHandler)(void);
-# 587 "./mcc_generated_files/pin_manager.h"
+# 590 "./mcc_generated_files/pin_manager.h"
 void IOCBF2_DefaultInterruptHandler(void);
 # 51 "./mcc_generated_files/mcc.h" 2
 
@@ -10313,13 +10313,7 @@ void pixel_init(void) {
 
     wheel_index = 0;
     ShowColor( 0, 0, 0 );
-
-
-
-
-
-
-
+# 38 "manager_pixel.c"
 }
 
 void ShowColor( unsigned char r, unsigned char g, unsigned char b )
@@ -10371,8 +10365,9 @@ void pixel_set(uint32_t program_count, uint8_t mode, uint8_t flag_audio, uint8_t
 
     switch(mode){
         case MODE_0:
-            Animation1(audio_signal, 10);
-# 99 "manager_pixel.c"
+
+            Animation2(audio_signal);
+# 102 "manager_pixel.c"
         break;
 
         case MODE_1:
