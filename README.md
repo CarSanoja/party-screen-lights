@@ -1,6 +1,6 @@
 # Party Screen Lights
 
-Consiste en una matriz 8x8 de neopixeles, capaces de cambiar de patrón de iluminación con o sin influencia de señales de audio. 
+Consiste en una matriz 8x16 de neopixeles, capaces de cambiar de patrón de iluminación con o sin influencia de señales de audio. 
 
 Posee tres botones:
 * [ON/OFF] - Permite encender y apagar la pantalla.
@@ -13,8 +13,13 @@ Posee cuatro LED indicadores:
 * [TEMPERATURA] - Para indicar cuando la matriz excede la temperatura máxima de operación.
 * [ACTIVIDAD] - Para observar la dinámica de la señal de audio. (Útil para la simulación) 
 
+Posee sensor de temperatura para monitorear la temperatura de la matriz, protección para sobrecalentamiento y reanudación automática luego de enfriarse. La temperatura de sobrecalentamiento fue ajustada para 65°C, cuando la temperatura pase de este valor se apagan las luces automáticamente. Y se reanuda su funcionamiento cuando haya llegado a la temperatura de reanudación de 55°C o inferior.
+
 Posee memoria persistente, esto permite retomar el patrón de iluminación que estaba corriendo antes de una falla de la red eléctrica.
 
+Posee mensajes de estado para debug por consola en fábrica.
+
+Posee conector ICSP para la programación del PIC.
 
 ## Tabla de Contenidos
 
