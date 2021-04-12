@@ -37,7 +37,7 @@
 #include <stdbool.h>
 
 
-#define TEMPERATURE_PC_COUNTER 10000
+#define TEMPERATURE_PC_COUNTER 10
 #define TEMPERATURE_MAX        133
 #define TEMPERATURE_MIN        112
 
